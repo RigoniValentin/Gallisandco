@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "complexCases": "Complex Cases",
+    "insights": "Insights",
+    "contact": "Contact",
+    "process": "Process",
+    "cta": "Book a consultation",
+    "languageLabel": "Language",
+    "skipToContent": "Skip to content",
+    "whatsappLabel": "Open WhatsApp chat",
+    "backToTop": "Back to top"
+  },
+  "hero": {
+    "eyebrow": "One firm",
+    "headlineLine1": "One firm.",
+    "headlineLine2": "Global mobility, local solutions.",
+    "subtitle": "International migration, cross-border legal strategy, and Argentine legal representation — all in one place.",
+    "subtitleAlt": "Comprehensive legal support for individuals, families, and businesses navigating international transitions.",
+    "primaryCta": "Schedule a Consultation",
+    "secondaryCta": "Start Your Process",
+    "whatsappCta": "WhatsApp",
+    "servicesCta": "Services",
+    "servicesHint": "Click and scroll down to explore",
+    "metric1Value": "20+",
+    "metric1Label": "Jurisdictions",
+    "metric2Value": "1.2k",
+    "metric2Label": "Cases resolved",
+    "metric3Value": "98%",
+    "metric3Label": "Client retention"
+  },
+  "whoWeAre": {
+    "eyebrow": "Who We Are",
+    "title": "A Complementary Legal Partnership",
+    "paragraph1": "Founded by two sisters — “Las Hermanas Galli” — and attorneys with over 15 years of combined professional experience and hundreds of successful cases, our firm was built on the belief that international transitions require both strategic legal guidance and genuine human understanding.",
+    "paragraph2": "Having personally experienced the process of living and navigating legal systems abroad, one of us understands firsthand the uncertainty, challenges, and emotions that often come with building a life in another country. Her practice focuses on international migration, global mobility, and cross-border legal matters.",
+    "paragraph3": "The other, after graduating with honors, has developed her career across both the public and private legal sectors in Argentina, including experience within the Superior Provincial Court of Córdoba as a relatora, contributing directly to the drafting and development of judicial decisions. Her background provides the strong domestic legal and litigation expertise often essential in complex international matters.",
+    "paragraph4": "Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution-oriented support for individuals, families, and businesses navigating legal and international transitions.",
+    "networkTitle": "An interdisciplinary network",
+    "networkText": "Our interdisciplinary approach also allows us to work alongside a trusted network of specialized legal professionals in Argentina — including criminal, labor, and corporate law practitioners — as well as partner law firms across Europe and the United States. This collaborative structure enables coordinated, well-rounded legal support across multiple jurisdictions and areas of law.",
+    "cta": "More about the firm",
+    "sistersEyebrow": "The sisters",
+    "sistersTitle": "Two practices, one firm",
+    "conversationCta": "Let's talk",
+    "moreJurisdictions": "+ more",
+    "globalReach": "Global reach",
+    "togetherEyebrow": "Together",
+    "statYears": "Years",
+    "statCases": "Cases",
+    "statJurisdictions": "Jurisdictions",
+    "statLanguages": "Languages",
+    "internationalRoleEyebrow": "International mobility",
+    "internationalSignature": "Global perspective",
+    "domesticRoleEyebrow": "Argentine legal",
+    "domesticSignature": "Courtroom rigor",
+    "strengthCrossBorder": "Cross-border strategy",
+    "strengthMobility": "Mobility & residency",
+    "strengthRelocation": "Relocation advisory",
+    "strengthLitigation": "Litigation & procedure",
+    "strengthCourt": "Judicial background (Córdoba)",
+    "strengthPractice": "Public & private practice"
+  },
+  "whyUs": {
+    "eyebrow": "Why Us",
+    "title": "Why Clients Choose Us",
+    "subtitle": "Three reasons we are trusted with the cases that other firms consider unsolvable.",
+    "items": [
+      { "id": "expertise", "title": "Complementary Expertise", "description": "International migration strategy combined with strong Argentine legal representation." },
+      { "id": "problemSolving", "title": "Problem-Solving Approach", "description": "We specialize in complex, unconventional, and high-obstacle cases requiring strategic legal solutions." },
+      { "id": "oneStop", "title": "One-Stop Legal Support", "description": "From visas and citizenships to litigation and administrative matters, we provide comprehensive legal assistance under one firm." }
+    ]
+  },
+  "stepper": {
+    "eyebrow": "Our Services",
+    "title": "Strategic legal solutions for every global move.",
+    "subtitle": "Four practice areas, one coordinated team. Choose the area that best matches your objective.",
+    "selectLabel": "Select service:",
+    "services": [
+      { "id": "international", "eyebrow": "International Mobility", "title": "International Mobility", "summary": "Argentine residency and citizenship, relocation support, migration strategy and cross-border advisory — including real estate legal support for foreign clients.", "detail": "Residency · Citizenship · Relocation · Cross-border advisory", "cta": "Explore" },
+      { "id": "usa", "eyebrow": "U.S. Visa Guidance", "title": "U.S. Visa Guidance", "summary": "B1/B2 visitor visas, DS-160 preparation, interview strategy and consular guidance — disciplined evidence, clear timelines.", "detail": "B1/B2 · DS-160 · Interview · Consular", "cta": "Explore" },
+      { "id": "european", "eyebrow": "European Pathways", "title": "European Pathways", "summary": "Italian citizenship, residency-by-ancestry, European residency options and documentation reconstruction for complex genealogical cases.", "detail": "Italian citizenship · Residency · Documentation", "cta": "Explore" },
+      { "id": "litigation", "eyebrow": "Argentine Legal Representation", "title": "Argentine Legal Representation", "summary": "Litigation, administrative proceedings, civil matters and legal documentation issues — domestic firepower for international cases.", "detail": "Litigation · Administrative · Civil · Documentation", "cta": "Explore" }
+    ],
+    "ctaTitle": "Not sure which path is yours?",
+    "ctaText": "Book a consultation and we will map jurisdiction, documents and timing together.",
+    "ctaButton": "Book a consultation"
+  },
+  "complexCases": {
+    "eyebrow": "Complex Cases",
+    "title": "Built for Complex Situations",
+    "subtitle": "International legal matters rarely fit into simple categories. Our firm was designed to handle the legal, administrative, and strategic challenges that arise when lives, families, businesses, and opportunities move across borders.",
+    "items": [
+      { "id": "immigration", "label": "Immigration complications" },
+      { "id": "multiCountry", "label": "Multi-country documentation" },
+      { "id": "argentineConflicts", "label": "Argentine legal conflicts" },
+      { "id": "tax", "label": "Tax support" },
+      { "id": "realEstate", "label": "Real estate for foreign clients" },
+      { "id": "strategic", "label": "Strategic filings" },
+      { "id": "missing", "label": "Missing records" },
+      { "id": "citizenship", "label": "Citizenship reconstruction" }
+    ],
+    "tagline": "If it’s complicated, we can resolve it.",
+    "cta": "Tell us your case"
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "How We Work",
+    "subtitle": "A disciplined four-step method designed to bring clarity, predictability and execution to every international case.",
+    "steps": [
+      { "id": "consultation", "number": "01", "title": "Initial Consultation", "description": "We listen first. A structured conversation to understand the people, the goal and the constraints." },
+      { "id": "evaluation", "number": "02", "title": "Case Evaluation & Strategy", "description": "We map jurisdictions, risks and routes — and design a clear strategic plan tailored to your situation." },
+      { "id": "preparation", "number": "03", "title": "Document & Legal Preparation", "description": "We coordinate documentation, translations, certifications and filings with rigorous internal review." },
+      { "id": "representation", "number": "04", "title": "Representation & Ongoing Support", "description": "We represent you before authorities and stay by your side until the matter is fully resolved." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Trusted across borders",
+    "subtitle": "A selection of voices behind our practice. Families, professionals and businesses that placed their international transitions in our hands.",
+    "items": [
+      { "id": "t1", "quote": "They guided our family through a citizenship reconstruction that two other firms had told us was impossible. Calm, strategic and human throughout.", "author": "M. Rinaldi", "role": "Italian citizenship · Family case" },
+      { "id": "t2", "quote": "Clear, sharp and incredibly responsive. They turned an obstacle-filled visa process into a structured plan with results.", "author": "J. Hernández", "role": "U.S. B1/B2 visa" },
+      { "id": "t3", "quote": "Their command of Argentine law combined with international experience made all the difference for our cross-border operation.", "author": "K. Müller", "role": "Corporate relocation" }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Start Your Journey",
+    "title": "Your International Journey Deserves Strategic Legal Support",
+    "subtitle": "From the first consultation to the final resolution, we stand by your side — with international rigor and human understanding.",
+    "primary": "Schedule Consultation",
+    "secondary": "Contact Us"
+  },
+  "about": {
+    "title": "About Galli's & Co.",
+    "intro": "A boutique international firm specialized in global mobility and the resolution of complex legal situations. We exist for the cases where strategy, law and human understanding must converge.",
+    "missionTitle": "Our mission",
+    "mission": "To make international transitions clearer, safer and more humane — combining legal precision with the empathy of someone who has lived the experience.",
+    "valuesTitle": "Our values",
+    "values": [
+      { "id": "rigor", "title": "Legal rigor", "description": "Methodical analysis, documented strategy and no shortcuts." },
+      { "id": "humanity", "title": "Human compass", "description": "Behind every file there is a family, a project, a life." },
+      { "id": "discretion", "title": "Discretion", "description": "Senior attention, confidential treatment, boutique standards." },
+      { "id": "reach", "title": "Global reach", "description": "Argentina, Europe and the United States — coordinated under one firm." }
+    ]
+  },
+  "servicesPage": {
+    "title": "Services",
+    "intro": "Four practice areas, one coordinated team. Each service is delivered by attorneys who specialize in the jurisdiction and the type of case.",
+    "exploreCta": "Explore service",
+    "ctaSectionTitle": "Have a complex case?",
+    "ctaSectionText": "Tell us about your situation. We will design a clear strategic plan tailored to your objectives.",
+    "ctaSectionButton": "Book a consultation",
+    "items": {
+      "international-mobility": {
+        "title": "International Mobility",
+        "tagline": "Argentine residency, citizenship and relocation strategy.",
+        "intro": "Comprehensive guidance for individuals, families and businesses moving to — or operating from — Argentina. Strategy, documentation, filings and ongoing support.",
+        "bullets": ["Argentine Residency", "Argentine Citizenship", "Relocation Support", "Migration Strategy", "Cross-Border Advisory", "Real Estate Legal Support for Foreign Clients"]
+      },
+      "us-visa-guidance": {
+        "title": "U.S. Visa Guidance",
+        "tagline": "Disciplined preparation for U.S. consular processes.",
+        "intro": "Strategic preparation for visitor visa processes before U.S. consulates, with emphasis on evidence quality, narrative consistency and interview readiness.",
+        "bullets": ["B1/B2 Visitor Visas", "DS-160 Preparation", "Interview Strategy", "Consular Guidance"]
+      },
+      "european-pathways": {
+        "title": "European Pathways",
+        "tagline": "Italian citizenship and European residency strategies.",
+        "intro": "Eligibility analysis, document reconstruction and consular or judicial strategy for Italian citizenship claims and other European residency options.",
+        "bullets": ["Italian Citizenship", "Residency-by-Ancestry", "European Residency Options", "Documentation Reconstruction"]
+      },
+      "argentine-legal-representation": {
+        "title": "Argentine Legal Representation",
+        "tagline": "Domestic legal firepower for international cases.",
+        "intro": "Litigation, administrative proceedings and civil matters before Argentine courts and agencies — often the missing piece in complex international files.",
+        "bullets": ["Litigation", "Administrative Proceedings", "Civil Matters", "Legal Documentation Issues"]
+      }
+    }
+  },
+  "complexCasesPage": {
+    "title": "Complex Cases",
+    "intro": "Our firm was designed for the situations that don’t fit a template — when documents are missing, jurisdictions collide, deadlines are urgent or previous attempts have failed.",
+    "scopeTitle": "Where we add the most value",
+    "scope": ["Immigration complications", "Multi-country documentation", "Argentine legal conflicts", "Tax support", "Real estate legal support for foreign clients", "Strategic filings", "Missing records", "Citizenship reconstruction"],
+    "cta": "Discuss your case"
+  },
+  "insightsPage": {
+    "title": "Insights",
+    "intro": "Practical notes on international mobility, citizenship strategies and Argentine legal matters. New articles coming soon.",
+    "comingSoon": "Editorial content in preparation",
+    "topics": ["How to Move to Argentina", "B2 Visa Interview Tips", "Italian Citizenship Through Ancestry", "Common Immigration Mistakes", "Living Legally in Argentina"]
+  },
+  "contactPage": {
+    "title": "Contact",
+    "intro": "Tell us about your case. We typically reply within one business day.",
+    "channelsTitle": "Direct channels",
+    "scheduleTitle": "Schedule a consultation",
+    "scheduleText": "Use the channel you prefer — WhatsApp for a quick exchange, email for detailed materials, or a phone call to coordinate a session.",
+    "whatsapp": "Start WhatsApp chat"
+  },
+  "footer": {
+    "eyebrow": "Galli's signature",
+    "description": "We support migration, civil and tax decisions with legal precision, international perspective and tailored execution.",
+    "cta": "Schedule a meeting",
+    "quickLinks": "Quick links",
+    "contactTitle": "Strategic contact",
+    "address": "Cordoba, Argentina · Remote international advisory",
+    "phone": "+54 9 351 207 3555",
+    "email": "contacto@gallisco.com",
+    "rights": "© {year} Galli's & Co. All rights reserved."
+  }
+}

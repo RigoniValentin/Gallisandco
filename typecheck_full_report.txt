@@ -1,0 +1,4 @@
+
+> gallis-and-co-front@0.1.0 typecheck C:\valen\CLIENTES\GALLI & CO\App\Galli&COFront
+> tsc --noEmit
+
