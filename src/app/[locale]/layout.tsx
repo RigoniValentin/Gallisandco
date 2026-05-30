@@ -31,7 +31,9 @@ const sans = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://gallisandco.com"),
   icons: {
-    icon: "/favicon.ico",
+    icon: [{ url: "/brand/IconoBlue.png?v=3", type: "image/png", sizes: "378x378" }],
+    shortcut: [{ url: "/brand/IconoBlue.png?v=3", type: "image/png" }],
+    apple: [{ url: "/brand/IconoBlue.png?v=3", type: "image/png", sizes: "378x378" }],
   },
   title: {
     default: "Galli's & Co. — Global Mobility & Solutions",
