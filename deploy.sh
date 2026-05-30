@@ -34,6 +34,8 @@ NODE_ENV=production pnpm build
 # With output:'standalone', Next.js creates .next/standalone but does NOT
 # automatically copy the static assets.  We copy them manually:
 echo "▶  [4/5] Copying static assets into standalone bundle..."
+rm -rf "$STANDALONE_DIR/.next/static" "$STANDALONE_DIR/public"
+mkdir -p "$STANDALONE_DIR/.next"
 cp -r "$APP_DIR/.next/static"  "$STANDALONE_DIR/.next/static"
 cp -r "$APP_DIR/public"         "$STANDALONE_DIR/public"
 
