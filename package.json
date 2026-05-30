@@ -14,12 +14,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^0.460.0",
     "next": "^15.0.3",
     "next-intl": "^3.26.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.460.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
