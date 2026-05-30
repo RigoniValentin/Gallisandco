@@ -30,6 +30,9 @@ const sans = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gallisandco.com"),
+  icons: {
+    icon: "/favicon.ico",
+  },
   title: {
     default: "Galli's & Co. — Global Mobility & Solutions",
     template: "%s | Galli's & Co.",
