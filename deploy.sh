@@ -3,7 +3,7 @@
 # deploy.sh – Galli's & Co. – VPS deployment script
 #
 # Assumptions:
-#   • Repo cloned to  /var/www/gallisandco/
+#   • Repo cloned to  /home/Gallisandco/
 #   • Node >=20, pnpm, PM2 installed globally
 #   • nginx running and configured
 #
@@ -17,11 +17,11 @@
 
 set -euo pipefail
 
-APP_DIR="/home/GallisAndCO/distFront"
+APP_DIR="/home/Gallisandco"
 STANDALONE_DIR="$APP_DIR/.next/standalone"
 
 echo "▶  [1/5] Pulling latest code..."
-cd /home/GallisAndCO/distFront
+cd /home/Gallisandco
 git pull origin main
 
 echo "▶  [2/5] Installing dependencies..."

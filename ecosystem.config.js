@@ -11,7 +11,7 @@ module.exports = {
       name: "gallisandco-front",
       // With output:'standalone', Next.js bundles a self-contained server.js
       script: ".next/standalone/server.js",
-      cwd: "/home/GallisAndCO/distFront",
+      cwd: "/home/Gallisandco",
       instances: 1,
       exec_mode: "fork",
       env_production: {
