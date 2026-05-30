@@ -1,0 +1,19 @@
+# Force LF for shell scripts so they run correctly on the VPS (Linux)
+*.sh        text eol=lf
+
+# Normalize all text files
+*           text=auto
+
+# Treat binary assets as binary (no line-ending conversion)
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.avif      binary
+*.ico       binary
+*.mp4       binary
+*.woff2     binary
+*.woff      binary
+*.ttf       binary
+*.otf       binary
