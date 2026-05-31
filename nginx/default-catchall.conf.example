@@ -1,0 +1,30 @@
+# ============================================================
+# Nginx – default catch-all for unmatched hosts / direct IP
+#
+# Deploy this as a separate vhost so the VPS does not expose the
+# title/content of another app when a request arrives by IP or with
+# an unknown Host header. This is the most likely source of Google
+# picking up "Transmission Sarah App" for gallisandco.com.
+# ============================================================
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    server_name _;
+
+    return 444;
+}
+
+server {
+    listen 443 ssl http2 default_server;
+    listen [::]:443 ssl http2 default_server;
+    server_name _;
+
+    # Use a generic fallback certificate available on the VPS.
+    # If your Nginx build supports it, you can prefer:
+    # ssl_reject_handshake on;
+    ssl_certificate     "/home/Certificados SSL/fallback.crt";
+    ssl_certificate_key "/home/Certificados SSL/fallback.key";
+
+    return 444;
+}

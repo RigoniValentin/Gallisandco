@@ -107,7 +107,7 @@ export function NavDropdown({
       <Link
         href={href}
         className={clsx(
-          "nav-link inline-flex items-center gap-1 rounded-pill px-4 py-2 text-sm font-medium transition-all",
+          "nav-link inline-flex items-center gap-1 rounded-pill px-4 py-2 text-sm font-medium transition-all whitespace-nowrap",
           solid
             ? "bg-transparent text-white/90 visited:text-white/90 hover:bg-white/[0.07] hover:text-white"
             : "text-white/90 visited:text-white/90 hover:text-white"

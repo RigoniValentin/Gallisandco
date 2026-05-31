@@ -2,14 +2,14 @@ import { defineRouting } from "next-intl/routing";
 
 /**
  * i18n routing strategy
- * - Default locale: English  → served at  `/`
+ * - Default locale: English  → served at  `/en/...`
  * - Secondary:      Spanish  → served at  `/es/...`
- * `localePrefix: "as-needed"` keeps the default locale clean (no `/en` prefix).
+ * `localePrefix: "always"` keeps locale-specific routes explicit for both languages.
  */
 export const routing = defineRouting({
   locales: ["en", "es"] as const,
   defaultLocale: "en",
-  localePrefix: "as-needed",
+  localePrefix: "always",
 });
 
 export type AppLocale = (typeof routing.locales)[number];
