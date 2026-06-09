@@ -6,13 +6,13 @@ import { motion, useInView } from "framer-motion";
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
+import { freeConsultationHref } from "@/lib/scheduling";
 
-const quickLinkKeys = ["about", "services", "complexCases", "contact"] as const;
+const quickLinkKeys = ["about", "services", "contact"] as const;
 
 const quickLinkHrefs: Record<(typeof quickLinkKeys)[number], string> = {
   about: "/about",
   services: "/services",
-  complexCases: "/complex-cases",
   contact: "/contact",
 };
 
@@ -43,6 +43,13 @@ export function Footer() {
           <p className="max-w-md text-sm text-white/80 font-light leading-relaxed border-l-4 border-accent pl-4 mt-2">
             {t("description")}
           </p>
+          <Link
+            href={freeConsultationHref}
+            className="gold-cta inline-flex w-fit items-center gap-2 px-5 py-2.5 text-sm font-semibold"
+          >
+            {t("cta")}
+            <ArrowUpRight className="h-4 w-4" />
+          </Link>
         </div>
 
         {/* Columna 2: Navegación */}

@@ -7,7 +7,7 @@
     "insights": "Insights",
     "contact": "Contact",
     "process": "Process",
-    "cta": "Book a consultation",
+    "cta": "Book 15-min free consult",
     "languageLabel": "Language",
     "skipToContent": "Skip to content",
     "whatsappLabel": "Open WhatsApp chat",
@@ -33,16 +33,39 @@
   },
   "whoWeAre": {
     "eyebrow": "Who We Are",
-    "title": "A Complementary Legal Partnership",
-    "paragraph1": "Founded by two sisters — “Las Hermanas Galli” — and attorneys with over 15 years of combined professional experience and hundreds of successful cases, our firm was built on the belief that international transitions require both strategic legal guidance and genuine human understanding.",
+    "title": "Two Sisters, One Shared Vision",
+    "paragraph1": "Founded by two sisters “Las Hermanas Galli”, and attorneys with over 15 years of combined professional experience and hundreds of successful cases, Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution oriented support for individuals, families, and businesses navigating legal and international transitions.",
     "paragraph2": "Having personally experienced the process of living and navigating legal systems abroad, one of us understands firsthand the uncertainty, challenges, and emotions that often come with building a life in another country. Her practice focuses on international migration, global mobility, and cross-border legal matters.",
     "paragraph3": "The other, after graduating with honors, has developed her career across both the public and private legal sectors in Argentina, including experience within the Superior Provincial Court of Córdoba as a relatora, contributing directly to the drafting and development of judicial decisions. Her background provides the strong domestic legal and litigation expertise often essential in complex international matters.",
     "paragraph4": "Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution-oriented support for individuals, families, and businesses navigating legal and international transitions.",
+    "fullBioCta": "View full bio",
+    "sisters": [
+      {
+        "id": "i-galli",
+        "name": "I. Galli",
+        "role": "Civil, Business & Family Law",
+        "summary": "Attorney with a background in civil, business, and family law. Graduated from the School of Law at the National University of Córdoba at 23, recognized as an outstanding graduate and placed on the Law School's Honor Roll.",
+        "bio": "Attorney with a background in civil, business, and family law. I graduated from the School of Law at the National University of Córdoba at the age of 23, receiving recognition as an outstanding graduate and earning a place on the Law School's Honor Roll. Currently pursuing postgraduate studies, convinced that continuous learning is an essential part of legal practice.",
+        "alt": "Portrait of I. Galli, attorney at Galli's & Co.",
+        "image": "/Images/IGalli.png"
+      },
+      {
+        "id": "victoria-galli",
+        "name": "Victoria Galli",
+        "role": "International Mobility & Citizenships",
+        "summary": "Argentinian lawyer specialized in international mobility, with a focus on immigration and citizenship frameworks in Argentina, Italy, Spain and other jurisdictions.",
+        "bio": "Argentinian lawyer, graduated from the School of Law at the National University of Córdoba at the age of 23, with a specialization in International Mobility and a focus on Argentine, Italian, Spanish, and other immigration and citizenship frameworks. As a proud dual citizen of Argentina and Italy, bringing both personal and professional experience at work.",
+        "alt": "Portrait of Victoria Galli, attorney at Galli's & Co.",
+        "image": "/Images/VickyGalli.png"
+      }
+    ],
     "networkTitle": "An interdisciplinary network",
-    "networkText": "Our interdisciplinary approach also allows us to work alongside a trusted network of specialized legal professionals in Argentina — including criminal, labor, and corporate law practitioners — as well as partner law firms across Europe and the United States. This collaborative structure enables coordinated, well-rounded legal support across multiple jurisdictions and areas of law.",
+    "networkText": "Our interdisciplinary approach also allows us to work alongside a trusted network of specialized legal professionals in Argentina  including Tax, labor, Real Estate, Criminal and corporate law practitioners, as well as partner law firms across Europe and the United States. This collaborative structure enables coordinated, well rounded legal support across multiple jurisdictions and areas of law.",
+    "jurisdictions": ["ARGENTINA", "USA", "ITALY", "SPAIN", "UNITED KINGDOM", "AUSTRALIA", "PORTUGAL"],
+    "languages": ["ES", "EN", "IT", "BR/PT"],
     "cta": "More about the firm",
     "sistersEyebrow": "The sisters",
-    "sistersTitle": "Two practices, one firm",
+    "sistersTitle": "One firm, multiple practices",
     "conversationCta": "Let's talk",
     "moreJurisdictions": "+ more",
     "globalReach": "Global reach",
@@ -60,7 +83,39 @@
     "strengthRelocation": "Relocation advisory",
     "strengthLitigation": "Litigation & procedure",
     "strengthCourt": "Judicial background (Córdoba)",
-    "strengthPractice": "Public & private practice"
+    "strengthPractice": "Public & private practice",
+    "ofCounselEyebrow": "Of counsel",
+    "ofCounselTitle": "Trusted of counsel",
+    "ofCounselSubtitle": "Specialized professionals who collaborate with the firm across jurisdictions.",
+    "ofCounsel": [
+      {
+        "name": "Mario Tedesco",
+        "role": "Italian Immigration Law Specialist.",
+        "country": "ITALY",
+        "image": "/Images/Mario.jpeg",
+        "alt": "Portrait of Mario Tedesco",
+        "bio1": "He's a proud Neapolitan (Italian) licensed lawyer, with more than thirty years of legal experience focused on Italian citizenship Iure Sanguinis.",
+        "bio2": "He speaks English, Italian, and Spanish and he personally handles these matters representing clients in courts across Italy."
+      },
+      {
+        "name": "Gian Ignacio Rondi",
+        "role": "Criminal and Labor Law Specialist",
+        "country": "ARGENTINA",
+        "image": "/Images/Gian.jpeg",
+        "alt": "Portrait of Gian Ignacio Rondi",
+        "bio1": "Attorney with 7 years of experience.",
+        "bio2": "He has spent over 3 years working within the Judicial Branch of the Province of Córdoba and the Public Prosecutor's Office in criminal investigation. He specializes in labor law, workplace accidents, occupational diseases, and criminal defense."
+      },
+      {
+        "name": "Federico Teliczan",
+        "role": "Civil, Business, and Family Law Specialist.",
+        "country": "ARGENTINA",
+        "image": "/Images/Fede.jpeg",
+        "alt": "Portrait of Federico Teliczan",
+        "bio1": "Federico Teliczan is an attorney practicing law in the provinces of Córdoba and La Pampa.",
+        "bio2": "His practice focuses on Civil, Commercial, Family, and Estate Law. He is a Founding Partner of the T&P Law Firm and a Partner at Martínez Paz & Asociados. His practice encompasses the judicial and extrajudicial representation of individuals and corporations, drafting legal pleadings and lawsuits, structuring contracts and agreements, and providing comprehensive legal counsel in civil, commercial, and family matters."
+      }
+    ]
   },
   "whyUs": {
     "eyebrow": "Why Us",
@@ -74,14 +129,14 @@
   },
   "stepper": {
     "eyebrow": "Our Services",
-    "title": "Strategic legal solutions for every global move.",
+    "title": "Strategic legal solutions for your global move.",
     "subtitle": "Four practice areas, one coordinated team. Choose the area that best matches your objective.",
     "selectLabel": "Select service:",
     "services": [
-      { "id": "international", "eyebrow": "International Mobility", "title": "International Mobility", "summary": "Argentine residency and citizenship, relocation support, migration strategy and cross-border advisory — including real estate legal support for foreign clients.", "detail": "Residency · Citizenship · Relocation · Cross-border advisory", "cta": "Explore" },
+      { "id": "international", "eyebrow": "International Mobility", "title": "Argentinian residency / citizenship", "summary": "Comprehensive guidance for individuals, families and businesses moving to or operating from Argentina. Strategy, documentation, filings and ongoing support.", "detail": "Residency · Citizenship · Relocation · Cross-border advisory", "cta": "Explore" },
+      { "id": "litigation", "eyebrow": "Argentine Legal Representation", "title": "Argentine Legal Representation", "summary": "Litigation, administrative proceedings, civil matters and legal documentation issues — domestic firepower for international cases.", "detail": "Litigation · Administrative · Civil · Documentation", "cta": "Explore" },
       { "id": "usa", "eyebrow": "U.S. Visa Guidance", "title": "U.S. Visa Guidance", "summary": "B1/B2 visitor visas, DS-160 preparation, interview strategy and consular guidance — disciplined evidence, clear timelines.", "detail": "B1/B2 · DS-160 · Interview · Consular", "cta": "Explore" },
-      { "id": "european", "eyebrow": "European Pathways", "title": "European Pathways", "summary": "Italian citizenship, residency-by-ancestry, European residency options and documentation reconstruction for complex genealogical cases.", "detail": "Italian citizenship · Residency · Documentation", "cta": "Explore" },
-      { "id": "litigation", "eyebrow": "Argentine Legal Representation", "title": "Argentine Legal Representation", "summary": "Litigation, administrative proceedings, civil matters and legal documentation issues — domestic firepower for international cases.", "detail": "Litigation · Administrative · Civil · Documentation", "cta": "Explore" }
+      { "id": "european", "eyebrow": "European Pathways", "title": "European Pathways", "summary": "Italian citizenship, residency-by-ancestry, European residency options and document research for complex genealogical cases.", "detail": "Italian citizenship · Residency · Documentation", "cta": "Explore" }
     ],
     "ctaTitle": "Not sure which path is yours?",
     "ctaText": "Book a consultation and we will map jurisdiction, documents and timing together.",
@@ -128,7 +183,7 @@
   "finalCta": {
     "eyebrow": "Start Your Journey",
     "title": "Your International Journey Deserves Strategic Legal Support",
-    "subtitle": "From the first consultation to the final resolution, we stand by your side — with international rigor and human understanding.",
+    "subtitle": "From the first consultation to the final resolution, we stand by your side with international rigor and human understanding.",
     "primary": "Schedule Consultation",
     "secondary": "Contact Us"
   },
@@ -157,7 +212,7 @@
         "title": "International Mobility",
         "tagline": "Argentine residency, citizenship and relocation strategy.",
         "intro": "Comprehensive guidance for individuals, families and businesses moving to — or operating from — Argentina. Strategy, documentation, filings and ongoing support.",
-        "bullets": ["Argentine Residency", "Argentine Citizenship", "Relocation Support", "Migration Strategy", "Cross-Border Advisory", "Real Estate Legal Support for Foreign Clients"]
+        "bullets": ["Argentine Residency", "Argentine Citizenship", "Real Estate, Tax and general Legal Support for foreign clients", "Relocation Support & Migration Strategy"]
       },
       "us-visa-guidance": {
         "title": "U.S. Visa Guidance",
@@ -168,8 +223,8 @@
       "european-pathways": {
         "title": "European Pathways",
         "tagline": "Italian citizenship and European residency strategies.",
-        "intro": "Eligibility analysis, document reconstruction and consular or judicial strategy for Italian citizenship claims and other European residency options.",
-        "bullets": ["Italian Citizenship", "Residency-by-Ancestry", "European Residency Options", "Documentation Reconstruction"]
+        "intro": "Eligibility analysis, document research and consular or judicial strategy for Italian citizenship claims and other European residency options.",
+        "bullets": ["Italian Citizenship", "Residency-by-Ancestry", "European Residency Options", "Document Research"]
       },
       "argentine-legal-representation": {
         "title": "Argentine Legal Representation",
@@ -197,13 +252,13 @@
     "intro": "Tell us about your case. We typically reply within one business day.",
     "channelsTitle": "Direct channels",
     "scheduleTitle": "Schedule a consultation",
-    "scheduleText": "Use the channel you prefer — WhatsApp for a quick exchange, email for detailed materials, or a phone call to coordinate a session.",
+    "scheduleText": "Use the channel you prefer — WhatsApp for a quick exchange, email for detailed materials, or the booking hook below for a short consult.",
     "whatsapp": "Start WhatsApp chat"
   },
   "footer": {
     "eyebrow": "Galli's signature",
     "description": "We support migration, civil and tax decisions with legal precision, international perspective and tailored execution.",
-    "cta": "Schedule a meeting",
+    "cta": "Book 15-min free consult",
     "quickLinks": "Quick links",
     "contactTitle": "Strategic contact",
     "address": "Cordoba, Argentina · Remote international advisory",

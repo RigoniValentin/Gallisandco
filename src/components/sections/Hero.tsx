@@ -27,7 +27,6 @@ export function Hero() {
     "U.S. Visa Guidance",
     "European Pathways",
     "Legal Representation",
-    "Complex Cases",
     "Cross-Border Advisory",
     "Relocation Strategy",
     "Document Reconstruction",
@@ -105,9 +104,9 @@ export function Hero() {
         aria-hidden
         className="pointer-events-none absolute inset-0"
         style={{
-          backgroundColor: "rgba(35, 51, 73, 0.86)",
-          backdropFilter: "blur(3px)",
-          WebkitBackdropFilter: "blur(3px)",
+          backgroundColor: "rgba(7, 37, 81, 0.85)",
+          backdropFilter: "blur(3px) saturate(1.45) contrast(1.08)",
+          WebkitBackdropFilter: "blur(3px) saturate(1.45) contrast(1.08)",
         }}
       />
 
@@ -186,9 +185,8 @@ export function Hero() {
         <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
           <Link
             href="/services"
-            className="hero-service-btn group relative inline-flex items-center gap-2 overflow-hidden rounded-pill border border-accent/70 bg-[linear-gradient(135deg,rgba(210,166,121,0.45),rgba(169,122,81,0.5))] px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-accent"
+            className="gold-cta group px-7 py-3.5 text-sm font-semibold"
           >
-            <span aria-hidden className="hero-service-btn__shine" />
             <span className="relative z-[1]">{t("secondaryCta")}</span>
             <ArrowUpRight className="relative z-[1] h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>

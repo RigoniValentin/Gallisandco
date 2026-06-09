@@ -92,6 +92,18 @@ export function Products() {
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_circle_at_15%_5%,rgba(169,122,81,0.18),transparent_45%),radial-gradient(700px_circle_at_95%_95%,rgba(35,51,73,0.10),transparent_50%)]"
       />
+      <motion.div
+        aria-hidden
+        animate={{ x: [0, 20, 0], y: [0, -14, 0], scale: [1, 1.08, 1] }}
+        transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
+        className="pointer-events-none absolute -left-24 top-20 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(210,166,121,0.18),transparent_68%)] blur-3xl"
+      />
+      <motion.div
+        aria-hidden
+        animate={{ x: [0, -18, 0], y: [0, 16, 0], scale: [1, 1.05, 1] }}
+        transition={{ duration: 26, repeat: Infinity, ease: "easeInOut" }}
+        className="pointer-events-none absolute -right-24 bottom-8 h-[24rem] w-[24rem] rounded-full bg-[radial-gradient(circle,rgba(35,51,73,0.12),transparent_70%)] blur-3xl"
+      />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent"
@@ -141,8 +153,8 @@ export function Products() {
                 className={[
                   "flex shrink-0 items-center gap-2 rounded-pill border px-4 py-2.5 text-sm font-medium transition-all",
                   isActive
-                    ? "border-accent/60 bg-primary text-white shadow-elevated"
-                    : "border-primary/15 bg-white text-primary hover:border-accent/40",
+                    ? "gold-cta-outline border-accent/60 bg-[linear-gradient(135deg,rgba(251,242,214,0.98),rgba(230,190,122,0.72))] text-primary shadow-elevated"
+                    : "border-primary/15 bg-white text-primary hover:border-accent/40 hover:text-accent-700",
                 ].join(" ")}
               >
                 <Icon className="h-4 w-4" />
@@ -175,7 +187,7 @@ export function Products() {
                   className={[
                     "group relative flex items-start gap-4 overflow-hidden rounded-card border p-5 text-left transition-all duration-500",
                     isActive
-                      ? "border-accent/60 bg-primary text-white shadow-[0_24px_60px_-30px_rgba(35,51,73,0.45)]"
+                      ? "gold-cta-outline border-accent/60 bg-[linear-gradient(135deg,rgba(251,242,214,0.96),rgba(230,190,122,0.58))] text-primary shadow-[0_24px_60px_-30px_rgba(35,51,73,0.45)]"
                       : "border-primary/10 bg-white text-primary hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-[0_18px_46px_-34px_rgba(35,51,73,0.34)]",
                   ].join(" ")}
                 >
@@ -192,7 +204,7 @@ export function Products() {
                     className={[
                       "grid h-12 w-12 shrink-0 place-items-center rounded-full border transition-all duration-500",
                       isActive
-                        ? "border-accent/55 bg-accent/20 text-accent-100"
+                        ? "border-accent/55 bg-white/80 text-accent-700 shadow-[0_0_24px_rgba(210,166,121,0.18)]"
                         : "border-primary/15 bg-primary/5 text-primary group-hover:scale-110",
                     ].join(" ")}
                     aria-hidden
@@ -204,12 +216,12 @@ export function Products() {
                     <span
                       className={[
                         "block text-[10px] uppercase tracking-wider2 transition-colors",
-                        isActive ? "text-accent-200" : "text-accent-700",
+                          isActive ? "text-accent-700" : "text-accent-700",
                       ].join(" ")}
                     >
                       0{idx + 1} · {s.eyebrow}
                     </span>
-                    <span className="mt-1 block font-display text-lg leading-snug">
+                      <span className="mt-1 block font-display text-lg leading-snug text-primary">
                       {s.title}
                     </span>
                   </span>
@@ -218,7 +230,7 @@ export function Products() {
                     className={[
                       "mt-1 h-4 w-4 shrink-0 transition-all duration-500",
                       isActive
-                        ? "translate-x-0 text-accent-100 opacity-100"
+                          ? "translate-x-0 text-accent-700 opacity-100"
                         : "-translate-x-1 text-primary/30 opacity-0 group-hover:translate-x-0 group-hover:opacity-100",
                     ].join(" ")}
                   />
@@ -299,14 +311,14 @@ export function Products() {
                   <div className="flex flex-wrap items-center gap-3 border-t border-primary/10 pt-5">
                     <Link
                       href={`/services/${activeSlug}`}
-                      className="group inline-flex items-center gap-2 rounded-pill bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-primary-700"
+                      className="gold-cta group px-5 py-2.5 text-sm font-semibold"
                     >
                       {active?.cta}
                       <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </Link>
                     <Link
                       href="/contact"
-                      className="inline-flex items-center gap-2 rounded-pill border border-primary/20 bg-white px-5 py-2.5 text-sm font-semibold text-primary transition-colors hover:border-accent/50 hover:text-accent-700"
+                      className="gold-cta-outline inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-primary"
                     >
                       <CalendarClock className="h-4 w-4" />
                       {t("ctaButton")}
@@ -331,7 +343,7 @@ export function Products() {
           </div>
           <Link
             href="/contact"
-            className="inline-flex shrink-0 items-center gap-2 rounded-pill bg-primary px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-primary-700"
+            className="gold-cta inline-flex shrink-0 items-center gap-2 px-6 py-3 text-sm font-semibold"
           >
             {t("ctaButton")}
             <ArrowUpRight className="h-4 w-4" />

@@ -1,5 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Link } from "@/lib/navigation";
+import { freeConsultationHref } from "@/lib/scheduling";
 import { PageHero } from "@/components/layout/PageHero";
 
 export default async function ContactPage({
@@ -90,20 +92,35 @@ export default async function ContactPage({
               aria-hidden
               className="absolute inset-0 bg-[linear-gradient(180deg,rgba(35,51,73,0.86),rgba(35,51,73,0.96))]"
             />
-            <div className="relative z-10 flex flex-1 flex-col p-8">
+            <div id="free-consultation" className="relative z-10 flex flex-1 flex-col scroll-mt-28 p-8">
               <p className="text-eyebrow uppercase tracking-wider2 text-accent-200">
                 {t("scheduleTitle")}
               </p>
               <p className="mt-4 text-sm leading-relaxed text-white/80">{t("scheduleText")}</p>
-              <a
-                href="https://wa.me/5493512073555"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group mt-auto inline-flex w-fit items-center gap-2 rounded-pill bg-emerald-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-emerald-400"
-              >
-                <MessageCircle className="h-4 w-4 transition-transform group-hover:rotate-12" />
-                {t("whatsapp")}
-              </a>
+              <div className="mt-6 rounded-card border border-white/10 bg-white/[0.08] p-4 text-sm text-white/82">
+                <p className="font-semibold text-accent-100">15 min free consultation</p>
+                <p className="mt-1 leading-relaxed">
+                  Temporary hook for the next two months. Connect a Calendly URL through the environment variable when it is ready.
+                </p>
+              </div>
+              <div className="mt-auto flex flex-col gap-3 pt-6 sm:flex-row sm:flex-wrap">
+                <Link
+                  href={freeConsultationHref}
+                  className="gold-cta group inline-flex w-fit items-center gap-2 px-6 py-3 text-sm font-semibold"
+                >
+                  Book 15 min free consultation
+                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </Link>
+                <a
+                  href="https://wa.me/5493512073555"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex w-fit items-center gap-2 rounded-pill border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-white/16"
+                >
+                  <MessageCircle className="h-4 w-4 transition-transform group-hover:rotate-12" />
+                  {t("whatsapp")}
+                </a>
+              </div>
             </div>
           </div>
         </div>

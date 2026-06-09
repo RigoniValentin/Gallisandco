@@ -49,7 +49,7 @@ export default async function ComplexCasesPage({
               <div className="mt-10">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 rounded-pill bg-primary px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-primary-700"
+                  className="gold-cta inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold"
                 >
                   {t("cta")}
                   <ArrowUpRight className="h-4 w-4" />

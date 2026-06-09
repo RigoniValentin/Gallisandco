@@ -111,14 +111,14 @@ export default async function ServiceDetailPage({
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 rounded-pill bg-primary px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-primary-700"
+                  className="gold-cta inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold"
                 >
                   {t("ctaSectionButton")}
                   <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <Link
                   href="/services"
-                  className="inline-flex items-center gap-2 rounded-pill border border-primary/20 bg-white px-6 py-3 text-sm font-semibold text-primary transition-colors hover:border-primary/40"
+                  className="gold-cta-outline inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-primary"
                 >
                   {t("title")}
                 </Link>

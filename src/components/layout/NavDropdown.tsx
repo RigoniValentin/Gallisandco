@@ -21,33 +21,23 @@ type NavDropdownProps = {
   onCloseWithDelay: () => void;
 };
 
-export type NavKey = "home" | "about" | "services" | "complexCases" | "insights" | "contact";
+export type NavKey = "home" | "about" | "services" | "contact";
 
 const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
   home: [],
   about: [
-    { label: "Nuestro enfoque", description: "Rigor internacional con trato humano.", href: "/about" },
-    { label: "Equipo legal", description: "Especialistas en movilidad y derecho.", href: "/about" },
-    { label: "Red interdisciplinaria", description: "Aliados en Argentina, Europa y EE. UU.", href: "/about" },
+    { label: "Quiénes somos", description: "Biografías, historia y visión de la firma.", href: "/about#who-we-are" },
+    { label: "Equipo legal / red interdisciplinaria", description: "Las abogadas y aliados detrás de cada caso.", href: "/about#legal-team" },
+    { label: "Nuestro enfoque", description: "Cómo pensamos estrategia, jurisdicción y ejecución.", href: "/about#our-approach" },
   ],
   services: [
     { label: "Movilidad Internacional", description: "Residencia, ciudadanía y relocation en Argentina.", href: "/services/international-mobility" },
+    { label: "Representación en Argentina", description: "Litigios, civil y administrativo.", href: "/services/argentine-legal-representation" },
     { label: "Visas para EE. UU.", description: "B1/B2, DS-160 y estrategia consular.", href: "/services/us-visa-guidance" },
     { label: "Rutas Europeas", description: "Ciudadanía italiana y residencias.", href: "/services/european-pathways" },
-    { label: "Representación en Argentina", description: "Litigios, civil y administrativo.", href: "/services/argentine-legal-representation" },
-  ],
-  complexCases: [
-    { label: "Complicaciones migratorias", description: "Casos atípicos y de alto obstáculo.", href: "/complex-cases" },
-    { label: "Documentación multi-país", description: "Reconstrucción y coordinación legal.", href: "/complex-cases" },
-    { label: "Conflictos legales", description: "Litigios y procedimientos administrativos.", href: "/complex-cases" },
-  ],
-  insights: [
-    { label: "Guía de residencia", description: "Checklist para iniciar tu caso.", href: "/insights" },
-    { label: "Tips para la visa B2", description: "Cómo preparar la entrevista consular.", href: "/insights" },
-    { label: "Errores frecuentes", description: "Lo que más retrasa una migración.", href: "/insights" },
   ],
   contact: [
-    { label: "Consulta estratégica", description: "Agendá una sesión con el equipo.", href: "/contact" },
+    { label: "Consulta gratis de 15 min", description: "Hook temporal para agendar una intro call.", href: "/contact#free-consultation" },
     { label: "WhatsApp", description: "Intercambio rápido por chat.", href: "https://wa.me/5493512073555" },
     { label: "Email", description: "contacto@gallisco.com", href: "mailto:contacto@gallisco.com" },
   ],
@@ -56,28 +46,18 @@ const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
 const dropdownItemsByKeyEn: Record<NavKey, NavDropdownItem[]> = {
   home: [],
   about: [
-    { label: "Our approach", description: "International rigor with a human compass.", href: "/about" },
-    { label: "Legal team", description: "Specialists in mobility and Argentine law.", href: "/about" },
-    { label: "Interdisciplinary network", description: "Partners in Argentina, Europe and the U.S.", href: "/about" },
+    { label: "Who we are", description: "Biographies, history and the firm’s vision.", href: "/about#who-we-are" },
+    { label: "Legal team / interdisciplinary network", description: "The lawyers and partners behind each case.", href: "/about#legal-team" },
+    { label: "Our approach", description: "How we think about strategy, jurisdiction and execution.", href: "/about#our-approach" },
   ],
   services: [
     { label: "International Mobility", description: "Argentine residency, citizenship and relocation.", href: "/services/international-mobility" },
+    { label: "Argentine Representation", description: "Litigation, civil and administrative.", href: "/services/argentine-legal-representation" },
     { label: "U.S. Visa Guidance", description: "B1/B2, DS-160 and consular strategy.", href: "/services/us-visa-guidance" },
     { label: "European Pathways", description: "Italian citizenship and residencies.", href: "/services/european-pathways" },
-    { label: "Argentine Representation", description: "Litigation, civil and administrative.", href: "/services/argentine-legal-representation" },
-  ],
-  complexCases: [
-    { label: "Immigration complications", description: "Unconventional and high-obstacle cases.", href: "/complex-cases" },
-    { label: "Multi-country documentation", description: "Reconstruction and legal coordination.", href: "/complex-cases" },
-    { label: "Argentine legal conflicts", description: "Litigation and administrative proceedings.", href: "/complex-cases" },
-  ],
-  insights: [
-    { label: "Residency guide", description: "Checklist to kick off your case.", href: "/insights" },
-    { label: "B2 visa tips", description: "How to prepare the consular interview.", href: "/insights" },
-    { label: "Common mistakes", description: "What usually delays migration approvals.", href: "/insights" },
   ],
   contact: [
-    { label: "Strategic call", description: "Book a session with our team.", href: "/contact" },
+    { label: "15 min free consultation", description: "Temporary hook to book an intro call.", href: "/contact#free-consultation" },
     { label: "WhatsApp", description: "Quick exchange by chat.", href: "https://wa.me/5493512073555" },
     { label: "Email", description: "contacto@gallisco.com", href: "mailto:contacto@gallisco.com" },
   ],

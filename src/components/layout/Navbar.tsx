@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { Menu, X, ArrowUpRight, Instagram, Music2, MessageCircle } from "lucide-react";
 import { clsx } from "clsx";
 import { Link } from "@/lib/navigation";
+import { freeConsultationHref } from "@/lib/scheduling";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NavDropdown } from "./NavDropdown";
 
@@ -17,7 +18,12 @@ type NavbarProps = {
   overDark?: boolean;
 };
 
-const navKeys = ["home", "about", "services", "complexCases", "insights", "contact"] as const;
+const navKeys = [
+  "home",
+  "services",
+  "about",
+  "contact",
+] as const;
 type NavKey = (typeof navKeys)[number];
 type DropdownKey = NavKey | "brand";
 
@@ -25,8 +31,6 @@ const navHrefs: Record<NavKey, string> = {
   home: "/",
   about: "/about",
   services: "/services",
-  complexCases: "/complex-cases",
-  insights: "/insights",
   contact: "/contact",
 };
 
@@ -227,7 +231,15 @@ export function Navbar({ overDark = true }: NavbarProps) {
         </nav>
 
         {/* Right cluster */}
-        <div className="flex items-center justify-end gap-3 w-full">
+        <div className="flex w-full items-center justify-end gap-3">
+          <Link
+            href={freeConsultationHref}
+            className="gold-cta hidden items-center gap-2 px-4 py-2 text-sm font-semibold lg:inline-flex"
+          >
+            <span>{t("cta")}</span>
+            <ArrowUpRight className="h-4 w-4" />
+          </Link>
+
           <div className="md:block">
             <LanguageSwitcher
               tone={tone}
@@ -274,9 +286,9 @@ export function Navbar({ overDark = true }: NavbarProps) {
           <div className="mt-3 flex items-center justify-between gap-3">
             <LanguageSwitcher tone="onLight" />
             <Link
-              href="/contact"
+              href={freeConsultationHref}
               onClick={() => setOpen(false)}
-              className="inline-flex items-center gap-2 rounded-pill border border-accent/45 bg-accent/25 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent/35"
+              className="gold-cta inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium"
             >
               {t("cta")}
               <ArrowUpRight className="h-4 w-4" />

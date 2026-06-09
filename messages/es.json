@@ -7,7 +7,7 @@
     "insights": "Insights",
     "contact": "Contacto",
     "process": "Proceso",
-    "cta": "Agendar consulta",
+    "cta": "Consulta gratuita 15 min",
     "languageLabel": "Idioma",
     "skipToContent": "Saltar al contenido",
     "whatsappLabel": "Abrir chat de WhatsApp",
@@ -38,11 +38,34 @@
     "paragraph2": "Habiendo vivido en primera persona el proceso de residir y atravesar sistemas legales en el extranjero, una de nosotras comprende la incertidumbre, los desafíos y las emociones que implica construir una vida en otro país. Su práctica se enfoca en migración internacional, movilidad global y asuntos legales transfronterizos.",
     "paragraph3": "La otra, graduada con honores, desarrolló su carrera en el ámbito público y privado del derecho en Argentina, incluyendo experiencia en el Tribunal Superior de Justicia de Córdoba como relatora, contribuyendo directamente a la redacción y desarrollo de decisiones judiciales. Su formación aporta la solidez jurídica y litigiosa que muchos asuntos internacionales requieren.",
     "paragraph4": "Juntas combinamos estrategia de movilidad internacional con profundo conocimiento del derecho argentino para brindar acompañamiento integral y orientado a soluciones a personas, familias y empresas en transición.",
+    "fullBioCta": "Ver biografía completa",
+    "sisters": [
+      {
+        "id": "i-galli",
+        "name": "I. Galli",
+        "role": "Derecho civil, comercial y de familia",
+        "summary": "Abogada, con formación en derecho civil, comercial y de familia. Me gradué a los 23 años en la Facultad de Derecho de la Universidad Nacional de Córdoba como egresada sobresaliente e integré el Cuadro de Honor de la facultad.",
+        "bio": "Abogada, con formación en derecho civil, comercial y de familia. Me gradué a los 23 años en la Facultad de Derecho de la Universidad Nacional de Córdoba como egresada sobresaliente e integré el Cuadro de Honor de la facultad. Actualmente continuando formación de posgrado, con la certeza de que el aprendizaje constante es una parte esencial del ejercicio profesional.",
+        "alt": "Retrato de I. Galli, abogada de Galli's & Co.",
+        "image": "/Images/IGalli.png"
+      },
+      {
+        "id": "victoria-galli",
+        "name": "Victoria Galli",
+        "role": "Movilidad internacional y ciudadanía",
+        "summary": "Abogada argentina especializada en Movilidad Internacional, con enfoque en los sistemas migratorios y de ciudadanía de Argentina, Italia, España y otros países.",
+        "bio": "Abogada argentina, graduada de la Facultad de Derecho de la Universidad Nacional de Córdoba a los 23 años, especializada en Movilidad Internacional, con enfoque en los sistemas migratorios y de ciudadanía de Argentina, Italia, España y otros países. Orgullosa ciudadana argentina e italiana, aporta tanto experiencia personal como profesional a Galli's & CO.",
+        "alt": "Retrato de Victoria Galli, abogada de Galli's & Co.",
+        "image": "/Images/VickyGalli.png"
+      }
+    ],
     "networkTitle": "Una red interdisciplinaria",
-    "networkText": "Nuestro enfoque interdisciplinario nos permite trabajar junto a una red de profesionales especializados en Argentina — penal, laboral y societario — y firmas asociadas en Europa y los Estados Unidos. Esta estructura colaborativa nos permite ofrecer acompañamiento legal coordinado en múltiples jurisdicciones y áreas del derecho.",
+    "networkText": "Nuestro enfoque interdisciplinario también nos permite trabajar junto a una red de confianza de profesionales legales especializados en Argentina, incluyendo expertos en derecho tributario, laboral, inmobiliario, penal y corporativo,  así como con firmas de abogados aliadas en Europa y Estados Unidos. Esta estructura colaborativa nos permite brindar un respaldo legal coordinado e integral en múltiples jurisdicciones y áreas del derecho.",
+    "jurisdictions": ["ARGENTINA", "EEUU", "ITALIA", "ESPAÑA", "REINO UNIDO", "AUSTRALIA", "PORTUGAL"],
+    "languages": ["ES", "EN", "IT", "BR/PT"],
     "cta": "Más sobre la firma",
     "sistersEyebrow": "Las hermanas",
-    "sistersTitle": "Dos prácticas, una sola firma",
+    "sistersTitle": "Una sola firma, múltiples prácticas",
     "conversationCta": "Conversemos",
     "moreJurisdictions": "+ más",
     "globalReach": "Alcance global",
@@ -57,10 +80,42 @@
     "domesticSignature": "Rigor procesal",
     "strengthCrossBorder": "Estrategia transfronteriza",
     "strengthMobility": "Movilidad y residencia",
-    "strengthRelocation": "Asesoría de relocation",
+    "strengthRelocation": "Asesoría de reubicación",
     "strengthLitigation": "Litigio y procedimiento",
     "strengthCourt": "Trayectoria judicial (Córdoba)",
-    "strengthPractice": "Práctica pública y privada"
+    "strengthPractice": "Práctica pública y privada",
+    "ofCounselEyebrow": "Of counsel",
+    "ofCounselTitle": "Of counsel de confianza",
+    "ofCounselSubtitle": "Profesionales especializados que colaboran con el estudio en distintas jurisdicciones.",
+    "ofCounsel": [
+      {
+        "name": "Mario Tedesco",
+        "role": "Especialista en Derecho de Inmigración Italiano",
+        "country": "ITALIA",
+        "image": "/Images/Mario.jpeg",
+        "alt": "Retrato de Mario Tedesco",
+        "bio1": "Abogado matriculado y orgulloso napolitano (italiano), cuenta con más de treinta años de experiencia legal enfocada en la ciudadanía italiana Iure Sanguinis.",
+        "bio2": "Habla inglés, italiano y español, y maneja personalmente estos asuntos representando a sus clientes ante los tribunales de toda Italia."
+      },
+      {
+        "name": "Gian Ignacio Rondi",
+        "role": "Especialista en Derecho Penal y Laboral",
+        "country": "ARGENTINA",
+        "image": "/Images/Gian.jpeg",
+        "alt": "Retrato de Gian Ignacio Rondi",
+        "bio1": "Abogado con 7 años de experiencia.",
+        "bio2": "Se ha desempeñado por más de 3 años dentro del Poder Judicial de la Provincia de Córdoba y el Ministerio Público Fiscal en el área de investigación penal. Se especializa en derecho laboral, accidentes de trabajo, enfermedades profesionales y defensa penal."
+      },
+      {
+        "name": "Federico Teliczan",
+        "role": "Especialista en Derecho Civil y Comercial/Familia/Sucesiones",
+        "country": "ARGENTINA",
+        "image": "/Images/Fede.jpeg",
+        "alt": "Retrato de Federico Teliczan",
+        "bio1": "Federico Teliczan es abogado, con ejercicio de la profesión en las provincias de Córdoba y La Pampa.",
+        "bio2": "Su práctica se concentra en Derecho Civil, Comercial, de Familia y Sucesiones. Es Socio Fundador del Estudio Jurídico T&P y Socio del Estudio Jurídico Martínez Paz & Asociados. Su actividad abarca la representación judicial y extrajudicial de personas físicas y jurídicas, la redacción de escritos y demandas, la confección de contratos y acuerdos, y el asesoramiento integral en materia civil, comercial y de familia."
+      }
+    ]
   },
   "whyUs": {
     "eyebrow": "Por qué nosotras",
@@ -74,14 +129,14 @@
   },
   "stepper": {
     "eyebrow": "Nuestros servicios",
-    "title": "Soluciones legales estratégicas para cada movimiento global.",
+    "title": "Soluciones legales estratégicas para tu movimiento global.",
     "subtitle": "Cuatro áreas de práctica, un equipo coordinado. Elegí el área que mejor responde a tu objetivo.",
     "selectLabel": "Seleccionar servicio:",
     "services": [
-      { "id": "international", "eyebrow": "Movilidad internacional", "title": "Movilidad Internacional", "summary": "Residencia y ciudadanía argentina, relocation, estrategia migratoria y asesoramiento transfronterizo — incluyendo soporte legal inmobiliario para clientes extranjeros.", "detail": "Residencia · Ciudadanía · Relocation · Cross-border", "cta": "Ver más" },
+      { "id": "international", "eyebrow": "Movilidad internacional", "title": "Residencia y ciudadanía argentinas", "summary": "Asesoramiento integral para personas, familias y empresas que se mudan a Argentina o que operan desde allí. Estrategia, documentación, trámites y apoyo continuo.", "detail": "Residencia · Ciudadanía · Reubicación · Cross-border", "cta": "Ver más" },
+      { "id": "litigation", "eyebrow": "Representación legal en Argentina", "title": "Representación Legal en Argentina", "summary": "Litigios, procedimientos administrativos, asuntos civiles y problemas documentales — fuerza jurídica local para casos internacionales.", "detail": "Litigios · Administrativo · Civil · Documental", "cta": "Ver más" },
       { "id": "usa", "eyebrow": "Visas para EE. UU.", "title": "Visas para EE. UU.", "summary": "Visas B1/B2, preparación del DS-160, estrategia de entrevista y guía consular — evidencia sólida y tiempos claros.", "detail": "B1/B2 · DS-160 · Entrevista · Consular", "cta": "Ver más" },
-      { "id": "european", "eyebrow": "Rutas europeas", "title": "Rutas Europeas", "summary": "Ciudadanía italiana, residencia por ascendencia, opciones de residencia europea y reconstrucción documental para casos genealógicos complejos.", "detail": "Ciudadanía italiana · Residencia · Documentación", "cta": "Ver más" },
-      { "id": "litigation", "eyebrow": "Representación legal en Argentina", "title": "Representación Legal en Argentina", "summary": "Litigios, procedimientos administrativos, asuntos civiles y problemas documentales — fuerza jurídica local para casos internacionales.", "detail": "Litigios · Administrativo · Civil · Documental", "cta": "Ver más" }
+      { "id": "european", "eyebrow": "Rutas europeas", "title": "Rutas Europeas", "summary": "Ciudadanía italiana, residencia por ascendencia, opciones de residencia europea y investigación de documentos para casos genealógicos complejos.", "detail": "Ciudadanía italiana · Residencia · Documentación", "cta": "Ver más" }
     ],
     "ctaTitle": "¿No estás segura/o de tu camino?",
     "ctaText": "Agendá una consulta y mapeamos jurisdicción, documentos y tiempos juntos.",
@@ -155,9 +210,9 @@
     "items": {
       "international-mobility": {
         "title": "Movilidad Internacional",
-        "tagline": "Residencia, ciudadanía y relocation en Argentina.",
+        "tagline": "Residencia, ciudadanía y reubicación en Argentina.",
         "intro": "Acompañamiento integral para personas, familias y empresas que se mudan a — u operan desde — Argentina. Estrategia, documentación, presentaciones y soporte continuo.",
-        "bullets": ["Residencia Argentina", "Ciudadanía Argentina", "Soporte de Relocation", "Estrategia Migratoria", "Asesoramiento Transfronterizo", "Soporte legal inmobiliario para clientes extranjeros"]
+        "bullets": ["Residencia Argentina", "Ciudadanía Argentina", "Asistencia legal general, fiscal e inmobiliaria para clientes extranjeros", "Estrategia Migratoria y Reubicación"]
       },
       "us-visa-guidance": {
         "title": "Visas para EE. UU.",
@@ -168,8 +223,8 @@
       "european-pathways": {
         "title": "Rutas Europeas",
         "tagline": "Ciudadanía italiana y residencias en Europa.",
-        "intro": "Análisis de elegibilidad, reconstrucción documental y estrategia consular o judicial para ciudadanía italiana y otras opciones de residencia europea.",
-        "bullets": ["Ciudadanía italiana", "Residencia por ascendencia", "Opciones de residencia europea", "Reconstrucción documental"]
+        "intro": "Análisis de elegibilidad, investigación de documentos y estrategia consular o judicial para ciudadanía italiana y otras opciones de residencia europea.",
+        "bullets": ["Ciudadanía italiana", "Residencia por ascendencia", "Opciones de residencia europea", "Investigación de documentos"]
       },
       "argentine-legal-representation": {
         "title": "Representación Legal en Argentina",
@@ -197,13 +252,13 @@
     "intro": "Contános tu caso. Normalmente respondemos en un día hábil.",
     "channelsTitle": "Canales directos",
     "scheduleTitle": "Agendar una consulta",
-    "scheduleText": "Usá el canal que prefieras — WhatsApp para un intercambio rápido, email para materiales detallados o llamada para coordinar una sesión.",
+    "scheduleText": "Usá el canal que prefieras — WhatsApp para un intercambio rápido, email para materiales detallados o el hook de reserva de abajo para una consulta breve.",
     "whatsapp": "Abrir chat de WhatsApp"
   },
   "footer": {
     "eyebrow": "Galli's signature",
     "description": "Acompañamos decisiones migratorias, civiles y tributarias con precisión jurídica, mirada internacional y ejecución a medida.",
-    "cta": "Agendar reunión",
+    "cta": "Consulta gratuita 15 min",
     "quickLinks": "Accesos rápidos",
     "contactTitle": "Contacto estratégico",
     "address": "Córdoba, Argentina · Atención internacional remota",

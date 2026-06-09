@@ -6,7 +6,7 @@ import type { Config } from "tailwindcss";
  * Do NOT introduce hues outside this palette.
  *
  * Cromática oficial:
- *   #233349  Deep Navy   -> primary    (corporate, authority)
+ *   #072551  Deep Navy   -> primary    (corporate, authority)
  *   #a97a51  Bronze Gold -> accent     (the crescent moon / highlight)
  *   #938374  Warm Taupe  -> neutral.dk
  *   #d0bba5  Sand        -> neutral.md
@@ -41,17 +41,17 @@ const config: Config = {
       colors: {
         // Brand primary — navy
         primary: {
-          DEFAULT: "#233349",
-          50: "#eef1f5",
-          100: "#d5dce6",
-          200: "#aab8cb",
-          300: "#7e93b0",
-          400: "#536f95",
-          500: "#3b557a",
-          600: "#2d425f",
-          700: "#233349", // base
-          800: "#1a2637",
-          900: "#111a25",
+          DEFAULT: "#072551",
+          50: "#eef3f8",
+          100: "#d7e0eb",
+          200: "#afbdd0",
+          300: "#869ab5",
+          400: "#5d789a",
+          500: "#3f5d80",
+          600: "#2b4565",
+          700: "#072551", // base
+          800: "#061b3f",
+          900: "#04132c",
         },
         // Brand accent — bronze / gold of the crescent
         accent: {
@@ -78,7 +78,7 @@ const config: Config = {
           alt: "#ffffff",
         },
         ink: {
-          DEFAULT: "#233349", // body copy on light surfaces = primary navy
+          DEFAULT: "#072551", // body copy on light surfaces = primary navy
           muted: "#5b6577",
         },
       },
@@ -115,8 +115,8 @@ const config: Config = {
       },
       boxShadow: {
         elevated:
-          "0 30px 60px -25px rgba(35, 51, 73, 0.35), 0 10px 25px -15px rgba(35, 51, 73, 0.25)",
-        ring: "0 0 0 1px rgba(35, 51, 73, 0.08)",
+          "0 30px 60px -25px rgba(7, 37, 81, 0.35), 0 10px 25px -15px rgba(7, 37, 81, 0.25)",
+        ring: "0 0 0 1px rgba(7, 37, 81, 0.08)",
       },
       backgroundImage: {
         // Subtle radial used on the navy hero to add depth

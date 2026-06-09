@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ArrowUpRight, Sparkles } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
 
@@ -78,12 +78,6 @@ export function ComplexCases() {
               loading="lazy"
             />
             <div aria-hidden className="absolute inset-0 bg-primary/45 mix-blend-multiply" />
-            <div className="absolute bottom-5 left-5 right-5 flex items-center gap-2 rounded-pill bg-black/40 px-4 py-2 backdrop-blur">
-              <Sparkles className="h-3.5 w-3.5 text-accent-200" />
-              <span className="text-[11px] uppercase tracking-wider2 text-white/85">
-                Cross-jurisdiction strategy
-              </span>
-            </div>
           </motion.div>
         </div>
 
@@ -117,7 +111,7 @@ export function ComplexCases() {
           <p className="font-display text-2xl text-white sm:text-3xl">{t("tagline")}</p>
           <Link
             href="/complex-cases"
-            className="inline-flex items-center gap-2 rounded-pill border border-accent/55 bg-accent/25 px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-accent/40"
+            className="gold-cta px-6 py-3 text-sm font-medium"
           >
             {t("cta")}
             <ArrowUpRight className="h-4 w-4" />

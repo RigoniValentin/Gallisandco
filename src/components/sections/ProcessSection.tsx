@@ -39,9 +39,22 @@ export function ProcessSection() {
       ref={ref}
       className="relative isolate overflow-hidden bg-surface py-20 text-ink lg:py-28"
     >
+      <img
+        aria-hidden
+        src="https://images.unsplash.com/photo-1522172239954-25c9b1b0e2b5?auto=format&fit=crop&w=1800&q=80"
+        alt=""
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover object-right opacity-[0.24] saturate-90 contrast-105 mix-blend-multiply"
+        loading="lazy"
+      />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(800px_circle_at_90%_10%,rgba(169,122,81,0.10),transparent_45%),radial-gradient(700px_circle_at_5%_90%,rgba(35,51,73,0.08),transparent_45%)]"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(270deg,rgba(245,242,240,0.08)_0%,rgba(245,242,240,0.34)_40%,rgba(245,242,240,0.90)_100%),radial-gradient(800px_circle_at_90%_10%,rgba(169,122,81,0.08),transparent_45%),radial-gradient(700px_circle_at_5%_90%,rgba(35,51,73,0.06),transparent_45%)]"
+      />
+      <motion.div
+        aria-hidden
+        animate={{ x: [0, -18, 0], opacity: [0.34, 0.58, 0.34] }}
+        transition={{ duration: 16, repeat: Infinity, ease: "easeInOut" }}
+        className="pointer-events-none absolute inset-y-0 right-0 w-[46vw] bg-[radial-gradient(circle_at_80%_50%,rgba(242,211,154,0.18),transparent_60%)] mix-blend-screen"
       />
 
       <div className="container relative z-10">
@@ -83,8 +96,8 @@ export function ProcessSection() {
                   transition={{ duration: 0.7, delay: 0.18 + idx * 0.12, ease: [0.22, 1, 0.36, 1] }}
                   className="group relative flex flex-col overflow-hidden rounded-card border border-primary/10 bg-white shadow-[0_18px_46px_-34px_rgba(35,51,73,0.34)] transition-all duration-500 hover:-translate-y-1.5 hover:border-accent/50 hover:shadow-elevated"
                 >
-                  {/* Image cap with number badge */}
-                  <div className="relative h-40 overflow-hidden">
+                  {/* Image cap with prominent step number */}
+                  <div className="relative h-44 overflow-hidden">
                     {img ? (
                       <img
                         src={img.src}
@@ -95,19 +108,23 @@ export function ProcessSection() {
                     ) : (
                       <div className="h-full w-full bg-gradient-to-br from-primary/15 to-accent/15" />
                     )}
-                    <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-white/0" />
-                    <span className="absolute right-4 top-4 grid h-12 w-12 place-items-center rounded-full border border-accent/45 bg-white/95 font-display text-base font-semibold text-accent-700 shadow-[0_8px_20px_-12px_rgba(35,51,73,0.5)] backdrop-blur transition-transform duration-500 group-hover:scale-110">
-                      {step.number}
-                    </span>
+                    <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,15,23,0.06)_0%,rgba(7,15,23,0.22)_45%,rgba(255,255,255,0.96)_100%)]" />
                   </div>
 
                   <div className="flex flex-1 flex-col p-6">
-                    <h3 className="font-display text-xl text-primary">{step.title}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-ink-muted">{step.description}</p>
-                    <span
-                      aria-hidden
-                      className="mt-5 h-px w-10 origin-left bg-accent/50 transition-transform duration-500 group-hover:scale-x-[2.5]"
-                    />
+                    <div className="flex items-start gap-4 text-left">
+                      <span className="grid h-16 w-16 shrink-0 place-items-center rounded-full border border-accent/45 bg-[linear-gradient(135deg,rgba(242,211,154,0.98),rgba(222,178,95,0.9))] font-display text-2xl font-semibold text-primary shadow-[0_14px_28px_-16px_rgba(210,166,121,0.7)] transition-transform duration-500 group-hover:scale-110">
+                        {step.number}
+                      </span>
+                      <div className="min-w-0 text-left">
+                        <h3 className="font-display text-xl text-primary">{step.title}</h3>
+                        <span
+                          aria-hidden
+                          className="mt-3 block h-px w-12 origin-left bg-accent/60 transition-transform duration-500 group-hover:scale-x-[2.8]"
+                        />
+                      </div>
+                    </div>
+                    <p className="mt-4 text-sm leading-relaxed text-ink-muted">{step.description}</p>
                   </div>
                 </motion.article>
               );
