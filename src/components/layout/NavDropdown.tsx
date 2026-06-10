@@ -26,9 +26,9 @@ export type NavKey = "home" | "about" | "services" | "contact";
 const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
   home: [],
   about: [
-    { label: "Quiénes somos", description: "Biografías, historia y visión de la firma.", href: "/about#who-we-are" },
-    { label: "Equipo legal / red interdisciplinaria", description: "Las abogadas y aliados detrás de cada caso.", href: "/about#legal-team" },
-    { label: "Nuestro enfoque", description: "Cómo pensamos estrategia, jurisdicción y ejecución.", href: "/about#our-approach" },
+    { label: "Las hermanas", description: "Biografías y presentación de las socias.", href: "#the-sisters" },
+    { label: "Of counsel", description: "Aliados legales y apoyo interdisciplinario.", href: "#of-counsel" },
+    { label: "Red interdisciplinaria", description: "Alcance global y conexiones por jurisdicción.", href: "#interdisciplinary-network" },
   ],
   services: [
     { label: "Movilidad Internacional", description: "Residencia, ciudadanía y relocation en Argentina.", href: "/services/international-mobility" },
@@ -46,9 +46,9 @@ const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
 const dropdownItemsByKeyEn: Record<NavKey, NavDropdownItem[]> = {
   home: [],
   about: [
-    { label: "Who we are", description: "Biographies, history and the firm’s vision.", href: "/about#who-we-are" },
-    { label: "Legal team / interdisciplinary network", description: "The lawyers and partners behind each case.", href: "/about#legal-team" },
-    { label: "Our approach", description: "How we think about strategy, jurisdiction and execution.", href: "/about#our-approach" },
+    { label: "The sisters", description: "Biographies and the founding partners.", href: "#the-sisters" },
+    { label: "Of counsel", description: "Legal allies and interdisciplinary support.", href: "#of-counsel" },
+    { label: "Interdisciplinary network", description: "Global reach and jurisdictional connections.", href: "#interdisciplinary-network" },
   ],
   services: [
     { label: "International Mobility", description: "Argentine residency, citizenship and relocation.", href: "/services/international-mobility" },

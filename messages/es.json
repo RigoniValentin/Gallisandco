@@ -33,42 +33,41 @@
   },
   "whoWeAre": {
     "eyebrow": "Quiénes somos",
-    "title": "Una sociedad legal complementaria",
+    "title": "Un equipo, una vision compartida",
     "paragraph1": "Fundada por dos hermanas — “Las Hermanas Galli” — abogadas con más de 15 años de experiencia profesional combinada y cientos de casos exitosos, nuestra firma nació de la convicción de que las transiciones internacionales requieren tanto estrategia legal como verdadera comprensión humana.",
     "paragraph2": "Habiendo vivido en primera persona el proceso de residir y atravesar sistemas legales en el extranjero, una de nosotras comprende la incertidumbre, los desafíos y las emociones que implica construir una vida en otro país. Su práctica se enfoca en migración internacional, movilidad global y asuntos legales transfronterizos.",
     "paragraph3": "La otra, graduada con honores, desarrolló su carrera en el ámbito público y privado del derecho en Argentina, incluyendo experiencia en el Tribunal Superior de Justicia de Córdoba como relatora, contribuyendo directamente a la redacción y desarrollo de decisiones judiciales. Su formación aporta la solidez jurídica y litigiosa que muchos asuntos internacionales requieren.",
-    "paragraph4": "Juntas combinamos estrategia de movilidad internacional con profundo conocimiento del derecho argentino para brindar acompañamiento integral y orientado a soluciones a personas, familias y empresas en transición.",
     "fullBioCta": "Ver biografía completa",
     "sisters": [
       {
         "id": "i-galli",
         "name": "I. Galli",
-        "role": "Derecho civil, comercial y de familia",
-        "summary": "Abogada, con formación en derecho civil, comercial y de familia. Me gradué a los 23 años en la Facultad de Derecho de la Universidad Nacional de Córdoba como egresada sobresaliente e integré el Cuadro de Honor de la facultad.",
-        "bio": "Abogada, con formación en derecho civil, comercial y de familia. Me gradué a los 23 años en la Facultad de Derecho de la Universidad Nacional de Córdoba como egresada sobresaliente e integré el Cuadro de Honor de la facultad. Actualmente continuando formación de posgrado, con la certeza de que el aprendizaje constante es una parte esencial del ejercicio profesional.",
+        "role": "CEO · Derecho civil, comercial y de familia",
+        "summary": "Abogada, con formación en derecho civil, comercial y de familia.",
+        "bio": "Me gradué a los 23 años en la Facultad de Derecho de la Universidad Nacional de Córdoba como egresada sobresaliente e integré el Cuadro de Honor de la facultad. Actualmente continúo mi formación de posgrado, con la certeza de que el aprendizaje constante es una parte esencial del ejercicio profesional.",
         "alt": "Retrato de I. Galli, abogada de Galli's & Co.",
         "image": "/Images/IGalli.png"
       },
       {
         "id": "victoria-galli",
         "name": "Victoria Galli",
-        "role": "Movilidad internacional y ciudadanía",
-        "summary": "Abogada argentina especializada en Movilidad Internacional, con enfoque en los sistemas migratorios y de ciudadanía de Argentina, Italia, España y otros países.",
-        "bio": "Abogada argentina, graduada de la Facultad de Derecho de la Universidad Nacional de Córdoba a los 23 años, especializada en Movilidad Internacional, con enfoque en los sistemas migratorios y de ciudadanía de Argentina, Italia, España y otros países. Orgullosa ciudadana argentina e italiana, aporta tanto experiencia personal como profesional a Galli's & CO.",
+        "role": "CEO · Movilidad internacional y ciudadanía",
+        "summary": "Abogada argentina especializada en Movilidad Internacional.",
+        "bio": "Graduada de la Facultad de Derecho de la Universidad Nacional de Córdoba a los 23 años, especializada en Movilidad Internacional, con enfoque en los sistemas migratorios y de ciudadanía de Argentina, Italia, España y otros países. Orgullosa ciudadana argentina e italiana, aporto tanto experiencia personal como profesional a Galli's & CO.",
         "alt": "Retrato de Victoria Galli, abogada de Galli's & Co.",
         "image": "/Images/VickyGalli.png"
       }
     ],
-    "networkTitle": "Una red interdisciplinaria",
-    "networkText": "Nuestro enfoque interdisciplinario también nos permite trabajar junto a una red de confianza de profesionales legales especializados en Argentina, incluyendo expertos en derecho tributario, laboral, inmobiliario, penal y corporativo,  así como con firmas de abogados aliadas en Europa y Estados Unidos. Esta estructura colaborativa nos permite brindar un respaldo legal coordinado e integral en múltiples jurisdicciones y áreas del derecho.",
+    "networkTitle": "Red interdisciplinaria",
+    "networkText": "Nuestro enfoque interdisciplinario nos permite trabajar junto a una red de confianza de profesionales legales especializados en Argentina, incluyendo expertos en derecho tributario, laboral, inmobiliario, penal y corporativo,  así como con firmas de abogados aliadas en Europa y Estados Unidos. Esta estructura colaborativa nos permite brindar un respaldo legal coordinado e integral en múltiples jurisdicciones y áreas del derecho.",
     "jurisdictions": ["ARGENTINA", "EEUU", "ITALIA", "ESPAÑA", "REINO UNIDO", "AUSTRALIA", "PORTUGAL"],
     "languages": ["ES", "EN", "IT", "BR/PT"],
     "cta": "Más sobre la firma",
     "sistersEyebrow": "Las hermanas",
-    "sistersTitle": "Una sola firma, múltiples prácticas",
     "conversationCta": "Conversemos",
-    "moreJurisdictions": "+ más",
+    "moreJurisdictions": "y más jurisdicciones",
     "globalReach": "Alcance global",
+    "globalReachText": "Argentina, Europa y Estados Unidos trabajando como una red coordinada.",
     "togetherEyebrow": "Juntas",
     "statYears": "Años",
     "statCases": "Casos",
@@ -85,8 +84,7 @@
     "strengthCourt": "Trayectoria judicial (Córdoba)",
     "strengthPractice": "Práctica pública y privada",
     "ofCounselEyebrow": "Of counsel",
-    "ofCounselTitle": "Of counsel de confianza",
-    "ofCounselSubtitle": "Profesionales especializados que colaboran con el estudio en distintas jurisdicciones.",
+    "ofCounselSubtitle": "",
     "ofCounsel": [
       {
         "name": "Mario Tedesco",
@@ -125,6 +123,12 @@
       { "id": "expertise", "title": "Expertise complementaria", "description": "Estrategia migratoria internacional combinada con sólida representación legal en Argentina." },
       { "id": "problemSolving", "title": "Enfoque resolutivo", "description": "Nos especializamos en casos complejos, atípicos y con alto nivel de obstáculos que requieren soluciones estratégicas." },
       { "id": "oneStop", "title": "Acompañamiento integral", "description": "De visas y ciudadanías a litigios y trámites administrativos: todo el soporte legal en una sola firma." }
+    ],
+    "stats": [
+      { "value": "15+", "label": "Años" },
+      { "value": "100+", "label": "Casos" },
+      { "value": "10+", "label": "Jurisdicciones" },
+      { "value": "4", "label": "Idiomas" }
     ]
   },
   "stepper": {

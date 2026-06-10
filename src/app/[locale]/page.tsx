@@ -18,11 +18,11 @@ export default async function HomePage({
   return (
     <>
       <Hero />
-      <Products />
-      <WhoWeAre />
       <WhyUs />
-      <ProcessSection />
+      <Products />
       <Testimonials />
+      <WhoWeAre />
+      <ProcessSection />
       <FinalCta />
     </>
   );

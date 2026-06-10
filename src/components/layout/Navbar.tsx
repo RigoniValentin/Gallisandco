@@ -29,7 +29,7 @@ type DropdownKey = NavKey | "brand";
 
 const navHrefs: Record<NavKey, string> = {
   home: "/",
-  about: "/about",
+  about: "/#about",
   services: "/services",
   contact: "/contact",
 };

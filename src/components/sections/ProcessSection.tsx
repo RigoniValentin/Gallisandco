@@ -37,18 +37,18 @@ export function ProcessSection() {
     <section
       id="process"
       ref={ref}
-      className="relative isolate overflow-hidden bg-surface py-20 text-ink lg:py-28"
+      className="relative isolate overflow-hidden bg-[linear-gradient(180deg,#07101a_0%,#0c1520_48%,#13100e_100%)] py-20 text-white lg:py-28"
     >
       <img
         aria-hidden
         src="https://images.unsplash.com/photo-1522172239954-25c9b1b0e2b5?auto=format&fit=crop&w=1800&q=80"
         alt=""
-        className="pointer-events-none absolute inset-0 h-full w-full object-cover object-right opacity-[0.24] saturate-90 contrast-105 mix-blend-multiply"
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover object-right opacity-[0.16] saturate-90 contrast-105 mix-blend-overlay"
         loading="lazy"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[linear-gradient(270deg,rgba(245,242,240,0.08)_0%,rgba(245,242,240,0.34)_40%,rgba(245,242,240,0.90)_100%),radial-gradient(800px_circle_at_90%_10%,rgba(169,122,81,0.08),transparent_45%),radial-gradient(700px_circle_at_5%_90%,rgba(35,51,73,0.06),transparent_45%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(1100px_circle_at_10%_0%,rgba(242,211,154,0.22),transparent_44%),radial-gradient(900px_circle_at_90%_100%,rgba(35,51,73,0.50),transparent_55%)]"
       />
       <motion.div
         aria-hidden
@@ -64,15 +64,15 @@ export function ProcessSection() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="mx-auto max-w-2xl text-center"
         >
-          <span className="inline-flex items-center gap-3 text-eyebrow uppercase text-accent-500">
+          <span className="inline-flex items-center gap-3 text-eyebrow uppercase text-accent-200">
             <span className="h-px w-10 bg-accent/70" />
             {t("eyebrow")}
             <span className="h-px w-10 bg-accent/70" />
           </span>
-          <h2 className="mt-4 font-display text-3xl leading-tight text-primary md:text-4xl lg:text-5xl">
+          <h2 className="mt-4 font-display text-3xl leading-tight text-white md:text-4xl lg:text-5xl">
             {t("title")}
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-ink-muted">{t("subtitle")}</p>
+          <p className="mt-4 text-base leading-relaxed text-white/70">{t("subtitle")}</p>
         </motion.div>
 
         <div className="relative mt-16">

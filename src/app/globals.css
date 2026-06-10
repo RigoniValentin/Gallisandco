@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
 @layer components {
   /* ─── Navbar underline left-to-right ─────────────────────────────────── */
   .nav-link {
@@ -226,8 +231,8 @@
   .gold-cta {
     border: 1px solid rgba(222, 178, 95, 0.8);
     background: linear-gradient(135deg, rgba(242, 211, 154, 0.98) 0%, rgba(222, 178, 95, 0.96) 40%, rgba(169, 122, 81, 0.98) 100%);
-    color: #fff;
-    text-shadow: 0 1px 1px rgba(55, 36, 12, 0.35);
+    color: #07101a;
+    text-shadow: none;
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22), 0 0 0 rgba(210, 166, 121, 0);
     animation: gold-cta-pulse 3s ease-in-out infinite;
   }
@@ -250,8 +255,9 @@
   }
 
   .gold-cta-outline {
-    border: 1px solid rgba(222, 178, 95, 0.6);
-    background: linear-gradient(135deg, rgba(210, 166, 121, 0.12), rgba(169, 122, 81, 0.06));
+    border: 1px solid rgba(222, 178, 95, 0.72);
+    background: linear-gradient(135deg, rgba(242, 211, 154, 0.18), rgba(169, 122, 81, 0.1));
+    color: #07101a;
     box-shadow: 0 12px 28px rgba(7, 37, 81, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.04);
   }
 

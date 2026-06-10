@@ -33,42 +33,41 @@
   },
   "whoWeAre": {
     "eyebrow": "Who We Are",
-    "title": "Two Sisters, One Shared Vision",
-    "paragraph1": "Founded by two sisters “Las Hermanas Galli”, and attorneys with over 15 years of combined professional experience and hundreds of successful cases, Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution oriented support for individuals, families, and businesses navigating legal and international transitions.",
+    "title": "One team, one shared vision",
+  
     "paragraph2": "Having personally experienced the process of living and navigating legal systems abroad, one of us understands firsthand the uncertainty, challenges, and emotions that often come with building a life in another country. Her practice focuses on international migration, global mobility, and cross-border legal matters.",
     "paragraph3": "The other, after graduating with honors, has developed her career across both the public and private legal sectors in Argentina, including experience within the Superior Provincial Court of Córdoba as a relatora, contributing directly to the drafting and development of judicial decisions. Her background provides the strong domestic legal and litigation expertise often essential in complex international matters.",
-    "paragraph4": "Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution-oriented support for individuals, families, and businesses navigating legal and international transitions.",
     "fullBioCta": "View full bio",
     "sisters": [
       {
         "id": "i-galli",
         "name": "I. Galli",
-        "role": "Civil, Business & Family Law",
-        "summary": "Attorney with a background in civil, business, and family law. Graduated from the School of Law at the National University of Córdoba at 23, recognized as an outstanding graduate and placed on the Law School's Honor Roll.",
-        "bio": "Attorney with a background in civil, business, and family law. I graduated from the School of Law at the National University of Córdoba at the age of 23, receiving recognition as an outstanding graduate and earning a place on the Law School's Honor Roll. Currently pursuing postgraduate studies, convinced that continuous learning is an essential part of legal practice.",
+        "role": "CEO · Civil, Business & Family Law",
+        "summary": "Attorney with a background in civil, business, and family law.",
+        "bio": "I graduated from the School of Law at the National University of Córdoba at the age of 23, receiving recognition as an outstanding graduate and earning a place on the Law School's Honor Roll. Currently pursuing postgraduate studies, convinced that continuous learning is an essential part of legal practice.",
         "alt": "Portrait of I. Galli, attorney at Galli's & Co.",
         "image": "/Images/IGalli.png"
       },
       {
         "id": "victoria-galli",
         "name": "Victoria Galli",
-        "role": "International Mobility & Citizenships",
-        "summary": "Argentinian lawyer specialized in international mobility, with a focus on immigration and citizenship frameworks in Argentina, Italy, Spain and other jurisdictions.",
-        "bio": "Argentinian lawyer, graduated from the School of Law at the National University of Córdoba at the age of 23, with a specialization in International Mobility and a focus on Argentine, Italian, Spanish, and other immigration and citizenship frameworks. As a proud dual citizen of Argentina and Italy, bringing both personal and professional experience at work.",
+        "role": "CEO · International Mobility & Citizenship",
+        "summary": "Argentinian lawyer specialized in international mobility.",
+        "bio": "Graduated from the School of Law at the National University of Córdoba at the age of 23, with a specialization in International Mobility and a focus on Argentine, Italian, Spanish, and other immigration and citizenship frameworks. As a proud dual citizen of Argentina and Italy, I bring both personal and professional experience to the firm.",
         "alt": "Portrait of Victoria Galli, attorney at Galli's & Co.",
         "image": "/Images/VickyGalli.png"
       }
     ],
-    "networkTitle": "An interdisciplinary network",
-    "networkText": "Our interdisciplinary approach also allows us to work alongside a trusted network of specialized legal professionals in Argentina  including Tax, labor, Real Estate, Criminal and corporate law practitioners, as well as partner law firms across Europe and the United States. This collaborative structure enables coordinated, well rounded legal support across multiple jurisdictions and areas of law.",
+    "networkTitle": "interdisciplinary network",
+    "networkText": "Our interdisciplinary approach allows us to work alongside a trusted network of specialized legal professionals in Argentina  including Tax, labor, Real Estate, Criminal and corporate law practitioners, as well as partner law firms across Europe and the United States. This collaborative structure enables coordinated, well rounded legal support across multiple jurisdictions and areas of law.",
     "jurisdictions": ["ARGENTINA", "USA", "ITALY", "SPAIN", "UNITED KINGDOM", "AUSTRALIA", "PORTUGAL"],
     "languages": ["ES", "EN", "IT", "BR/PT"],
     "cta": "More about the firm",
     "sistersEyebrow": "The sisters",
-    "sistersTitle": "One firm, multiple practices",
     "conversationCta": "Let's talk",
-    "moreJurisdictions": "+ more",
+    "moreJurisdictions": "and more jurisdictions",
     "globalReach": "Global reach",
+    "globalReachText": "Argentina, Europe and the United States working as one coordinated network.",
     "togetherEyebrow": "Together",
     "statYears": "Years",
     "statCases": "Cases",
@@ -86,7 +85,7 @@
     "strengthPractice": "Public & private practice",
     "ofCounselEyebrow": "Of counsel",
     "ofCounselTitle": "Trusted of counsel",
-    "ofCounselSubtitle": "Specialized professionals who collaborate with the firm across jurisdictions.",
+    "ofCounselSubtitle": "",
     "ofCounsel": [
       {
         "name": "Mario Tedesco",
@@ -121,6 +120,12 @@
     "eyebrow": "Why Us",
     "title": "Why Clients Choose Us",
     "subtitle": "Three reasons we are trusted with the cases that other firms consider unsolvable.",
+    "stats": [
+      { "value": "15+", "label": "Years" },
+      { "value": "100+", "label": "Cases" },
+      { "value": "10+", "label": "Jurisdictions" },
+      { "value": "4", "label": "Languages" }
+    ],
     "items": [
       { "id": "expertise", "title": "Complementary Expertise", "description": "International migration strategy combined with strong Argentine legal representation." },
       { "id": "problemSolving", "title": "Problem-Solving Approach", "description": "We specialize in complex, unconventional, and high-obstacle cases requiring strategic legal solutions." },

@@ -7,6 +7,8 @@ import { useTranslations } from "next-intl";
 
 type WhyUsItem = { id: string; title: string; description: string };
 
+type WhyUsStat = { value: string; label: string };
+
 const ICON_CONFIG = {
   expertise: {
     Icon: Award,
@@ -31,6 +33,7 @@ const ICON_CONFIG = {
 export function WhyUs() {
   const t = useTranslations("whyUs");
   const items = t.raw("items") as WhyUsItem[];
+  const stats = t.raw("stats") as WhyUsStat[];
   const ref = useRef<HTMLElement | null>(null);
   const inView = useInView(ref, { amount: 0.2, once: true });
 
@@ -127,6 +130,44 @@ export function WhyUs() {
             );
           })}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, delay: 0.35, ease: "easeOut" }}
+          className="relative mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-card border border-[#f1e2d1]/70 bg-[linear-gradient(135deg,rgba(241,226,209,0.95),rgba(210,166,121,0.52),rgba(138,98,64,0.82))] shadow-[0_22px_60px_-36px_rgba(0,0,0,0.48)] ring-1 ring-[#fff6ea]/35 md:grid-cols-4"
+        >
+          <span
+            aria-hidden
+            className="pointer-events-none absolute inset-y-0 left-0 z-[1] w-24 bg-[linear-gradient(90deg,rgba(255,255,255,0.52),rgba(255,255,255,0.14),transparent)]"
+          />
+          {stats.map((s, idx) => (
+            <div
+              key={s.label}
+              className={`group relative z-10 flex flex-col items-center justify-center gap-1 overflow-hidden px-4 py-6 text-center backdrop-blur-sm transition-transform duration-500 hover:-translate-y-0.5 ${
+                idx < 2
+                  ? "bg-[linear-gradient(180deg,rgba(255,253,249,0.96),rgba(248,236,221,0.62),rgba(181,138,94,0.16))]"
+                  : "bg-[linear-gradient(180deg,rgba(255,249,240,0.72),rgba(241,226,209,0.34),rgba(169,122,81,0.12))]"
+              }`}
+            >
+              <span aria-hidden className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#f1e2d1] to-transparent" />
+              <span
+                aria-hidden
+                className={`absolute inset-0 transition-opacity duration-500 group-hover:opacity-100 ${
+                  idx < 2
+                    ? "bg-[radial-gradient(circle_at_50%_0%,rgba(255,255,255,0.82),transparent_44%),radial-gradient(circle_at_50%_100%,rgba(169,122,81,0.12),transparent_55%)] opacity-100"
+                    : "bg-[radial-gradient(circle_at_50%_0%,rgba(255,247,236,0.55),transparent_48%),radial-gradient(circle_at_50%_100%,rgba(169,122,81,0.14),transparent_55%)] opacity-90"
+                }`}
+              />
+              <p className={`relative font-display text-3xl md:text-4xl ${idx < 2 ? "text-[#4d3623] drop-shadow-[0_0_10px_rgba(255,255,255,0.25)]" : "text-[#f8f0e5] drop-shadow-[0_0_12px_rgba(138,98,64,0.25)]"}`}>
+                {s.value}
+              </p>
+              <p className={`relative text-[10px] font-semibold uppercase tracking-wider2 ${idx < 2 ? "text-[#312216]/88" : "text-[#fff9f1]/84"}`}>
+                {s.label}
+              </p>
+            </div>
+          ))}
+        </motion.div>
       </div>
     </section>
   );
