@@ -204,6 +204,414 @@
       { "id": "reach", "title": "Alcance global", "description": "Argentina, Europa y Estados Unidos — coordinados desde una misma firma." }
     ]
   },
+  "services": {
+    "internationalMobility": {
+      "hero": {
+        "eyebrow": "01 · Movilidad Internacional",
+        "title": "Movilidad Internacional hacia Argentina",
+        "description": "Asegurar tu situación legal en Argentina no debería sentirse como un laberinto burocrático. Acompañamos a cada cliente desde RaDEX y la legalización documental hasta las presentaciones, la estrategia y el seguimiento diario, para que pueda enfocarse en su nueva vida, inversión o carrera.",
+        "badges": ["DNU 366/2025", "RaDEX", "RENURE", "SMVM", "Residencia", "Ciudadanía"],
+        "primaryCta": "Reservar sesión estratégica",
+        "secondaryCta": "Todos los servicios"
+      },
+      "intro": {
+        "eyebrow": "Residencia e inmigración",
+        "title": "La movilidad internacional hacia Argentina es una estrategia legal, no solo una mudanza.",
+        "lead": "Desde la profundidad cultural de Buenos Aires hasta los paisajes de Mendoza y Patagonia, Argentina atrae a personas, familias y empresas que buscan construir algo duradero. Gestionamos el recorrido de punta a punta —admisión, revisión de riesgo, legalizaciones, flujo de RaDEX, presentaciones y monitoreo diario— hasta que el expediente alcanza el resultado necesario, bajo la normativa vigente incluido el DNU 366/2025.",
+        "highlights": [
+          { "title": "La mirada legal", "text": "Estructura del legajo, umbrales probatorios y selección de vía resueltos antes de presentar nada." },
+          { "title": "La mirada operativa", "text": "Alta en RaDEX, legalizaciones y monitoreo diario hasta tener el DNI en mano." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Vías de servicio",
+        "title": "Cada ruta hacia el estatus legal, coordinada en un único expediente.",
+        "subtitle": "De la residencia temporaria a la ciudadanía: mapeamos la vía que realmente podés sostener bajo la normativa migratoria vigente."
+      },
+      "sections": [
+        {
+          "id": "temporary",
+          "eyebrow": "01 · Residencia Temporaria",
+          "title": "Residencia Temporaria",
+          "description": "Suele ser el primer paso: estatus renovable —normalmente un año, en algunos casos hasta tres— junto con un DNI argentino temporario.",
+          "items": [
+            "Rentista — ingresos pasivos o rendimientos de inversión verificados y generados fuera de Argentina.",
+            "Pensionado — una pensión oficial y estable de un gobierno extranjero o de un organismo internacional.",
+            "Trabajador migrante — contrato corporativo registrado u oferta laboral formal con empleador argentino.",
+            "Inversionista — inversión productiva local o proyecto de interés nacional, revisado bajo el umbral vigente.",
+            "Estudiantes, científicos y personal especializado — matrícula o contratos técnicos especializados con instituciones reconocidas.",
+            "Deportistas y artistas — creativos y atletas contratados oficialmente por instituciones locales.",
+            "Ciudadanos MERCOSUR — vía simplificada y acelerada para nacionales de Estados miembros y asociados.",
+            "Tratamiento médico y razones humanitarias — cobertura para pacientes, familias y personas protegidas."
+          ],
+          "cta": "Ver vías de residencia"
+        },
+        {
+          "id": "permanent",
+          "eyebrow": "02 · Residencia Permanente",
+          "title": "Residencia Permanente",
+          "description": "Un estatus indefinido para quienes establecen arraigo en Argentina, con un DNI permanente y sin restricciones de plazo.",
+          "items": [
+            "Vínculos familiares — cónyuge, padre/madre o hijo de argentino nativo o naturalizado, o de un residente permanente.",
+            "Hijos de argentinos — nacidos en el exterior de padre o madre argentinos, de pleno derecho cuando corresponde.",
+            "Arraigo — luego de residencia temporaria legal continua: dos años MERCOSUR, tres años no MERCOSUR.",
+            "Diplomáticos — exfuncionarios extranjeros que concluyeron sus funciones y acreditaron el arraigo local.",
+            "Personas refugiadas — individuos reconocidos por CONARE que cumplieron los plazos residenciales exigidos."
+          ]
+        },
+        {
+          "id": "citizenship",
+          "eyebrow": "03 · Ciudadanía Argentina",
+          "title": "Ciudadanía Argentina",
+          "description": "La ciudadanía se maneja como una vía estratégica separada, con rigor documental y tiempos legales alineados con la ruta que realmente podés sostener.",
+          "items": [
+            "Naturalización evaluada a partir de la residencia legal, la prueba de identidad y las partidas civiles.",
+            "Estrategias vinculadas a inversión revisadas por origen de fondos y trazabilidad bajo los criterios vigentes.",
+            "Un expediente documental construido para sostener la petición ante la autoridad competente."
+          ],
+          "cta": "Evaluar mi vía a la ciudadanía"
+        },
+        {
+          "id": "audit",
+          "eyebrow": "04 · La Auditoría Galli's & Co.",
+          "title": "El filtro legal antes de presentar cualquier cosa",
+          "description": "No nos limitamos a armar papeles. Primero auditamos el expediente: la vía legal, la base migratoria, la cadena documental, la prueba de ingresos, el flujo de plataforma y la estrategia de respaldo si el caso se complica.",
+          "items": [
+            "Selección de vía bajo DNU 366/2025.",
+            "Alta y seguimiento diario en RaDEX.",
+            "Legalizaciones, apostillas y traducciones certificadas.",
+            "Revisión de origen de fondos y control de umbrales SMVM.",
+            "Análisis de RENURE y de respaldo administrativo-contencioso."
+          ]
+        }
+      ],
+      "feature": {
+        "quote": "El traslado se siente fluido porque el expediente está controlado: cada umbral mapeado antes de presentar un solo documento.",
+        "author": "Galli's & Co. — Movilidad Internacional"
+      },
+      "closing": {
+        "eyebrow": "Cuando estés listo",
+        "title": "¿Lista/o para asegurar tu situación en Argentina?",
+        "subtitle": "Reservá una sesión estratégica y mapeamos la vía más limpia para tu caso.",
+        "button": "Reservar sesión estratégica"
+      }
+    },
+    "argentineLegalRepresentation": {
+      "hero": {
+        "eyebrow": "02 · Representación Legal Argentina",
+        "title": "Representación Legal en Argentina",
+        "description": "Potencia jurídica local para casos internacionales. Representamos a clientes, familias y empresas extranjeras ante tribunales y organismos públicos argentinos: a menudo la pieza faltante en expedientes transfronterizos complejos.",
+        "badges": ["Litigios", "Administrativo", "Civil", "Documentación", "Societario", "Inmobiliario"],
+        "primaryCta": "Consultar tu caso",
+        "secondaryCta": "Todos los servicios"
+      },
+      "intro": {
+        "eyebrow": "Abogados locales, casos globales",
+        "title": "Cuando un caso toca a Argentina, necesitás representación senior en el terreno.",
+        "lead": "Actuamos ante tribunales y organismos públicos argentinos y coordinamos con una red interdisciplinaria de confianza para que cada frente de tu caso avance en conjunto, bajo una única estrategia y un único punto de contacto.",
+        "highlights": [
+          { "title": "Estrategia coordinada", "text": "Una firma que conduce litigios, trámites administrativos y materia civil bajo un mismo plan." },
+          { "title": "Red interdisciplinaria", "text": "Especialistas tributarios, laborales, inmobiliarios, penales y societarios, más estudios asociados en Europa y EE. UU." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Áreas de práctica",
+        "title": "Representación en las materias que hacen avanzar tu expediente.",
+        "subtitle": "Cada área la manejan abogados especializados en la jurisdicción y el tipo de disputa."
+      },
+      "sections": [
+        {
+          "id": "litigation",
+          "eyebrow": "01 · Litigios",
+          "title": "Litigios y Resolución de Disputas",
+          "description": "Representación estratégica en materia contenciosa ante tribunales argentinos, desde primera instancia hasta apelaciones.",
+          "items": [
+            "Litigios civiles y comerciales.",
+            "Ejecución de sentencias y laudos extranjeros.",
+            "Medidas cautelares y precautorias.",
+            "Apelaciones y estrategia ante instancias superiores."
+          ],
+          "cta": "Consultar tu disputa"
+        },
+        {
+          "id": "administrative",
+          "eyebrow": "02 · Trámites Administrativos",
+          "title": "Trámites Administrativos",
+          "description": "Representación ante organismos públicos, incluidas materias migratorias y regulatorias.",
+          "items": [
+            "Asuntos migratorios y vinculados al RENAPER.",
+            "Presentaciones regulatorias ante organismos públicos.",
+            "Recursos administrativos y remedios.",
+            "Procedimientos vinculados a RaDEX e inmigración."
+          ]
+        },
+        {
+          "id": "civil",
+          "eyebrow": "03 · Materia Civil",
+          "title": "Materia Civil",
+          "description": "Trabajo civil cotidiano y de alto impacto para personas, familias y empresas con intereses en Argentina.",
+          "items": [
+            "Familia y sucesiones.",
+            "Operaciones y disputas inmobiliarias.",
+            "Contratos y obligaciones.",
+            "Estado civil y rectificación de documentos."
+          ]
+        },
+        {
+          "id": "documentation",
+          "eyebrow": "04 · Documentación Legal",
+          "title": "Cuestiones de Documentación Legal",
+          "description": "Resolver los registros faltantes, defectuosos o controvertidos que bloquean los expedientes transfronterizos.",
+          "items": [
+            "Partidas faltantes o defectuosas.",
+            "Apostillas y legalizaciones.",
+            "Traducciones certificadas.",
+            "Reconstrucción de partidas civiles."
+          ],
+          "cta": "Resolver una cuestión documental"
+        },
+        {
+          "id": "network",
+          "eyebrow": "05 · Red Interdisciplinaria",
+          "title": "Soporte multidisciplinario coordinado",
+          "description": "Cuando una materia excede nuestra práctica central, sumamos especialistas de confianza y los conducimos como un solo equipo.",
+          "items": [
+            "Asesoría tributaria y laboral.",
+            "Profesionales societarios e inmobiliarios.",
+            "Especialistas en derecho penal.",
+            "Estudios asociados en Europa y los Estados Unidos."
+          ]
+        }
+      ],
+      "feature": {
+        "quote": "Potencia jurídica local, coordinada entre jurisdicciones, para que el frente argentino de tu caso nunca sea el eslabón débil.",
+        "author": "Galli's & Co. — Representación Legal Argentina"
+      },
+      "closing": {
+        "eyebrow": "Revisemos tu asunto",
+        "title": "¿Tenés un caso que toca a Argentina?",
+        "subtitle": "Contanos tu situación y diseñamos una estrategia clara en cada frente.",
+        "button": "Consultar tu caso"
+      }
+    },
+    "usVisaGuidance": {
+      "hero": {
+        "eyebrow": "03 · Visas para EE. UU.",
+        "title": "Orientación en Visas y Vías Migratorias a EE. UU.",
+        "description": "Estados Unidos ofrece un amplio abanico de opciones temporales y permanentes. Ayudamos a personas, familias, emprendedores y profesionales a encontrar la vía correcta y a conectarse con abogados de inmigración de EE. UU. de confianza.",
+        "badges": ["B-1/B-2", "DS-160", "E-2", "EB-5", "Familiar", "Laboral"],
+        "primaryCta": "Iniciar mi solicitud de visa",
+        "secondaryCta": "Todos los servicios"
+      },
+      "intro": {
+        "eyebrow": "Navegar la inmigración a EE. UU.",
+        "title": "Entender qué vía se ajusta a tus objetivos es el primer y más importante paso.",
+        "lead": "Nuestro fundador trabajó con estudios de inmigración de EE. UU. en visas de visitante, inmigración familiar, naturalización y vías de inversión y empleo. Esa experiencia nos permite identificar la estrategia correcta y conectarte con abogados con experiencia.",
+        "highlights": [
+          { "title": "Experiencia práctica", "text": "Conocimiento directo de los sistemas consular y de USCIS." },
+          { "title": "Red de confianza", "text": "Abogados de inmigración de EE. UU. seleccionados según tu caso." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Vías migratorias",
+        "title": "De una visita breve a la residencia de largo plazo, según tus objetivos.",
+        "subtitle": "Cada vía se explica con el alcance que cubrimos y los socios legales que coordinamos."
+      },
+      "sections": [
+        {
+          "id": "visitor",
+          "eyebrow": "01 · Visas de Visitante",
+          "title": "Orientación para Visas B-1/B-2",
+          "description": "Acompañamiento integral para solicitudes de visitante por turismo o negocios, incluso con historiales difíciles.",
+          "items": [
+            "Evaluaciones de elegibilidad.",
+            "Preparación y revisión del DS-160.",
+            "Estrategia de solicitud y documentación.",
+            "Preparación para la entrevista consular.",
+            "Análisis de rechazos previos e historiales complejos.",
+            "Renovaciones de visa."
+          ],
+          "cta": "Iniciar mi solicitud de visa de visitante"
+        },
+        {
+          "id": "business",
+          "eyebrow": "02 · Negocios e Inversión",
+          "title": "Vías de Negocios e Inversión",
+          "description": "Opciones para emprendedores e inversionistas que planean operar o reubicarse en Estados Unidos.",
+          "items": [
+            "Visas E-2 de inversionista por tratado.",
+            "Inmigración por inversión EB-5.",
+            "Expansión y reubicación de negocios.",
+            "Opciones para emprendedores.",
+            "Planificación de residencia mediante inversión."
+          ]
+        },
+        {
+          "id": "family",
+          "eyebrow": "03 · Familiar y Ciudadanía",
+          "title": "Inmigración Familiar y Ciudadanía",
+          "description": "Reunir familias y asegurar estatus de largo plazo a través de vínculos familiares y naturalización.",
+          "items": [
+            "Peticiones de familiares inmediatos.",
+            "Categorías de preferencia familiar.",
+            "Inmigración basada en matrimonio.",
+            "Naturalización y ciudadanía estadounidense.",
+            "Evaluaciones de elegibilidad para la ciudadanía."
+          ]
+        },
+        {
+          "id": "employment",
+          "eyebrow": "04 · Vías Laborales",
+          "title": "Vías Basadas en el Empleo",
+          "description": "Rutas para trabajadores calificados y profesionales que buscan residencia patrocinada de largo plazo.",
+          "items": [
+            "Inmigración basada en empleo EB-3.",
+            "Vías con patrocinio del empleador.",
+            "Categorías de trabajadores calificados.",
+            "Categorías profesionales.",
+            "Estrategias de residencia de largo plazo."
+          ]
+        },
+        {
+          "id": "additional",
+          "eyebrow": "05 · Otros Asuntos",
+          "title": "Otros Asuntos Migratorios",
+          "description": "El trabajo procesal y de registros que mantiene un caso en marcha.",
+          "items": [
+            "Ajuste y cambio de estatus.",
+            "Procesamiento consular.",
+            "Recuperación de registros vía FOIA y USCIS.",
+            "Documentos de viaje y permisos de reingreso.",
+            "Exenciones (waivers) e historiales complejos."
+          ]
+        }
+      ],
+      "feature": {
+        "quote": "Cada caso migratorio es único: nuestro rol es aclarar tus opciones y conectarte con el equipo legal indicado para avanzar.",
+        "author": "Galli's & Co. — Visas para EE. UU."
+      },
+      "closing": {
+        "eyebrow": "Mapeemos tu ruta",
+        "title": "¿Listo para entender tus opciones en EE. UU.?",
+        "subtitle": "Contanos tus objetivos e identificamos la vía y el abogado adecuados.",
+        "button": "Iniciar mi solicitud de visa"
+      }
+    },
+    "europeanPathways": {
+      "hero": {
+        "eyebrow": "04 · Vías Europeas",
+        "title": "Vías Europeas y Ciudadanía Italiana",
+        "description": "Entre las rutas de ciudadanía de Europa, la italiana sigue siendo una de las más buscadas por quienes tienen ascendencia italiana. Guiamos a las familias en el reconocimiento, la inscripción y la reubicación en la UE.",
+        "badges": ["Jure Sanguinis", "Casos 1948", "AIRE", "Inscripción de menores", "Reubicación"],
+        "primaryCta": "Agendar una evaluación de ciudadanía",
+        "secondaryCta": "Todos los servicios"
+      },
+      "intro": {
+        "eyebrow": "Por qué la ciudadanía italiana",
+        "title": "La ciudadanía italiana es más que herencia: es acceso a los derechos de la membresía en la UE.",
+        "lead": "A través de nuestra alianza con el abogado de ciudadanía italiana Mario Tedesco y su equipo especializado en Italia, brindamos soporte integral: desde el análisis de elegibilidad y la reconstrucción documental hasta los procesos de reconocimiento en todo el mundo. Las reformas recientes hacen que elegir la vía correcta importe más que nunca.",
+        "highlights": [
+          { "title": "Equipo legal italiano", "text": "Coordinación directa con abogados en Italia en cada proceso de reconocimiento." },
+          { "title": "Estrategia caso por caso", "text": "La ruta correcta según la ascendencia, las circunstancias familiares y la ley vigente." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Reconocimiento y reubicación",
+        "title": "Cada ruta hacia el reconocimiento, la inscripción y la vida en Europa.",
+        "subtitle": "La elegibilidad y las implicancias migratorias varían: cada vía se evalúa de forma individual."
+      },
+      "sections": [
+        {
+          "id": "judicial",
+          "eyebrow": "01 · Reconocimiento Judicial",
+          "title": "Reconocimiento Judicial de la Ciudadanía Italiana",
+          "description": "Reconocimiento por vía judicial en Italia, ideal para casos de línea materna y afectados por reformas, con la posibilidad de residir mientras el caso avanza.",
+          "items": [
+            "Casos de línea materna (1948).",
+            "Solicitantes afectados por reformas recientes.",
+            "Casos donde el reconocimiento consular no está disponible.",
+            "Familias que buscan un proceso centralizado por vía judicial."
+          ],
+          "cta": "Agendar una evaluación de ciudadanía"
+        },
+        {
+          "id": "residency",
+          "eyebrow": "02 · Por Residencia",
+          "title": "Reconocimiento por Residencia en Italia",
+          "description": "Establecer residencia en Italia para solicitar el reconocimiento directamente ante el comune local.",
+          "items": [
+            "Estrategia y planificación previa a la llegada.",
+            "Trámites de residencia y ante el comune.",
+            "Coordinación con profesionales locales.",
+            "Gestión de documentación y plazos."
+          ],
+          "cta": "Explorar reconocimiento por residencia"
+        },
+        {
+          "id": "consular",
+          "eyebrow": "03 · Consular (Jure Sanguinis)",
+          "title": "Reconocimiento Consular por Jure Sanguinis",
+          "description": "Reconocimiento ante el consulado italiano competente según tu jurisdicción de residencia.",
+          "items": [
+            "Verificación de elegibilidad.",
+            "Carpetas de solicitud completas.",
+            "Estrategia de jurisdicción y turnos.",
+            "Minimizar demoras y pedidos de documentación."
+          ],
+          "cta": "Verificar mi elegibilidad"
+        },
+        {
+          "id": "minors",
+          "eyebrow": "04 · Hijos Menores",
+          "title": "Inscripción de Hijos Menores",
+          "description": "Inscripción urgente tras la reforma de marzo de 2025, con ventanas transitorias vigentes hasta 2029.",
+          "items": [
+            "Inscripción de nacimiento en el exterior.",
+            "Reconocimiento para menores.",
+            "Presentaciones consulares y alta en Fast It.",
+            "Inscripciones AIRE y legalización de documentos."
+          ],
+          "cta": "Proteger los derechos de ciudadanía de mi hijo"
+        },
+        {
+          "id": "aire",
+          "eyebrow": "05 · Cumplimiento AIRE",
+          "title": "Inscripción AIRE y Cumplimiento Consular",
+          "description": "Mantener tus registros italianos precisos y tu situación consular en regla.",
+          "items": [
+            "Inscripción inicial en AIRE.",
+            "Actualizaciones de domicilio y familia.",
+            "Inscripción de matrimonios, nacimientos y divorcios.",
+            "Gestión de Fast It y cumplimiento consular."
+          ],
+          "cta": "Actualizar mis registros italianos"
+        },
+        {
+          "id": "relocation",
+          "eyebrow": "06 · Reubicación",
+          "title": "Reubicación y Establecimiento en Europa",
+          "description": "Soporte práctico para instalarte y establecerte una vez asegurado tu estatus europeo.",
+          "items": [
+            "Planificación de residencia e inscripciones locales.",
+            "Trámites de identificación fiscal y documentación civil.",
+            "Inscripción en el sistema de salud.",
+            "Coordinación transfronteriza."
+          ],
+          "cta": "Planear mi mudanza a Europa"
+        }
+      ],
+      "feature": {
+        "quote": "Las reformas recientes introdujeron oportunidades con plazos: actuar temprano puede preservar la elegibilidad de tu familia.",
+        "author": "Galli's & Co. — Vías Europeas"
+      },
+      "closing": {
+        "eyebrow": "No esperes al cierre del plazo",
+        "title": "¿Listo para explorar tu vía europea?",
+        "subtitle": "Contanos tu ascendencia y objetivos, e identificamos la ruta que se ajusta a tu caso.",
+        "button": "Agendar una evaluación de ciudadanía"
+      }
+    }
+  },
   "servicesPage": {
     "title": "Servicios",
     "intro": "Cuatro áreas de práctica, un equipo coordinado. Cada servicio lo brindan abogadas especializadas en la jurisdicción y el tipo de caso.",

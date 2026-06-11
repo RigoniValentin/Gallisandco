@@ -205,6 +205,414 @@
       { "id": "reach", "title": "Global reach", "description": "Argentina, Europe and the United States — coordinated under one firm." }
     ]
   },
+  "services": {
+    "internationalMobility": {
+      "hero": {
+        "eyebrow": "01 · International Mobility",
+        "title": "International Mobility to Argentina",
+        "description": "Securing your legal status in Argentina should not feel like a bureaucratic maze. We guide clients from the RaDEX platform and document legalizations through filings, strategy and daily follow-up, so they can focus on their new life, investment or career.",
+        "badges": ["DNU 366/2025", "RaDEX", "RENURE", "SMVM", "Residency", "Citizenship"],
+        "primaryCta": "Book your strategy session",
+        "secondaryCta": "All services"
+      },
+      "intro": {
+        "eyebrow": "Residency & immigration",
+        "title": "International mobility to Argentina is a legal strategy, not just a move.",
+        "lead": "From the cultural depth of Buenos Aires to the landscapes of Mendoza and Patagonia, Argentina attracts people, families and companies looking for a meaningful place to build. We manage the route end to end — intake, risk review, legalizations, RaDEX workflow, filings and daily monitoring — until the file reaches the result it needs, under current rules including DNU 366/2025.",
+        "highlights": [
+          { "title": "The legal lens", "text": "Dossier structure, evidence thresholds and pathway selection settled before anything is filed." },
+          { "title": "The operational lens", "text": "RaDEX setup, legalizations and daily monitoring until the DNI is in hand." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Service pathways",
+        "title": "Every route to legal status, coordinated in a single file.",
+        "subtitle": "From temporary residency to citizenship — we map the pathway you can actually sustain under current immigration rules."
+      },
+      "sections": [
+        {
+          "id": "temporary",
+          "eyebrow": "01 · Temporary Residency",
+          "title": "Temporary Residency",
+          "description": "Usually the first step: renewable legal status — typically one year, in some cases up to three — plus a temporary Argentine DNI.",
+          "items": [
+            "Rentista — verified passive income or investment returns generated outside Argentina.",
+            "Pensioner — a steady official pension from a foreign government or international organization.",
+            "Migrant Worker — a registered corporate contract or formal job offer with an Argentine employer.",
+            "Investor — a productive local investment or project of national interest, reviewed against the current threshold.",
+            "Student, Scientists & Specialized Staff — enrollment or specialized technical contracts with recognized institutions.",
+            "Athletes & Artists — creatives and athletes officially contracted by local institutions.",
+            "MERCOSUR Citizens — a simplified fast-track residence for member and associate state nationals.",
+            "Medical Treatment & Humanitarian Grounds — coverage for patients, families and protected persons."
+          ],
+          "cta": "Review residency routes"
+        },
+        {
+          "id": "permanent",
+          "eyebrow": "02 · Permanent Residency",
+          "title": "Permanent Residency",
+          "description": "An indefinite status for those establishing roots in Argentina, with a lifelong unrestricted DNI.",
+          "items": [
+            "Family Ties — spouse, parent or child of a native or naturalized Argentine, or of a permanent resident.",
+            "Children of Argentines — born abroad to Argentine parents, by operation of law where applicable.",
+            "Arraigo (Track Record) — after continuous lawful temporary residence: two years MERCOSUR, three years non-MERCOSUR.",
+            "Diplomats — former foreign officials who concluded their duties and met the local track record.",
+            "Refugees — individuals recognized by CONARE who met the required residency timelines."
+          ]
+        },
+        {
+          "id": "citizenship",
+          "eyebrow": "03 · Argentine Citizenship",
+          "title": "Argentine Citizenship",
+          "description": "Citizenship is handled as a separate strategic path, with documentary rigor and legal timing aligned to the route you can actually support.",
+          "items": [
+            "Naturalization assessed through lawful residence, identity proof and civil-status records.",
+            "Investment-led strategies reviewed for source of funds and traceability under current criteria.",
+            "A documentary file built to sustain the petition before the competent authority."
+          ],
+          "cta": "Assess my citizenship path"
+        },
+        {
+          "id": "audit",
+          "eyebrow": "04 · The Galli's & Co. Audit",
+          "title": "The legal filter before anything is filed",
+          "description": "We do not just assemble paperwork. We audit the file first — the legal route, the immigration basis, the document chain, the income evidence, the platform workflow and the fallback strategy if the case becomes contested.",
+          "items": [
+            "Route selection under DNU 366/2025.",
+            "RaDEX setup and daily monitoring.",
+            "Document legalizations, apostilles and certified translations.",
+            "Income-source review and SMVM-based threshold checks.",
+            "RENURE and administrative-litigation fallback analysis."
+          ]
+        }
+      ],
+      "feature": {
+        "quote": "The move feels fluid because the file is controlled — every threshold mapped before a single document is submitted.",
+        "author": "Galli's & Co. — International Mobility"
+      },
+      "closing": {
+        "eyebrow": "Ready when you are",
+        "title": "Ready to secure your Argentine status?",
+        "subtitle": "Book a strategy session and we will map the cleanest route for your case.",
+        "button": "Book your strategy session"
+      }
+    },
+    "argentineLegalRepresentation": {
+      "hero": {
+        "eyebrow": "02 · Argentine Legal Representation",
+        "title": "Argentine Legal Representation",
+        "description": "Domestic legal firepower for international cases. We represent foreign clients, families and companies before Argentine courts and public agencies — often the missing piece in complex cross-border files.",
+        "badges": ["Litigation", "Administrative", "Civil", "Documentation", "Corporate", "Real Estate"],
+        "primaryCta": "Discuss your case",
+        "secondaryCta": "All services"
+      },
+      "intro": {
+        "eyebrow": "Local counsel, global cases",
+        "title": "When a case touches Argentina, you need senior representation on the ground.",
+        "lead": "We act before Argentine courts and public agencies, and coordinate with a trusted interdisciplinary network so every front of your case advances together — under a single strategy and a single point of contact.",
+        "highlights": [
+          { "title": "Coordinated strategy", "text": "One firm steering litigation, administrative and civil matters under one plan." },
+          { "title": "Interdisciplinary network", "text": "Tax, labor, real-estate, criminal and corporate specialists, plus partner firms in Europe and the U.S." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Practice areas",
+        "title": "Representation across the matters that move your file forward.",
+        "subtitle": "Each area is handled by attorneys who specialize in the jurisdiction and the type of dispute."
+      },
+      "sections": [
+        {
+          "id": "litigation",
+          "eyebrow": "01 · Litigation",
+          "title": "Litigation & Dispute Resolution",
+          "description": "Strategic representation in contentious matters before Argentine courts, from first instance through appeals.",
+          "items": [
+            "Civil and commercial litigation.",
+            "Enforcement of foreign judgments and awards.",
+            "Injunctions and precautionary measures.",
+            "Appeals and higher-court strategy."
+          ],
+          "cta": "Discuss your dispute"
+        },
+        {
+          "id": "administrative",
+          "eyebrow": "02 · Administrative Proceedings",
+          "title": "Administrative Proceedings",
+          "description": "Representation before public agencies, including migration-linked and regulatory matters.",
+          "items": [
+            "Migration and RENAPER-related matters.",
+            "Regulatory filings before public agencies.",
+            "Administrative appeals and remedies.",
+            "RaDEX and immigration-linked proceedings."
+          ]
+        },
+        {
+          "id": "civil",
+          "eyebrow": "03 · Civil Matters",
+          "title": "Civil Matters",
+          "description": "Everyday and high-stakes civil work for individuals, families and companies with interests in Argentina.",
+          "items": [
+            "Family and succession matters.",
+            "Real-estate transactions and disputes.",
+            "Contracts and obligations.",
+            "Civil-status and document rectification."
+          ]
+        },
+        {
+          "id": "documentation",
+          "eyebrow": "04 · Legal Documentation",
+          "title": "Legal Documentation Issues",
+          "description": "Resolving the missing, defective or contested records that block cross-border files.",
+          "items": [
+            "Missing or defective civil records.",
+            "Apostilles and legalizations.",
+            "Certified translations.",
+            "Reconstruction of civil records."
+          ],
+          "cta": "Resolve a documentation issue"
+        },
+        {
+          "id": "network",
+          "eyebrow": "05 · Interdisciplinary Network",
+          "title": "Coordinated multi-disciplinary support",
+          "description": "When a matter reaches beyond our core practice, we bring in trusted specialists and steer them as one team.",
+          "items": [
+            "Tax and labor counsel.",
+            "Corporate and real-estate practitioners.",
+            "Criminal-law specialists.",
+            "Partner firms in Europe and the United States."
+          ]
+        }
+      ],
+      "feature": {
+        "quote": "Domestic legal firepower, coordinated across jurisdictions — so the Argentine front of your case is never the weak link.",
+        "author": "Galli's & Co. — Argentine Legal Representation"
+      },
+      "closing": {
+        "eyebrow": "Let's review your matter",
+        "title": "Have a case that touches Argentina?",
+        "subtitle": "Tell us about your situation and we will design a clear strategy across every front.",
+        "button": "Discuss your case"
+      }
+    },
+    "usVisaGuidance": {
+      "hero": {
+        "eyebrow": "03 · U.S. Visa Guidance",
+        "title": "U.S. Visa Guidance & Immigration Pathways",
+        "description": "The United States offers a wide range of temporary and permanent options. We help individuals, families, entrepreneurs and professionals find the right pathway and connect with trusted U.S. immigration attorneys.",
+        "badges": ["B-1/B-2", "DS-160", "E-2", "EB-5", "Family-Based", "Employment"],
+        "primaryCta": "Start my visa application",
+        "secondaryCta": "All services"
+      },
+      "intro": {
+        "eyebrow": "Navigating U.S. immigration",
+        "title": "Understanding which pathway fits your goals is the first and most important step.",
+        "lead": "Our founder previously worked with U.S. immigration law firms across visitor visas, family-based immigration, naturalization, investor and employment-based pathways. That experience lets us identify the right strategy and connect you with experienced counsel.",
+        "highlights": [
+          { "title": "Practical experience", "text": "Hands-on understanding of the consular and USCIS systems." },
+          { "title": "Trusted network", "text": "Carefully selected U.S. immigration attorneys matched to your case." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Immigration pathways",
+        "title": "From a short visit to long-term residency — mapped to your objectives.",
+        "subtitle": "Each pathway is explained with the scope we cover and the legal partners we coordinate."
+      },
+      "sections": [
+        {
+          "id": "visitor",
+          "eyebrow": "01 · Visitor Visas",
+          "title": "B-1/B-2 Visitor Visa Guidance",
+          "description": "End-to-end support for tourism and business visitor applications, including difficult histories.",
+          "items": [
+            "Eligibility assessments.",
+            "DS-160 preparation and review.",
+            "Application strategy and documentation.",
+            "Consular interview preparation.",
+            "Prior-refusal assessments and complex histories.",
+            "Visa renewals."
+          ],
+          "cta": "Start my visitor visa application"
+        },
+        {
+          "id": "business",
+          "eyebrow": "02 · Business & Investment",
+          "title": "Business & Investment Pathways",
+          "description": "Options for entrepreneurs and investors planning to operate in or relocate to the United States.",
+          "items": [
+            "E-2 Treaty Investor visas.",
+            "EB-5 Investor immigration.",
+            "Business expansion and relocation.",
+            "Entrepreneur-focused options.",
+            "Residency planning through investment."
+          ]
+        },
+        {
+          "id": "family",
+          "eyebrow": "03 · Family & Citizenship",
+          "title": "Family-Based Immigration & Citizenship",
+          "description": "Reuniting families and securing long-term status through family ties and naturalization.",
+          "items": [
+            "Immediate relative petitions.",
+            "Family preference categories.",
+            "Marriage-based immigration.",
+            "Naturalization and U.S. citizenship.",
+            "Citizenship eligibility assessments."
+          ]
+        },
+        {
+          "id": "employment",
+          "eyebrow": "04 · Employment-Based",
+          "title": "Employment-Based Pathways",
+          "description": "Routes for skilled and professional workers seeking sponsored, long-term residency.",
+          "items": [
+            "EB-3 employment-based immigration.",
+            "Employer-sponsored pathways.",
+            "Skilled-worker categories.",
+            "Professional categories.",
+            "Long-term residency strategies."
+          ]
+        },
+        {
+          "id": "additional",
+          "eyebrow": "05 · Additional Matters",
+          "title": "Additional Immigration Matters",
+          "description": "The procedural and record-related work that keeps a case on track.",
+          "items": [
+            "Adjustment and change of status.",
+            "Consular processing.",
+            "FOIA and USCIS record retrieval.",
+            "Travel documents and re-entry permits.",
+            "Waivers and complex case histories."
+          ]
+        }
+      ],
+      "feature": {
+        "quote": "Every immigration case is unique — our role is to clarify your options and connect you with the right legal team to move forward.",
+        "author": "Galli's & Co. — U.S. Visa Guidance"
+      },
+      "closing": {
+        "eyebrow": "Let's map your route",
+        "title": "Ready to understand your U.S. options?",
+        "subtitle": "Tell us about your goals and we will identify the right pathway and the right counsel.",
+        "button": "Start my visa application"
+      }
+    },
+    "europeanPathways": {
+      "hero": {
+        "eyebrow": "04 · European Pathways",
+        "title": "European Pathways & Italian Citizenship",
+        "description": "Among Europe's citizenship routes, Italian citizenship remains one of the most sought-after for those with Italian ancestry. We guide families through recognition, registration and relocation across the EU.",
+        "badges": ["Jure Sanguinis", "1948 Cases", "AIRE", "Minor Registration", "Relocation"],
+        "primaryCta": "Schedule a citizenship assessment",
+        "secondaryCta": "All services"
+      },
+      "intro": {
+        "eyebrow": "Why Italian citizenship",
+        "title": "Italian citizenship is more than heritage — it is access to the rights of EU membership.",
+        "lead": "Through our partnership with Italian citizenship attorney Mario Tedesco and his specialized team in Italy, we provide end-to-end support — from eligibility analysis and document reconstruction to recognition proceedings worldwide. Recent reforms mean choosing the right pathway matters more than ever.",
+        "highlights": [
+          { "title": "Italian legal team", "text": "Direct coordination with counsel in Italy on every recognition proceeding." },
+          { "title": "Case-by-case strategy", "text": "The right route based on ancestry, family circumstances and current law." }
+        ]
+      },
+      "sectionsHeading": {
+        "eyebrow": "Recognition & relocation",
+        "title": "Every route to recognition, registration and life in Europe.",
+        "subtitle": "Eligibility and immigration implications vary — each pathway is assessed individually."
+      },
+      "sections": [
+        {
+          "id": "judicial",
+          "eyebrow": "01 · Judicial Recognition",
+          "title": "Judicial Recognition of Italian Citizenship",
+          "description": "Court-based recognition in Italy, ideal for maternal-line and reform-affected cases, with the possibility of residing while the case proceeds.",
+          "items": [
+            "1948 maternal-line cases.",
+            "Applicants affected by recent reforms.",
+            "Cases where consular recognition is unavailable.",
+            "Families seeking a centralized, court-led process."
+          ],
+          "cta": "Schedule a citizenship assessment"
+        },
+        {
+          "id": "residency",
+          "eyebrow": "02 · Residency-Based",
+          "title": "Recognition Through Residency in Italy",
+          "description": "Establishing residency in Italy to pursue recognition directly before the local comune.",
+          "items": [
+            "Pre-arrival strategy and planning.",
+            "Residency and comune procedures.",
+            "Coordination with local professionals.",
+            "Documentation and timeline management."
+          ],
+          "cta": "Explore residency-based recognition"
+        },
+        {
+          "id": "consular",
+          "eyebrow": "03 · Consular (Jure Sanguinis)",
+          "title": "Consular Recognition of Jure Sanguinis",
+          "description": "Recognition through the competent Italian consulate based on your jurisdiction of residence.",
+          "items": [
+            "Eligibility verification.",
+            "Complete application packages.",
+            "Jurisdiction and appointment strategy.",
+            "Minimizing delays and document requests."
+          ],
+          "cta": "Verify my eligibility"
+        },
+        {
+          "id": "minors",
+          "eyebrow": "04 · Minor Children",
+          "title": "Registration of Minor Children",
+          "description": "Time-sensitive registration following the March 2025 reform, with transitional windows running through 2029.",
+          "items": [
+            "Birth registration abroad.",
+            "Recognition for minors.",
+            "Consular filings and Fast It setup.",
+            "AIRE registrations and document legalization."
+          ],
+          "cta": "Protect my child's citizenship rights"
+        },
+        {
+          "id": "aire",
+          "eyebrow": "05 · AIRE Compliance",
+          "title": "AIRE Registration & Consular Compliance",
+          "description": "Keeping your Italian records accurate and your consular standing in order.",
+          "items": [
+            "Initial AIRE registration.",
+            "Address and family updates.",
+            "Marriage, birth and divorce registrations.",
+            "Fast It management and consular compliance."
+          ],
+          "cta": "Update my Italian records"
+        },
+        {
+          "id": "relocation",
+          "eyebrow": "06 · Relocation",
+          "title": "European Relocation & Establishment",
+          "description": "Practical support to settle and establish yourself once your European status is secured.",
+          "items": [
+            "Residency planning and local registrations.",
+            "Tax-ID procedures and civil documentation.",
+            "Healthcare registration.",
+            "Cross-border coordination."
+          ],
+          "cta": "Plan my move to Europe"
+        }
+      ],
+      "feature": {
+        "quote": "Recent reforms have introduced time-sensitive opportunities — early action can preserve your family's eligibility.",
+        "author": "Galli's & Co. — European Pathways"
+      },
+      "closing": {
+        "eyebrow": "Don't wait until the deadline",
+        "title": "Ready to explore your European pathway?",
+        "subtitle": "Tell us about your ancestry and goals, and we will identify the route that fits your case.",
+        "button": "Schedule a citizenship assessment"
+      }
+    }
+  },
   "servicesPage": {
     "title": "Services",
     "intro": "Four practice areas, one coordinated team. Each service is delivered by attorneys who specialize in the jurisdiction and the type of case.",
