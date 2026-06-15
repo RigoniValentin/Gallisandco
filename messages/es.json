@@ -17,7 +17,7 @@
     "eyebrow": "Una sola firma",
     "headlineLine1": "Una sola firma.",
     "headlineLine2": "Movilidad global, soluciones locales.",
-    "subtitle": "Migración internacional, estrategia legal transfronteriza y representación jurídica en Argentina — todo en un mismo lugar.",
+    "subtitle": "Migración internacional, estrategia legal transfronteriza y representación jurídica en Argentina. Todo en un mismo lugar.",
     "subtitleAlt": "Asesoramiento legal integral para personas, familias y empresas que atraviesan transiciones internacionales.",
     "primaryCta": "Agendar consulta",
     "secondaryCta": "Iniciar tu proceso",
@@ -34,7 +34,7 @@
   "whoWeAre": {
     "eyebrow": "Quiénes somos",
     "title": "Un equipo, una vision compartida",
-    "paragraph1": "Fundada por dos hermanas — “Las Hermanas Galli” — abogadas con más de 15 años de experiencia profesional combinada y cientos de casos exitosos, nuestra firma nació de la convicción de que las transiciones internacionales requieren tanto estrategia legal como verdadera comprensión humana.",
+    "paragraph1": "Fundada por dos hermanas  “Las Hermanas Galli”  abogadas con más de 15 años de experiencia profesional combinada y cientos de casos exitosos, nuestra firma nació de la convicción de que las transiciones internacionales requieren tanto estrategia legal como verdadera comprensión humana.",
     "paragraph2": "Habiendo vivido en primera persona el proceso de residir y atravesar sistemas legales en el extranjero, una de nosotras comprende la incertidumbre, los desafíos y las emociones que implica construir una vida en otro país. Su práctica se enfoca en migración internacional, movilidad global y asuntos legales transfronterizos.",
     "paragraph3": "La otra, graduada con honores, desarrolló su carrera en el ámbito público y privado del derecho en Argentina, incluyendo experiencia en el Tribunal Superior de Justicia de Córdoba como relatora, contribuyendo directamente a la redacción y desarrollo de decisiones judiciales. Su formación aporta la solidez jurídica y litigiosa que muchos asuntos internacionales requieren.",
     "fullBioCta": "Ver biografía completa",
@@ -42,7 +42,7 @@
       {
         "id": "i-galli",
         "name": "I. Galli",
-        "role": "CEO · Derecho civil, comercial y de familia",
+        "role": "FUNDADORA · Derecho civil, comercial y de familia",
         "summary": "Abogada, con formación en derecho civil, comercial y de familia.",
         "bio": "Me gradué a los 23 años en la Facultad de Derecho de la Universidad Nacional de Córdoba como egresada sobresaliente e integré el Cuadro de Honor de la facultad. Actualmente continúo mi formación de posgrado, con la certeza de que el aprendizaje constante es una parte esencial del ejercicio profesional.",
         "alt": "Retrato de I. Galli, abogada de Galli's & Co.",
@@ -51,7 +51,7 @@
       {
         "id": "victoria-galli",
         "name": "Victoria Galli",
-        "role": "CEO · Movilidad internacional y ciudadanía",
+        "role": "FUNDADORA · Movilidad internacional y ciudadanía",
         "summary": "Abogada argentina especializada en Movilidad Internacional.",
         "bio": "Graduada de la Facultad de Derecho de la Universidad Nacional de Córdoba a los 23 años, especializada en Movilidad Internacional, con enfoque en los sistemas migratorios y de ciudadanía de Argentina, Italia, España y otros países. Orgullosa ciudadana argentina e italiana, aporto tanto experiencia personal como profesional a Galli's & CO.",
         "alt": "Retrato de Victoria Galli, abogada de Galli's & Co.",
@@ -116,7 +116,7 @@
     ]
   },
   "whyUs": {
-    "eyebrow": "Por qué nosotras",
+    "eyebrow": "Por qué nosotros",
     "title": "Por qué los clientes nos eligen",
     "subtitle": "Tres motivos por los que nos confían los casos que otras firmas consideran sin solución.",
     "items": [
@@ -137,10 +137,10 @@
     "subtitle": "Cuatro áreas de práctica, un equipo coordinado. Elegí el área que mejor responde a tu objetivo.",
     "selectLabel": "Seleccionar servicio:",
     "services": [
-      { "id": "international", "eyebrow": "Movilidad internacional", "title": "Residencia y ciudadanía argentinas", "summary": "Asesoramiento integral para personas, familias y empresas que se mudan a Argentina o que operan desde allí. Estrategia, documentación, trámites y apoyo continuo.", "detail": "Residencia · Ciudadanía · Reubicación · Cross-border", "cta": "Ver más" },
-      { "id": "litigation", "eyebrow": "Representación legal en Argentina", "title": "Representación Legal en Argentina", "summary": "Litigios, procedimientos administrativos, asuntos civiles y problemas documentales — fuerza jurídica local para casos internacionales.", "detail": "Litigios · Administrativo · Civil · Documental", "cta": "Ver más" },
-      { "id": "usa", "eyebrow": "Visas para EE. UU.", "title": "Visas para EE. UU.", "summary": "Visas B1/B2, preparación del DS-160, estrategia de entrevista y guía consular — evidencia sólida y tiempos claros.", "detail": "B1/B2 · DS-160 · Entrevista · Consular", "cta": "Ver más" },
-      { "id": "european", "eyebrow": "Rutas europeas", "title": "Rutas Europeas", "summary": "Ciudadanía italiana, residencia por ascendencia, opciones de residencia europea y investigación de documentos para casos genealógicos complejos.", "detail": "Ciudadanía italiana · Residencia · Documentación", "cta": "Ver más" }
+      { "id": "international", "eyebrow": "Movilidad internacional", "title": "Residencia y ciudadanía argentinas", "summary": "Asesoramiento integral para personas, familias y empresas que se mudan a Argentina o que operan desde allí. Estrategia, documentación, trámites y apoyo continuo.", "detail": "Nómada digital · Residencia · Ciudadanía · Reubicación", "cta": "Ver más" },
+      { "id": "litigation", "eyebrow": "Representación legal en Argentina", "title": "Representación Legal en Argentina", "summary": "Litigios, procedimientos administrativos, asuntos civiles y problemas documentales  fuerza jurídica local para casos internacionales.", "detail": "Litigios · Administrativo · Civil · Documental", "cta": "Ver más" },
+      { "id": "european", "eyebrow": "Rutas europeas", "title": "Rutas Europeas", "summary": "Ciudadanía italiana, residencia por ascendencia, opciones de residencia europea y investigación de documentos para casos genealógicos complejos.", "detail": "Ciudadanía italiana · Residencia · Documentación", "cta": "Ver más" },
+      { "id": "usa", "eyebrow": "Visas para EE. UU.", "title": "Visas para EE. UU.", "summary": "Visas B1/B2, preparación del DS-160, estrategia de entrevista y guía consular  evidencia sólida y tiempos claros.", "detail": "B1/B2 · DS-160 · Entrevista · Consular", "cta": "Ver más" }
     ],
     "ctaTitle": "¿No estás segura/o de tu camino?",
     "ctaText": "Agendá una consulta y mapeamos jurisdicción, documentos y tiempos juntos.",
@@ -187,7 +187,7 @@
   "finalCta": {
     "eyebrow": "Iniciá tu camino",
     "title": "Tu camino internacional merece una estrategia legal sólida",
-    "subtitle": "Desde la primera consulta hasta la resolución final, estamos a tu lado — con rigor internacional y entendimiento humano.",
+    "subtitle": "Desde la primera consulta hasta la resolución final, estamos a tu lado  con rigor internacional y entendimiento humano.",
     "primary": "Agendar consulta",
     "secondary": "Contactanos"
   },
@@ -195,13 +195,13 @@
     "title": "Sobre Galli's & Co.",
     "intro": "Una firma boutique internacional especializada en movilidad global y resolución de situaciones legales complejas. Existimos para los casos donde estrategia, derecho y comprensión humana deben converger.",
     "missionTitle": "Nuestra misión",
-    "mission": "Hacer que las transiciones internacionales sean más claras, seguras y humanas — combinando precisión legal con la empatía de quien vivió la experiencia.",
+    "mission": "Hacer que las transiciones internacionales sean más claras, seguras y humanas  combinando precisión legal con la empatía de quien vivió la experiencia.",
     "valuesTitle": "Nuestros valores",
     "values": [
       { "id": "rigor", "title": "Rigor jurídico", "description": "Análisis metódico, estrategia documentada y sin atajos." },
       { "id": "humanity", "title": "Brújula humana", "description": "Detrás de cada expediente hay una familia, un proyecto, una vida." },
       { "id": "discretion", "title": "Discreción", "description": "Atención senior, trato confidencial, estándares de boutique." },
-      { "id": "reach", "title": "Alcance global", "description": "Argentina, Europa y Estados Unidos — coordinados desde una misma firma." }
+      { "id": "reach", "title": "Alcance global", "description": "Argentina, Europa y Estados Unidos  coordinados desde una misma firma." }
     ]
   },
   "services": {
@@ -210,14 +210,14 @@
         "eyebrow": "01 · Movilidad Internacional",
         "title": "Movilidad Internacional hacia Argentina",
         "description": "Asegurar tu situación legal en Argentina no debería sentirse como un laberinto burocrático. Acompañamos a cada cliente desde RaDEX y la legalización documental hasta las presentaciones, la estrategia y el seguimiento diario, para que pueda enfocarse en su nueva vida, inversión o carrera.",
-        "badges": ["DNU 366/2025", "RaDEX", "RENURE", "SMVM", "Residencia", "Ciudadanía"],
+        "badges": ["Digital Nomad", "Residency, Citizenship", "DNU 366/2025", "RaDEX", "Renure"],
         "primaryCta": "Reservar sesión estratégica",
         "secondaryCta": "Todos los servicios"
       },
       "intro": {
         "eyebrow": "Residencia e inmigración",
         "title": "La movilidad internacional hacia Argentina es una estrategia legal, no solo una mudanza.",
-        "lead": "Desde la profundidad cultural de Buenos Aires hasta los paisajes de Mendoza y Patagonia, Argentina atrae a personas, familias y empresas que buscan construir algo duradero. Gestionamos el recorrido de punta a punta —admisión, revisión de riesgo, legalizaciones, flujo de RaDEX, presentaciones y monitoreo diario— hasta que el expediente alcanza el resultado necesario, bajo la normativa vigente incluido el DNU 366/2025.",
+        "lead": "Desde la profundidad cultural de Buenos Aires hasta los paisajes de Mendoza y Patagonia, Argentina atrae a personas, familias y empresas que buscan construir algo duradero. Gestionamos el recorrido de punta a punta admisión, revisión de riesgo, legalizaciones, flujo de RaDEX, presentaciones y monitoreo diario hasta que el expediente alcanza el resultado necesario, bajo la normativa vigente incluido el DNU 366/2025.",
         "highlights": [
           { "title": "La mirada legal", "text": "Estructura del legajo, umbrales probatorios y selección de vía resueltos antes de presentar nada." },
           { "title": "La mirada operativa", "text": "Alta en RaDEX, legalizaciones y monitoreo diario hasta tener el DNI en mano." }
@@ -225,45 +225,56 @@
       },
       "sectionsHeading": {
         "eyebrow": "Vías de servicio",
-        "title": "Cada ruta hacia el estatus legal, coordinada en un único expediente.",
-        "subtitle": "De la residencia temporaria a la ciudadanía: mapeamos la vía que realmente podés sostener bajo la normativa migratoria vigente."
+        "title": "Rutas hacia el estatus legal, coordinada en un único expediente.",
+        "subtitle": "Desde Nómada Digital hasta la ciudadanía, te guiamos a través de los cinco pilares de la migración argentina."
       },
       "sections": [
         {
-          "id": "temporary",
-          "eyebrow": "01 · Residencia Temporaria",
-          "title": "Residencia Temporaria",
-          "description": "Suele ser el primer paso: estatus renovable —normalmente un año, en algunos casos hasta tres— junto con un DNI argentino temporario.",
+          "id": "digitalNomad",
+          "eyebrow": "01 · Nómada Digital",
+          "title": "Nómada Digital",
+          "description": "Libertad para trabajar, flexibilidad para explorar. Permiso transitorio para quienes quieren probar el terreno o simplemente disfrutar del estilo de vida argentino mientras trabajan para el mundo.",
           "items": [
-            "Rentista — ingresos pasivos o rendimientos de inversión verificados y generados fuera de Argentina.",
-            "Pensionado — una pensión oficial y estable de un gobierno extranjero o de un organismo internacional.",
-            "Trabajador migrante — contrato corporativo registrado u oferta laboral formal con empleador argentino.",
-            "Inversionista — inversión productiva local o proyecto de interés nacional, revisado bajo el umbral vigente.",
-            "Estudiantes, científicos y personal especializado — matrícula o contratos técnicos especializados con instituciones reconocidas.",
-            "Deportistas y artistas — creativos y atletas contratados oficialmente por instituciones locales.",
-            "Ciudadanos MERCOSUR — vía simplificada y acelerada para nacionales de Estados miembros y asociados.",
-            "Tratamiento médico y razones humanitarias — cobertura para pacientes, familias y personas protegidas."
+            "Trabajador remoto.",
+            "Freelancer.",
+            "Propietarios de negocios.",
+            "Renovable 180 días."
+          ]
+        },
+        {
+          "id": "temporary",
+          "eyebrow": "02 · Residencia Temporaria",
+          "title": "Residencia Temporaria",
+          "description": "Suele ser el primer paso: estatus renovable normalmente un año, en algunos casos hasta tres junto con un DNI argentino temporario.",
+          "items": [
+            "Rentista  ingresos pasivos o rendimientos de inversión verificados y generados fuera de Argentina.",
+            "Pensionado  una pensión oficial y estable de un gobierno extranjero o de un organismo internacional.",
+            "Trabajador migrante  contrato corporativo registrado u oferta laboral formal con empleador argentino.",
+            "Inversionista  inversión productiva local o proyecto de interés nacional, revisado bajo el umbral vigente.",
+            "Estudiantes, científicos y personal especializado  matrícula o contratos técnicos especializados con instituciones reconocidas.",
+            "Deportistas y artistas  creativos y atletas contratados oficialmente por instituciones locales.",
+            "Ciudadanos MERCOSUR  vía simplificada y acelerada para nacionales de Estados miembros y asociados.",
+            "Tratamiento médico y razones humanitarias  cobertura para pacientes, familias y personas protegidas."
           ],
           "cta": "Ver vías de residencia"
         },
         {
           "id": "permanent",
-          "eyebrow": "02 · Residencia Permanente",
+          "eyebrow": "03 · Residencia Permanente",
           "title": "Residencia Permanente",
           "description": "Un estatus indefinido para quienes establecen arraigo en Argentina, con un DNI permanente y sin restricciones de plazo.",
           "items": [
-            "Vínculos familiares — cónyuge, padre/madre o hijo de argentino nativo o naturalizado, o de un residente permanente.",
-            "Hijos de argentinos — nacidos en el exterior de padre o madre argentinos, de pleno derecho cuando corresponde.",
-            "Arraigo — luego de residencia temporaria legal continua: dos años MERCOSUR, tres años no MERCOSUR.",
-            "Diplomáticos — exfuncionarios extranjeros que concluyeron sus funciones y acreditaron el arraigo local.",
-            "Personas refugiadas — individuos reconocidos por CONARE que cumplieron los plazos residenciales exigidos."
+            "Hijos de argentinos  nacidos en el exterior de padre o madre argentinos, de pleno derecho cuando corresponde.",
+            "Arraigo  luego de residencia temporaria legal continua: dos años MERCOSUR, tres años no MERCOSUR.",
+            "Diplomáticos  exfuncionarios extranjeros que concluyeron sus funciones y acreditaron el arraigo local.",
+            "Personas refugiadas  individuos reconocidos por CONARE que cumplieron los plazos residenciales exigidos."
           ]
         },
         {
           "id": "citizenship",
-          "eyebrow": "03 · Ciudadanía Argentina",
+          "eyebrow": "04 · Ciudadanía Argentina",
           "title": "Ciudadanía Argentina",
-          "description": "La ciudadanía se maneja como una vía estratégica separada, con rigor documental y tiempos legales alineados con la ruta que realmente podés sostener.",
+          "description": "Convertirse en ciudadano argentino otorga acceso a uno de los pasaportes más fuertes del mundo, con entrada sin visa a más de 170 países.",
           "items": [
             "Naturalización evaluada a partir de la residencia legal, la prueba de identidad y las partidas civiles.",
             "Estrategias vinculadas a inversión revisadas por origen de fondos y trazabilidad bajo los criterios vigentes.",
@@ -273,21 +284,20 @@
         },
         {
           "id": "audit",
-          "eyebrow": "04 · La Auditoría Galli's & Co.",
+          "eyebrow": "05 · La Auditoría Galli's & Co.",
           "title": "El filtro legal antes de presentar cualquier cosa",
-          "description": "No nos limitamos a armar papeles. Primero auditamos el expediente: la vía legal, la base migratoria, la cadena documental, la prueba de ingresos, el flujo de plataforma y la estrategia de respaldo si el caso se complica.",
+          "description": "Auditamos proactivamente sus documentos, creamos su expediente legal y supervisamos su caso a diario hasta que reciba su notificación física de DNI en su domicilio.",
           "items": [
-            "Selección de vía bajo DNU 366/2025.",
-            "Alta y seguimiento diario en RaDEX.",
-            "Legalizaciones, apostillas y traducciones certificadas.",
-            "Revisión de origen de fondos y control de umbrales SMVM.",
-            "Análisis de RENURE y de respaldo administrativo-contencioso."
+            "Cumplimiento: Validamos tu Seguro de Salud obligatorio con cobertura local y redactamos tu Declaración Jurada de Propósito para asegurar un ingreso sin inconvenientes.",
+            "Blindaje documental: Revisamos legalizaciones, traducciones y antecedentes penales extranjeros (incluidas condenas no firmes) antes de la presentación en RaDEX.",
+            "Seguimiento estratégico: Monitoreo diario de tu expediente en RaDEX y configuración de tu domicilio electrónico obligatorio para notificaciones vinculantes.",
+            "Perspectiva global: Conectamos tu residencia con soluciones legales globales en planificación tributaria, real estate y derecho sucesorio."
           ]
         }
       ],
       "feature": {
-        "quote": "El traslado se siente fluido porque el expediente está controlado: cada umbral mapeado antes de presentar un solo documento.",
-        "author": "Galli's & Co. — Movilidad Internacional"
+        "quote": "Las transiciones internacionales exitosas comienzan mucho antes de que se presente una solicitud. Ayudamos a nuestros clientes a comprender el camino que tienen por delante, anticipar los desafíos y avanzar con confianza.",
+        "author": "Galli's & Co.  Movilidad Internacional"
       },
       "closing": {
         "eyebrow": "Cuando estés listo",
@@ -317,13 +327,13 @@
       "sectionsHeading": {
         "eyebrow": "Áreas de práctica",
         "title": "Representación en las materias que hacen avanzar tu expediente.",
-        "subtitle": "Cada área la manejan abogados especializados en la jurisdicción y el tipo de disputa."
+        "subtitle": "Cada área la manejan abogados especializados en la jurisdicción y el tipo de caso."
       },
       "sections": [
         {
           "id": "litigation",
           "eyebrow": "01 · Litigios",
-          "title": "Litigios y Resolución de Disputas",
+          "title": "Litigios y Resolución de Casos",
           "description": "Representación estratégica en materia contenciosa ante tribunales argentinos, desde primera instancia hasta apelaciones.",
           "items": [
             "Litigios civiles y comerciales.",
@@ -331,7 +341,7 @@
             "Medidas cautelares y precautorias.",
             "Apelaciones y estrategia ante instancias superiores."
           ],
-          "cta": "Consultar tu disputa"
+          "cta": "Consultar tu caso"
         },
         {
           "id": "administrative",
@@ -352,7 +362,7 @@
           "description": "Trabajo civil cotidiano y de alto impacto para personas, familias y empresas con intereses en Argentina.",
           "items": [
             "Familia y sucesiones.",
-            "Operaciones y disputas inmobiliarias.",
+            "Operaciones y casos inmobiliarios.",
             "Contratos y obligaciones.",
             "Estado civil y rectificación de documentos."
           ]
@@ -385,7 +395,7 @@
       ],
       "feature": {
         "quote": "Potencia jurídica local, coordinada entre jurisdicciones, para que el frente argentino de tu caso nunca sea el eslabón débil.",
-        "author": "Galli's & Co. — Representación Legal Argentina"
+        "author": "Galli's & Co.  Representación Legal Argentina"
       },
       "closing": {
         "eyebrow": "Revisemos tu asunto",
@@ -414,8 +424,7 @@
       },
       "sectionsHeading": {
         "eyebrow": "Vías migratorias",
-        "title": "De una visita breve a la residencia de largo plazo, según tus objetivos.",
-        "subtitle": "Cada vía se explica con el alcance que cubrimos y los socios legales que coordinamos."
+        "title": "De una visita breve a la residencia de largo plazo, según tus objetivos."
       },
       "sections": [
         {
@@ -469,7 +478,7 @@
             "Vías con patrocinio del empleador.",
             "Categorías de trabajadores calificados.",
             "Categorías profesionales.",
-            "Estrategias de residencia de largo plazo."
+            "Reclutamiento EB-3."
           ]
         },
         {
@@ -488,7 +497,7 @@
       ],
       "feature": {
         "quote": "Cada caso migratorio es único: nuestro rol es aclarar tus opciones y conectarte con el equipo legal indicado para avanzar.",
-        "author": "Galli's & Co. — Visas para EE. UU."
+        "author": "Galli's & Co.  Visas para EE. UU."
       },
       "closing": {
         "eyebrow": "Mapeemos tu ruta",
@@ -580,6 +589,8 @@
           "description": "Mantener tus registros italianos precisos y tu situación consular en regla.",
           "items": [
             "Inscripción inicial en AIRE.",
+            "Expedición consular de pasaportes.",
+            "Ajuste y cambio de estatus.",
             "Actualizaciones de domicilio y familia.",
             "Inscripción de matrimonios, nacimientos y divorcios.",
             "Gestión de Fast It y cumplimiento consular."
@@ -602,7 +613,7 @@
       ],
       "feature": {
         "quote": "Las reformas recientes introdujeron oportunidades con plazos: actuar temprano puede preservar la elegibilidad de tu familia.",
-        "author": "Galli's & Co. — Vías Europeas"
+        "author": "Galli's & Co.  Vías Europeas"
       },
       "closing": {
         "eyebrow": "No esperes al cierre del plazo",
@@ -614,7 +625,6 @@
   },
   "servicesPage": {
     "title": "Servicios",
-    "intro": "Cuatro áreas de práctica, un equipo coordinado. Cada servicio lo brindan abogadas especializadas en la jurisdicción y el tipo de caso.",
     "exploreCta": "Conocer servicio",
     "ctaSectionTitle": "¿Tenés un caso complejo?",
     "ctaSectionText": "Contános tu situación. Diseñamos un plan estratégico claro a la medida de tus objetivos.",
@@ -623,7 +633,7 @@
       "international-mobility": {
         "title": "Movilidad Internacional",
         "tagline": "Residencia, ciudadanía y reubicación en Argentina.",
-        "intro": "Acompañamiento integral para personas, familias y empresas que se mudan a — u operan desde — Argentina. Estrategia, documentación, presentaciones y soporte continuo.",
+        "intro": "Acompañamiento integral para personas, familias y empresas que se mudan a  u operan desde  Argentina. Estrategia, documentación, presentaciones y soporte continuo.",
         "bullets": ["Residencia Argentina", "Ciudadanía Argentina", "Asistencia legal general, fiscal e inmobiliaria para clientes extranjeros", "Estrategia Migratoria y Reubicación"]
       },
       "us-visa-guidance": {
@@ -641,14 +651,14 @@
       "argentine-legal-representation": {
         "title": "Representación Legal en Argentina",
         "tagline": "Fuerza jurídica local para casos internacionales.",
-        "intro": "Litigios, procedimientos administrativos y asuntos civiles ante tribunales y organismos argentinos — muchas veces la pieza faltante en expedientes internacionales complejos.",
+        "intro": "Litigios, procedimientos administrativos y asuntos civiles ante tribunales y organismos argentinos  muchas veces la pieza faltante en expedientes internacionales complejos.",
         "bullets": ["Litigios", "Procedimientos administrativos", "Asuntos civiles", "Problemas de documentación legal"]
       }
     }
   },
   "complexCasesPage": {
     "title": "Casos Complejos",
-    "intro": "Nuestra firma fue diseñada para las situaciones que no caben en un molde — cuando faltan documentos, colisionan jurisdicciones, los plazos apremian o intentos previos han fallado.",
+    "intro": "Nuestra firma fue diseñada para las situaciones que no caben en un molde  cuando faltan documentos, colisionan jurisdicciones, los plazos apremian o intentos previos han fallado.",
     "scopeTitle": "Donde aportamos mayor valor",
     "scope": ["Complicaciones migratorias", "Documentación multi-país", "Conflictos legales en Argentina", "Soporte tributario", "Soporte legal inmobiliario para clientes extranjeros", "Presentaciones estratégicas", "Documentos faltantes", "Reconstrucción de ciudadanía"],
     "cta": "Conversar sobre tu caso"
@@ -664,12 +674,12 @@
     "intro": "Contános tu caso. Normalmente respondemos en un día hábil.",
     "channelsTitle": "Canales directos",
     "scheduleTitle": "Agendar una consulta",
-    "scheduleText": "Usá el canal que prefieras — WhatsApp para un intercambio rápido, email para materiales detallados o el hook de reserva de abajo para una consulta breve.",
+    "scheduleText": "Usá el canal que prefieras  WhatsApp para un intercambio rápido, email para materiales detallados o el hook de reserva de abajo para una consulta breve.",
     "whatsapp": "Abrir chat de WhatsApp"
   },
   "footer": {
     "eyebrow": "Galli's signature",
-    "description": "Acompañamos decisiones migratorias, civiles y tributarias con precisión jurídica, mirada internacional y ejecución a medida.",
+    "description": "Impulsamos la movilidad internacional, ofrecemos soluciones globales y litigamos en toda la Argentina con precisión técnica y perspectiva internacional.",
     "cta": "Consulta gratuita 15 min",
     "quickLinks": "Accesos rápidos",
     "contactTitle": "Contacto estratégico",

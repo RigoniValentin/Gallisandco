@@ -29,9 +29,10 @@ export function Hero() {
     "Legal Representation",
     "Cross-Border Advisory",
     "Relocation Strategy",
-    "Document Reconstruction",
+    "Documentation",
     "Litigation",
     "Administrative Matters",
+    "Tax Support",
   ];
   const videoPlaylist = [
     "/brand/VideoFondoBanner2.mp4",
@@ -138,7 +139,7 @@ export function Hero() {
         </div>
 
         {/* ── LOGO — the commanding centre ──────────────────────────────── */}
-        <div className="relative flex items-center justify-center">
+        <div className="relative my-8 flex items-center justify-center sm:my-10 md:my-12">
 
           {/* Outer diffuse gold bloom */}
           <div

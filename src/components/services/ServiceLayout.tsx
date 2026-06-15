@@ -127,6 +127,11 @@ export function ServiceLayout({ namespace, heroImage, featureImage, sectionIcons
   const sections = t.raw("sections") as ServiceSection[];
   const feature = t.raw("feature") as Feature;
   const closing = t.raw("closing") as Closing;
+  const showIntroSection =
+    namespace !== "services.internationalMobility" &&
+    namespace !== "services.europeanPathways" &&
+    namespace !== "services.argentineLegalRepresentation" &&
+    namespace !== "services.usVisaGuidance";
 
   return (
     <>
@@ -201,49 +206,53 @@ export function ServiceLayout({ namespace, heroImage, featureImage, sectionIcons
       </section>
 
       {/* ── 2. Intro / context — cream ───────────────────────────────────── */}
-      <section className="bg-[linear-gradient(180deg,#f7f4ee_0%,#f3efe8_100%)] py-16 text-ink lg:py-24">
-        <div className="container max-w-6xl">
-          <Reveal className="grid gap-6 lg:grid-cols-[1.08fr_0.92fr]">
-            <div className="rounded-[30px] border border-primary/10 bg-white p-6 shadow-[0_24px_70px_-46px_rgba(35,51,73,0.4)] sm:p-8">
-              <Eyebrow>{intro.eyebrow}</Eyebrow>
-              <h2 className="mt-4 font-display text-2xl leading-tight text-primary sm:text-3xl">
-                {intro.title}
-              </h2>
-              <p className="mt-4 text-sm leading-relaxed text-ink-muted sm:text-base">{intro.lead}</p>
-            </div>
+      {showIntroSection ? (
+        <section className="bg-[linear-gradient(180deg,#f7f4ee_0%,#f3efe8_100%)] py-16 text-ink lg:py-24">
+          <div className="container max-w-6xl">
+            <Reveal className="grid gap-6 lg:grid-cols-[1.08fr_0.92fr]">
+              <div className="rounded-[30px] border border-primary/10 bg-white p-6 shadow-[0_24px_70px_-46px_rgba(35,51,73,0.4)] sm:p-8">
+                <Eyebrow>{intro.eyebrow}</Eyebrow>
+                <h2 className="mt-4 font-display text-2xl leading-tight text-primary sm:text-3xl">
+                  {intro.title}
+                </h2>
+                <p className="mt-4 text-sm leading-relaxed text-ink-muted sm:text-base">{intro.lead}</p>
+              </div>
 
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-              {intro.highlights.map((highlight) => (
-                <div
-                  key={highlight.title}
-                  className="rounded-[24px] border border-accent/20 bg-[linear-gradient(150deg,rgba(210,166,121,0.12)_0%,rgba(255,255,255,0.98)_55%)] p-5 shadow-[0_20px_60px_-46px_rgba(210,166,121,0.5)] sm:p-6"
-                >
-                  <p className="font-display text-lg text-primary">{highlight.title}</p>
-                  <p className="mt-2 text-sm leading-relaxed text-ink-muted">{highlight.text}</p>
-                </div>
-              ))}
-            </div>
-          </Reveal>
-        </div>
-      </section>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+                {intro.highlights.map((highlight) => (
+                  <div
+                    key={highlight.title}
+                    className="rounded-[24px] border border-accent/20 bg-[linear-gradient(150deg,rgba(210,166,121,0.12)_0%,rgba(255,255,255,0.98)_55%)] p-5 shadow-[0_20px_60px_-46px_rgba(210,166,121,0.5)] sm:p-6"
+                  >
+                    <p className="font-display text-lg text-primary">{highlight.title}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-ink-muted">{highlight.text}</p>
+                  </div>
+                ))}
+              </div>
+            </Reveal>
+          </div>
+        </section>
+      ) : null}
 
       {/* ── 3. Service sections — alternating topic cards ────────────────── */}
       <section className="bg-[linear-gradient(180deg,#f3efe8_0%,#f7f4ee_100%)] py-16 text-ink lg:py-24">
         <div className="container max-w-6xl">
-          <Reveal className="mx-auto max-w-3xl text-center">
-            <div className="flex justify-center">
-              <Eyebrow>{sectionsHeading.eyebrow}</Eyebrow>
-            </div>
+          <Reveal className="max-w-3xl">
+            <Eyebrow>{sectionsHeading.eyebrow}</Eyebrow>
             <h2 className="mt-4 font-display text-3xl leading-tight text-primary sm:text-4xl">
               {sectionsHeading.title}
             </h2>
-            <p className="mt-4 text-base leading-relaxed text-ink-muted">{sectionsHeading.subtitle}</p>
+            <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-muted">{sectionsHeading.subtitle}</p>
           </Reveal>
 
           <div className="mt-12 flex flex-col gap-6 lg:mt-16 lg:gap-8">
             {sections.map((section, index) => {
               const Icon = sectionIcons[section.id];
               const reversed = index % 2 === 1;
+              const hasScrollableItems =
+                namespace !== "services.argentineLegalRepresentation" &&
+                namespace !== "services.europeanPathways" &&
+                section.items.length > 3;
               return (
                 <Reveal key={section.id} delay={0.05}>
                   <article className="overflow-hidden rounded-[30px] border border-primary/10 bg-white shadow-[0_28px_80px_-54px_rgba(35,51,73,0.45)]">
@@ -284,11 +293,24 @@ export function ServiceLayout({ namespace, heroImage, featureImage, sectionIcons
 
                       {/* Items column */}
                       <div className="border-t border-primary/10 bg-[linear-gradient(180deg,#f7f4ee_0%,#f3efe8_100%)] p-6 sm:p-8 lg:border-l lg:border-t-0 lg:p-10">
-                        <ul className="grid gap-2.5">
+                        <ul
+                          className={[
+                            "grid gap-2.5",
+                            hasScrollableItems
+                              ? "max-h-[18rem] overflow-y-auto pr-2 [scrollbar-width:thin] [scrollbar-color:rgba(169,122,81,0.65)_transparent]"
+                              : "",
+                          ].join(" ")}
+                        >
                           {section.items.map((item) => (
                             <CheckItem key={item} text={item} />
                           ))}
                         </ul>
+                        {hasScrollableItems ? (
+                          <div className="pointer-events-none mt-4 flex items-center justify-end gap-2 text-[11px] uppercase tracking-[0.22em] text-accent-700/70">
+                            <span className="animate-pulse">Scroll</span>
+                            <span aria-hidden className="text-base leading-none">↓</span>
+                          </div>
+                        ) : null}
                       </div>
                     </div>
                   </article>

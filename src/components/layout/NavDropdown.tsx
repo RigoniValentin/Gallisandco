@@ -33,8 +33,8 @@ const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
   services: [
     { label: "Movilidad Internacional", description: "Residencia, ciudadanía y relocation en Argentina.", href: "/services/international-mobility" },
     { label: "Representación en Argentina", description: "Litigios, civil y administrativo.", href: "/services/argentine-legal-representation" },
-    { label: "Visas para EE. UU.", description: "B1/B2, DS-160 y estrategia consular.", href: "/services/us-visa-guidance" },
     { label: "Rutas Europeas", description: "Ciudadanía italiana y residencias.", href: "/services/european-pathways" },
+    { label: "Visas para EE. UU.", description: "B1/B2, DS-160 y estrategia consular.", href: "/services/us-visa-guidance" },
   ],
   contact: [
     { label: "Consulta gratis de 15 min", description: "Hook temporal para agendar una intro call.", href: "/contact#free-consultation" },
@@ -53,8 +53,8 @@ const dropdownItemsByKeyEn: Record<NavKey, NavDropdownItem[]> = {
   services: [
     { label: "International Mobility", description: "Argentine residency, citizenship and relocation.", href: "/services/international-mobility" },
     { label: "Argentine Representation", description: "Litigation, civil and administrative.", href: "/services/argentine-legal-representation" },
-    { label: "U.S. Visa Guidance", description: "B1/B2, DS-160 and consular strategy.", href: "/services/us-visa-guidance" },
     { label: "European Pathways", description: "Italian citizenship and residencies.", href: "/services/european-pathways" },
+    { label: "U.S. Visa Guidance", description: "B1/B2, DS-160 and consular strategy.", href: "/services/us-visa-guidance" },
   ],
   contact: [
     { label: "15 min free consultation", description: "Temporary hook to book an intro call.", href: "/contact#free-consultation" },

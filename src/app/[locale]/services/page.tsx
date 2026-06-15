@@ -16,7 +16,7 @@ export default async function ServicesPage({
       <PageHero
         eyebrow="Galli's & Co."
         title={t("title")}
-        intro={t("intro")}
+        align="left"
         /* [Wide-angle — global cityscape skyline at dusk, navy/amber palette, 1800x900] */
         imageSrc="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1900&q=80"
         imageAlt="Global cityscape at dusk"

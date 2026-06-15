@@ -7,6 +7,7 @@ type Props = {
   imageAlt: string;
   /** Optional dim overlay strength 0–1 (default 0.78) */
   overlay?: number;
+  align?: "center" | "left";
 };
 
 /**
@@ -20,7 +21,13 @@ export function PageHero({
   imageSrc,
   imageAlt,
   overlay = 0.78,
+  align = "center",
 }: Props) {
+  const alignLeft = align === "left";
+  const contentClassName = alignLeft
+    ? "container relative z-10"
+    : "container relative z-10 max-w-3xl mx-auto";
+
   return (
     <section className="relative isolate overflow-hidden bg-primary pt-32 pb-24 text-white lg:pt-40 lg:pb-28">
       {/* Image layer */}
@@ -49,7 +56,7 @@ export function PageHero({
       />
       <div className="hero-grain pointer-events-none absolute inset-0 opacity-[0.06] mix-blend-screen" />
 
-      <div className="container relative z-10 max-w-3xl">
+      <div className={contentClassName}>
         {eyebrow ? (
           <span className="inline-flex items-center gap-3 text-eyebrow uppercase tracking-wider2 text-accent-200">
             <span className="h-px w-10 bg-accent/70" />

@@ -97,7 +97,7 @@ export function Testimonials() {
             <button
               type="button"
               onClick={advance}
-              className="gold-cta group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium"
+              className="gold-cta-outline group inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white"
               aria-label="Advance testimonials"
             >
               Next

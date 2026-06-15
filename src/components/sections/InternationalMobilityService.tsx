@@ -1,9 +1,10 @@
 "use client";
 
-import { Plane, Home, BadgeCheck, ShieldCheck, type LucideIcon } from "lucide-react";
+import { Plane, Home, BadgeCheck, ShieldCheck, LaptopMinimal, type LucideIcon } from "lucide-react";
 import { ServiceLayout } from "@/components/services/ServiceLayout";
 
 const sectionIcons: Record<string, LucideIcon> = {
+  digitalNomad: LaptopMinimal,
   temporary: Plane,
   permanent: Home,
   citizenship: BadgeCheck,

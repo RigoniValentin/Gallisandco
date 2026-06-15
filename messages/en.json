@@ -17,7 +17,7 @@
     "eyebrow": "One firm",
     "headlineLine1": "One firm.",
     "headlineLine2": "Global mobility, local solutions.",
-    "subtitle": "International migration, cross-border legal strategy, and Argentine legal representation — all in one place.",
+    "subtitle": "International migration, cross-border legal strategy, and Argentine legal representation. All in one place.",
     "subtitleAlt": "Comprehensive legal support for individuals, families, and businesses navigating international transitions.",
     "primaryCta": "Schedule a Consultation",
     "secondaryCta": "Start Your Process",
@@ -42,7 +42,7 @@
       {
         "id": "i-galli",
         "name": "I. Galli",
-        "role": "CEO · Civil, Business & Family Law",
+        "role": "FOUNDER · Civil, Business & Family Law",
         "summary": "Attorney with a background in civil, business, and family law.",
         "bio": "I graduated from the School of Law at the National University of Córdoba at the age of 23, receiving recognition as an outstanding graduate and earning a place on the Law School's Honor Roll. Currently pursuing postgraduate studies, convinced that continuous learning is an essential part of legal practice.",
         "alt": "Portrait of I. Galli, attorney at Galli's & Co.",
@@ -51,7 +51,7 @@
       {
         "id": "victoria-galli",
         "name": "Victoria Galli",
-        "role": "CEO · International Mobility & Citizenship",
+        "role": "FOUNDER · International Mobility & Citizenship",
         "summary": "Argentinian lawyer specialized in international mobility.",
         "bio": "Graduated from the School of Law at the National University of Córdoba at the age of 23, with a specialization in International Mobility and a focus on Argentine, Italian, Spanish, and other immigration and citizenship frameworks. As a proud dual citizen of Argentina and Italy, I bring both personal and professional experience to the firm.",
         "alt": "Portrait of Victoria Galli, attorney at Galli's & Co.",
@@ -138,10 +138,10 @@
     "subtitle": "Four practice areas, one coordinated team. Choose the area that best matches your objective.",
     "selectLabel": "Select service:",
     "services": [
-      { "id": "international", "eyebrow": "International Mobility", "title": "Argentinian residency / citizenship", "summary": "Comprehensive guidance for individuals, families and businesses moving to or operating from Argentina. Strategy, documentation, filings and ongoing support.", "detail": "Residency · Citizenship · Relocation · Cross-border advisory", "cta": "Explore" },
-      { "id": "litigation", "eyebrow": "Argentine Legal Representation", "title": "Argentine Legal Representation", "summary": "Litigation, administrative proceedings, civil matters and legal documentation issues — domestic firepower for international cases.", "detail": "Litigation · Administrative · Civil · Documentation", "cta": "Explore" },
-      { "id": "usa", "eyebrow": "U.S. Visa Guidance", "title": "U.S. Visa Guidance", "summary": "B1/B2 visitor visas, DS-160 preparation, interview strategy and consular guidance — disciplined evidence, clear timelines.", "detail": "B1/B2 · DS-160 · Interview · Consular", "cta": "Explore" },
-      { "id": "european", "eyebrow": "European Pathways", "title": "European Pathways", "summary": "Italian citizenship, residency-by-ancestry, European residency options and document research for complex genealogical cases.", "detail": "Italian citizenship · Residency · Documentation", "cta": "Explore" }
+      { "id": "international", "eyebrow": "International Mobility", "title": "Argentinian residency / citizenship", "summary": "Comprehensive guidance for individuals, families and businesses moving to or operating from Argentina. Strategy, documentation, filings and ongoing support.", "detail": "Digital Nomad · Residency · Citizenship · Relocation", "cta": "Explore" },
+      { "id": "litigation", "eyebrow": "Argentine Legal Representation", "title": "Argentine Legal Representation", "summary": "Litigation, administrative proceedings, civil matters and legal documentation issues  domestic firepower for international cases.", "detail": "Litigation · Administrative · Civil · Documentation", "cta": "Explore" },
+      { "id": "european", "eyebrow": "European Pathways", "title": "European Pathways", "summary": "Italian citizenship, residency-by-ancestry, European residency options and document research for complex genealogical cases.", "detail": "Italian citizenship · Residency · Documentation", "cta": "Explore" },
+      { "id": "usa", "eyebrow": "U.S. Visa Guidance", "title": "U.S. Visa Guidance", "summary": "B1/B2 visitor visas, DS-160 preparation, interview strategy and consular guidance  disciplined evidence, clear timelines.", "detail": "B1/B2 · DS-160 · Interview · Consular", "cta": "Explore" }
     ],
     "ctaTitle": "Not sure which path is yours?",
     "ctaText": "Book a consultation and we will map jurisdiction, documents and timing together.",
@@ -170,7 +170,7 @@
     "subtitle": "A disciplined four-step method designed to bring clarity, predictability and execution to every international case.",
     "steps": [
       { "id": "consultation", "number": "01", "title": "Initial Consultation", "description": "We listen first. A structured conversation to understand the people, the goal and the constraints." },
-      { "id": "evaluation", "number": "02", "title": "Case Evaluation & Strategy", "description": "We map jurisdictions, risks and routes — and design a clear strategic plan tailored to your situation." },
+      { "id": "evaluation", "number": "02", "title": "Case Evaluation & Strategy", "description": "We map jurisdictions, risks and routes and design a clear strategic plan tailored to your situation." },
       { "id": "preparation", "number": "03", "title": "Document & Legal Preparation", "description": "We coordinate documentation, translations, certifications and filings with rigorous internal review." },
       { "id": "representation", "number": "04", "title": "Representation & Ongoing Support", "description": "We represent you before authorities and stay by your side until the matter is fully resolved." }
     ]
@@ -196,13 +196,13 @@
     "title": "About Galli's & Co.",
     "intro": "A boutique international firm specialized in global mobility and the resolution of complex legal situations. We exist for the cases where strategy, law and human understanding must converge.",
     "missionTitle": "Our mission",
-    "mission": "To make international transitions clearer, safer and more humane — combining legal precision with the empathy of someone who has lived the experience.",
+    "mission": "To make international transitions clearer, safer and more humane combining legal precision with the empathy of someone who has lived the experience.",
     "valuesTitle": "Our values",
     "values": [
       { "id": "rigor", "title": "Legal rigor", "description": "Methodical analysis, documented strategy and no shortcuts." },
       { "id": "humanity", "title": "Human compass", "description": "Behind every file there is a family, a project, a life." },
       { "id": "discretion", "title": "Discretion", "description": "Senior attention, confidential treatment, boutique standards." },
-      { "id": "reach", "title": "Global reach", "description": "Argentina, Europe and the United States — coordinated under one firm." }
+      { "id": "reach", "title": "Global reach", "description": "Argentina, Europe and the United States  coordinated under one firm." }
     ]
   },
   "services": {
@@ -211,14 +211,14 @@
         "eyebrow": "01 · International Mobility",
         "title": "International Mobility to Argentina",
         "description": "Securing your legal status in Argentina should not feel like a bureaucratic maze. We guide clients from the RaDEX platform and document legalizations through filings, strategy and daily follow-up, so they can focus on their new life, investment or career.",
-        "badges": ["DNU 366/2025", "RaDEX", "RENURE", "SMVM", "Residency", "Citizenship"],
+        "badges": ["Digital Nomad", "Residency, Citizenship", "DNU 366/2025", "RaDEX", "Renure"],
         "primaryCta": "Book your strategy session",
         "secondaryCta": "All services"
       },
       "intro": {
         "eyebrow": "Residency & immigration",
         "title": "International mobility to Argentina is a legal strategy, not just a move.",
-        "lead": "From the cultural depth of Buenos Aires to the landscapes of Mendoza and Patagonia, Argentina attracts people, families and companies looking for a meaningful place to build. We manage the route end to end — intake, risk review, legalizations, RaDEX workflow, filings and daily monitoring — until the file reaches the result it needs, under current rules including DNU 366/2025.",
+        "lead": "From the cultural depth of Buenos Aires to the landscapes of Mendoza and Patagonia, Argentina attracts people, families and companies looking for a meaningful place to build. We manage the route end to end  intake, risk review, legalizations, RaDEX workflow, filings and daily monitoring  until the file reaches the result it needs, under current rules including DNU 366/2025.",
         "highlights": [
           { "title": "The legal lens", "text": "Dossier structure, evidence thresholds and pathway selection settled before anything is filed." },
           { "title": "The operational lens", "text": "RaDEX setup, legalizations and daily monitoring until the DNI is in hand." }
@@ -227,44 +227,55 @@
       "sectionsHeading": {
         "eyebrow": "Service pathways",
         "title": "Every route to legal status, coordinated in a single file.",
-        "subtitle": "From temporary residency to citizenship — we map the pathway you can actually sustain under current immigration rules."
+        "subtitle": "From Digital Nomad through citizenship, we guide you through the five pillars of Argentinian migration."
       },
       "sections": [
         {
-          "id": "temporary",
-          "eyebrow": "01 · Temporary Residency",
-          "title": "Temporary Residency",
-          "description": "Usually the first step: renewable legal status — typically one year, in some cases up to three — plus a temporary Argentine DNI.",
+          "id": "digitalNomad",
+          "eyebrow": "01 · Digital Nomad",
+          "title": "Digital Nomad",
+          "description": "Freedom to work, flexibility to explore. A transitory permit for those who want to test the waters or simply enjoy the Argentine lifestyle while working for the world.",
           "items": [
-            "Rentista — verified passive income or investment returns generated outside Argentina.",
-            "Pensioner — a steady official pension from a foreign government or international organization.",
-            "Migrant Worker — a registered corporate contract or formal job offer with an Argentine employer.",
-            "Investor — a productive local investment or project of national interest, reviewed against the current threshold.",
-            "Student, Scientists & Specialized Staff — enrollment or specialized technical contracts with recognized institutions.",
-            "Athletes & Artists — creatives and athletes officially contracted by local institutions.",
-            "MERCOSUR Citizens — a simplified fast-track residence for member and associate state nationals.",
-            "Medical Treatment & Humanitarian Grounds — coverage for patients, families and protected persons."
+            "Remote Worker.",
+            "Freelancer.",
+            "Business Owners.",
+            "Renewable 180 Days."
+          ]
+        },
+        {
+          "id": "temporary",
+          "eyebrow": "02 · Temporary Residency",
+          "title": "Temporary Residency",
+          "description": "Usually the first step: renewable legal status typically one year, in some cases up to three  plus a temporary Argentine DNI.",
+          "items": [
+            "Rentista verified passive income or investment returns generated outside Argentina.",
+            "Pensioner a steady official pension from a foreign government or international organization.",
+            "Migrant Worker a registered corporate contract or formal job offer with an Argentine employer.",
+            "Investor a productive local investment or project of national interest, reviewed against the current threshold.",
+            "Student, Scientists & Specialized Staff enrollment or specialized technical contracts with recognized institutions.",
+            "Athletes & Artists creatives and athletes officially contracted by local institutions.",
+            "MERCOSUR Citizens a simplified fast-track residence for member and associate state nationals.",
+            "Medical Treatment & Humanitarian Grounds coverage for patients, families and protected persons."
           ],
           "cta": "Review residency routes"
         },
         {
           "id": "permanent",
-          "eyebrow": "02 · Permanent Residency",
+          "eyebrow": "03 · Permanent Residency",
           "title": "Permanent Residency",
           "description": "An indefinite status for those establishing roots in Argentina, with a lifelong unrestricted DNI.",
           "items": [
-            "Family Ties — spouse, parent or child of a native or naturalized Argentine, or of a permanent resident.",
-            "Children of Argentines — born abroad to Argentine parents, by operation of law where applicable.",
-            "Arraigo (Track Record) — after continuous lawful temporary residence: two years MERCOSUR, three years non-MERCOSUR.",
-            "Diplomats — former foreign officials who concluded their duties and met the local track record.",
-            "Refugees — individuals recognized by CONARE who met the required residency timelines."
+            "Children of Argentines born abroad to Argentine parents, by operation of law where applicable.",
+            "Arraigo (Track Record) after continuous lawful temporary residence: two years MERCOSUR, three years non-MERCOSUR.",
+            "Diplomats former foreign officials who concluded their duties and met the local track record.",
+            "Refugees individuals recognized by CONARE who met the required residency timelines."
           ]
         },
         {
           "id": "citizenship",
-          "eyebrow": "03 · Argentine Citizenship",
+          "eyebrow": "04 · Argentine Citizenship",
           "title": "Argentine Citizenship",
-          "description": "Citizenship is handled as a separate strategic path, with documentary rigor and legal timing aligned to the route you can actually support.",
+          "description": "Becoming an Argentine citizen grants access to one of the world's strongest passports, with visa-free entry to over 170 countries.",
           "items": [
             "Naturalization assessed through lawful residence, identity proof and civil-status records.",
             "Investment-led strategies reviewed for source of funds and traceability under current criteria.",
@@ -274,21 +285,20 @@
         },
         {
           "id": "audit",
-          "eyebrow": "04 · The Galli's & Co. Audit",
+          "eyebrow": "05 · The Galli's & Co. Audit",
           "title": "The legal filter before anything is filed",
-          "description": "We do not just assemble paperwork. We audit the file first — the legal route, the immigration basis, the document chain, the income evidence, the platform workflow and the fallback strategy if the case becomes contested.",
+          "description": "We proactively audit your documents, build your legal file, and monitor your case daily until your physical DNI arrives at your door.",
           "items": [
-            "Route selection under DNU 366/2025.",
-            "RaDEX setup and daily monitoring.",
-            "Document legalizations, apostilles and certified translations.",
-            "Income-source review and SMVM-based threshold checks.",
-            "RENURE and administrative-litigation fallback analysis."
+            "Compliance: We validate your mandatory Health Insurance with local coverage and draft your Sworn Declaration of Purpose to ensure a seamless entry.",
+            "Document Shield: We review legalizations, translations, and foreign criminal records (including non-final convictions) before submission to RaDEX.",
+            "Strategic Monitoring: Daily monitoring of your RaDEX file and configuration of your mandatory electronic domicile for binding notifications.",
+            "Global Perspective: We connect your residency with global legal solutions in Tax Planning, Real Estate, and Estate Law."
           ]
         }
       ],
       "feature": {
-        "quote": "The move feels fluid because the file is controlled — every threshold mapped before a single document is submitted.",
-        "author": "Galli's & Co. — International Mobility"
+        "quote": "Successful international transitions begin long before an application is submitted. We help clients understand the road ahead, anticipate challenges, and move forward with confidence.",
+        "author": "Galli's & Co.  International Mobility"
       },
       "closing": {
         "eyebrow": "Ready when you are",
@@ -301,7 +311,7 @@
       "hero": {
         "eyebrow": "02 · Argentine Legal Representation",
         "title": "Argentine Legal Representation",
-        "description": "Domestic legal firepower for international cases. We represent foreign clients, families and companies before Argentine courts and public agencies — often the missing piece in complex cross-border files.",
+        "description": "Domestic legal firepower for international cases. We represent foreign clients, families and companies before Argentine courts and public agencies  often the missing piece in complex cross-border files.",
         "badges": ["Litigation", "Administrative", "Civil", "Documentation", "Corporate", "Real Estate"],
         "primaryCta": "Discuss your case",
         "secondaryCta": "All services"
@@ -309,7 +319,7 @@
       "intro": {
         "eyebrow": "Local counsel, global cases",
         "title": "When a case touches Argentina, you need senior representation on the ground.",
-        "lead": "We act before Argentine courts and public agencies, and coordinate with a trusted interdisciplinary network so every front of your case advances together — under a single strategy and a single point of contact.",
+        "lead": "We act before Argentine courts and public agencies, and coordinate with a trusted interdisciplinary network so every front of your case advances together  under a single strategy and a single point of contact.",
         "highlights": [
           { "title": "Coordinated strategy", "text": "One firm steering litigation, administrative and civil matters under one plan." },
           { "title": "Interdisciplinary network", "text": "Tax, labor, real-estate, criminal and corporate specialists, plus partner firms in Europe and the U.S." }
@@ -318,13 +328,13 @@
       "sectionsHeading": {
         "eyebrow": "Practice areas",
         "title": "Representation across the matters that move your file forward.",
-        "subtitle": "Each area is handled by attorneys who specialize in the jurisdiction and the type of dispute."
+        "subtitle": "Each area is handled by attorneys who specialize in the jurisdiction and the type of case."
       },
       "sections": [
         {
           "id": "litigation",
           "eyebrow": "01 · Litigation",
-          "title": "Litigation & Dispute Resolution",
+          "title": "Litigation & Case Resolution",
           "description": "Strategic representation in contentious matters before Argentine courts, from first instance through appeals.",
           "items": [
             "Civil and commercial litigation.",
@@ -332,7 +342,7 @@
             "Injunctions and precautionary measures.",
             "Appeals and higher-court strategy."
           ],
-          "cta": "Discuss your dispute"
+          "cta": "Discuss your case"
         },
         {
           "id": "administrative",
@@ -353,7 +363,7 @@
           "description": "Everyday and high-stakes civil work for individuals, families and companies with interests in Argentina.",
           "items": [
             "Family and succession matters.",
-            "Real-estate transactions and disputes.",
+            "Real-estate transactions and cases.",
             "Contracts and obligations.",
             "Civil-status and document rectification."
           ]
@@ -385,8 +395,8 @@
         }
       ],
       "feature": {
-        "quote": "Domestic legal firepower, coordinated across jurisdictions — so the Argentine front of your case is never the weak link.",
-        "author": "Galli's & Co. — Argentine Legal Representation"
+        "quote": "Domestic legal firepower, coordinated across jurisdictions  so the Argentine front of your case is never the weak link.",
+        "author": "Galli's & Co.  Argentine Legal Representation"
       },
       "closing": {
         "eyebrow": "Let's review your matter",
@@ -400,7 +410,7 @@
         "eyebrow": "03 · U.S. Visa Guidance",
         "title": "U.S. Visa Guidance & Immigration Pathways",
         "description": "The United States offers a wide range of temporary and permanent options. We help individuals, families, entrepreneurs and professionals find the right pathway and connect with trusted U.S. immigration attorneys.",
-        "badges": ["B-1/B-2", "DS-160", "E-2", "EB-5", "Family-Based", "Employment"],
+        "badges": ["B-1/B-2", "EB-3", "E-2", "EB-5", "Family-Based", "Employment Based"],
         "primaryCta": "Start my visa application",
         "secondaryCta": "All services"
       },
@@ -415,8 +425,7 @@
       },
       "sectionsHeading": {
         "eyebrow": "Immigration pathways",
-        "title": "From a short visit to long-term residency — mapped to your objectives.",
-        "subtitle": "Each pathway is explained with the scope we cover and the legal partners we coordinate."
+        "title": "From a short visit to long-term residency  mapped to your objectives."
       },
       "sections": [
         {
@@ -470,7 +479,7 @@
             "Employer-sponsored pathways.",
             "Skilled-worker categories.",
             "Professional categories.",
-            "Long-term residency strategies."
+            "EB-3 Recruiting."
           ]
         },
         {
@@ -488,8 +497,8 @@
         }
       ],
       "feature": {
-        "quote": "Every immigration case is unique — our role is to clarify your options and connect you with the right legal team to move forward.",
-        "author": "Galli's & Co. — U.S. Visa Guidance"
+        "quote": "Every immigration case is unique  our role is to clarify your options and connect you with the right legal team to move forward.",
+        "author": "Galli's & Co.  U.S. Visa Guidance"
       },
       "closing": {
         "eyebrow": "Let's map your route",
@@ -509,8 +518,8 @@
       },
       "intro": {
         "eyebrow": "Why Italian citizenship",
-        "title": "Italian citizenship is more than heritage — it is access to the rights of EU membership.",
-        "lead": "Through our partnership with Italian citizenship attorney Mario Tedesco and his specialized team in Italy, we provide end-to-end support — from eligibility analysis and document reconstruction to recognition proceedings worldwide. Recent reforms mean choosing the right pathway matters more than ever.",
+        "title": "Italian citizenship is more than heritage  it is access to the rights of EU membership.",
+        "lead": "Through our partnership with Italian citizenship attorney Mario Tedesco and his specialized team in Italy, we provide end-to-end support  from eligibility analysis and documentation to recognition proceedings worldwide. Recent reforms mean choosing the right pathway matters more than ever.",
         "highlights": [
           { "title": "Italian legal team", "text": "Direct coordination with counsel in Italy on every recognition proceeding." },
           { "title": "Case-by-case strategy", "text": "The right route based on ancestry, family circumstances and current law." }
@@ -518,8 +527,8 @@
       },
       "sectionsHeading": {
         "eyebrow": "Recognition & relocation",
-        "title": "Every route to recognition, registration and life in Europe.",
-        "subtitle": "Eligibility and immigration implications vary — each pathway is assessed individually."
+        "title": "Routes to recognition, registration and life in Europe.",
+        "subtitle": "Eligibility and immigration implications vary  each pathway is assessed individually."
       },
       "sections": [
         {
@@ -581,6 +590,7 @@
           "description": "Keeping your Italian records accurate and your consular standing in order.",
           "items": [
             "Initial AIRE registration.",
+            "Consular Passport Issuance.",
             "Address and family updates.",
             "Marriage, birth and divorce registrations.",
             "Fast It management and consular compliance."
@@ -602,8 +612,8 @@
         }
       ],
       "feature": {
-        "quote": "Recent reforms have introduced time-sensitive opportunities — early action can preserve your family's eligibility.",
-        "author": "Galli's & Co. — European Pathways"
+        "quote": "Recent reforms have introduced time-sensitive opportunities  early action can preserve your family's eligibility.",
+        "author": "Galli's & Co.  European Pathways"
       },
       "closing": {
         "eyebrow": "Don't wait until the deadline",
@@ -615,7 +625,6 @@
   },
   "servicesPage": {
     "title": "Services",
-    "intro": "Four practice areas, one coordinated team. Each service is delivered by attorneys who specialize in the jurisdiction and the type of case.",
     "exploreCta": "Explore service",
     "ctaSectionTitle": "Have a complex case?",
     "ctaSectionText": "Tell us about your situation. We will design a clear strategic plan tailored to your objectives.",
@@ -624,7 +633,7 @@
       "international-mobility": {
         "title": "International Mobility",
         "tagline": "Argentine residency, citizenship and relocation strategy.",
-        "intro": "Comprehensive guidance for individuals, families and businesses moving to — or operating from — Argentina. Strategy, documentation, filings and ongoing support.",
+        "intro": "Comprehensive guidance for individuals, families and businesses moving to  or operating from  Argentina. Strategy, documentation, filings and ongoing support.",
         "bullets": ["Argentine Residency", "Argentine Citizenship", "Real Estate, Tax and general Legal Support for foreign clients", "Relocation Support & Migration Strategy"]
       },
       "us-visa-guidance": {
@@ -642,14 +651,14 @@
       "argentine-legal-representation": {
         "title": "Argentine Legal Representation",
         "tagline": "Domestic legal firepower for international cases.",
-        "intro": "Litigation, administrative proceedings and civil matters before Argentine courts and agencies — often the missing piece in complex international files.",
+        "intro": "Litigation, administrative proceedings and civil matters before Argentine courts and agencies  often the missing piece in complex international files.",
         "bullets": ["Litigation", "Administrative Proceedings", "Civil Matters", "Legal Documentation Issues"]
       }
     }
   },
   "complexCasesPage": {
     "title": "Complex Cases",
-    "intro": "Our firm was designed for the situations that don’t fit a template — when documents are missing, jurisdictions collide, deadlines are urgent or previous attempts have failed.",
+    "intro": "Our firm was designed for the situations that don’t fit a template  when documents are missing, jurisdictions collide, deadlines are urgent or previous attempts have failed.",
     "scopeTitle": "Where we add the most value",
     "scope": ["Immigration complications", "Multi-country documentation", "Argentine legal conflicts", "Tax support", "Real estate legal support for foreign clients", "Strategic filings", "Missing records", "Citizenship reconstruction"],
     "cta": "Discuss your case"
@@ -665,13 +674,13 @@
     "intro": "Tell us about your case. We typically reply within one business day.",
     "channelsTitle": "Direct channels",
     "scheduleTitle": "Schedule a consultation",
-    "scheduleText": "Use the channel you prefer — WhatsApp for a quick exchange, email for detailed materials, or the booking hook below for a short consult.",
+    "scheduleText": "Use the channel you prefer  WhatsApp for a quick exchange, email for detailed materials, or the booking hook below for a short consult.",
     "whatsapp": "Start WhatsApp chat"
   },
   "footer": {
     "eyebrow": "Galli's signature",
-    "description": "We support migration, civil and tax decisions with legal precision, international perspective and tailored execution.",
-    "cta": "Book 15-min free consult",
+    "description": "We support international mobility, provide global solutions, and litigate across Argentina with legal precision and an international perspective.",
+    "cta": "Book 15-min free consultation",
     "quickLinks": "Quick links",
     "contactTitle": "Strategic contact",
     "address": "Cordoba, Argentina · Remote international advisory",
