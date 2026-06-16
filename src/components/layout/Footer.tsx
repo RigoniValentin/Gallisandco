@@ -78,14 +78,14 @@ export function Footer() {
               <span className="font-light">{t("address")}</span>
             </div>
             <a
-              href="tel:+5493512073555"
+              href="tel:+5491173721580"
               className="flex items-center gap-3 hover:text-accent-100 transition-colors"
             >
               <Phone className="h-5 w-5 text-accent-200" />
               <span className="font-light">{t("phone")}</span>
             </a>
             <a
-              href="mailto:contacto@gallisco.com"
+              href="mailto:contact@galliandco.com"
               className="flex items-center gap-3 hover:text-accent-100 transition-colors"
             >
               <Mail className="h-5 w-5 text-accent-200" />

@@ -1,8 +1,8 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { ArrowUpRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
-import { Link } from "@/lib/navigation";
 import { freeConsultationHref } from "@/lib/scheduling";
 import { PageHero } from "@/components/layout/PageHero";
+import { ContactForm } from "@/components/sections/ContactForm";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default async function ContactPage({
   params,
@@ -13,6 +13,33 @@ export default async function ContactPage({
   setRequestLocale(locale);
   const t = await getTranslations("contactPage");
   const footerT = await getTranslations("footer");
+  const whatsappHref = "https://wa.me/5491173721580";
+
+  const contactForm = {
+    title: t("formTitle"),
+    intro: t("formIntro"),
+    nameLabel: t("formName"),
+    namePlaceholder: t("formNamePlaceholder"),
+    emailLabel: t("formEmail"),
+    emailPlaceholder: t("formEmailPlaceholder"),
+    phoneLabel: t("formPhone"),
+    phonePlaceholder: t("formPhonePlaceholder"),
+    subjectLabel: t("formSubject"),
+    subjectPlaceholder: t("formSubjectPlaceholder"),
+    messageLabel: t("formMessage"),
+    messagePlaceholder: t("formMessagePlaceholder"),
+    submitLabel: t("formSubmit"),
+    submittingLabel: t("formSubmitting"),
+    successTitle: t("formSuccessTitle"),
+    successText: t("formSuccessText"),
+    errorTitle: t("formErrorTitle"),
+    errorText: t("formErrorText"),
+    emailSubject: t("formEmailSubject"),
+    consultationLabel: t("scheduleTitle"),
+    whatsappLabel: t("whatsapp"),
+    consultationHref: freeConsultationHref,
+    whatsappHref,
+  };
 
   return (
     <>
@@ -41,7 +68,7 @@ export default async function ContactPage({
               </li>
               <li>
                 <a
-                  href="tel:+5493512073555"
+                  href="tel:+5491173721580"
                   className="flex items-start gap-3 transition-colors hover:text-accent-700"
                 >
                   <span className="mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-accent/15 text-accent-700">
@@ -52,7 +79,7 @@ export default async function ContactPage({
               </li>
               <li>
                 <a
-                  href="mailto:contacto@gallisco.com"
+                  href="mailto:contact@galliandco.com"
                   className="flex items-start gap-3 transition-colors hover:text-accent-700"
                 >
                   <span className="mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-accent/15 text-accent-700">
@@ -79,50 +106,7 @@ export default async function ContactPage({
             </div>
           </div>
 
-          {/* Schedule card — visual */}
-          <div className="relative flex flex-col overflow-hidden rounded-card border border-primary/10 bg-primary text-white shadow-[0_18px_46px_-34px_rgba(35,51,73,0.34)]">
-            {/* [Calendar planning / coffee on desk, 800x500] */}
-            <img
-              src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1100&q=80"
-              alt="Calendar with scheduled meetings"
-              className="absolute inset-0 h-full w-full object-cover opacity-25"
-              loading="lazy"
-            />
-            <div
-              aria-hidden
-              className="absolute inset-0 bg-[linear-gradient(180deg,rgba(35,51,73,0.86),rgba(35,51,73,0.96))]"
-            />
-            <div id="free-consultation" className="relative z-10 flex flex-1 flex-col scroll-mt-28 p-8">
-              <p className="text-eyebrow uppercase tracking-wider2 text-accent-200">
-                {t("scheduleTitle")}
-              </p>
-              <p className="mt-4 text-sm leading-relaxed text-white/80">{t("scheduleText")}</p>
-              <div className="mt-6 rounded-card border border-white/10 bg-white/[0.08] p-4 text-sm text-white/82">
-                <p className="font-semibold text-accent-100">15 min free consultation</p>
-                <p className="mt-1 leading-relaxed">
-                  Temporary hook for the next two months. Connect a Calendly URL through the environment variable when it is ready.
-                </p>
-              </div>
-              <div className="mt-auto flex flex-col gap-3 pt-6 sm:flex-row sm:flex-wrap">
-                <Link
-                  href={freeConsultationHref}
-                  className="gold-cta group inline-flex w-fit items-center gap-2 px-6 py-3 text-sm font-semibold"
-                >
-                  Book 15 min free consultation
-                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </Link>
-                <a
-                  href="https://wa.me/5493512073555"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex w-fit items-center gap-2 rounded-pill border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-white/16"
-                >
-                  <MessageCircle className="h-4 w-4 transition-transform group-hover:rotate-12" />
-                  {t("whatsapp")}
-                </a>
-              </div>
-            </div>
-          </div>
+          <ContactForm {...contactForm} />
         </div>
       </section>
     </>

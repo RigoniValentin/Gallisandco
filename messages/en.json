@@ -89,30 +89,42 @@
     "ofCounsel": [
       {
         "name": "Mario Tedesco",
-        "role": "Italian Immigration Law Specialist.",
+        "role": "Italian Citizenship Jure Sanguinis",
         "country": "ITALY",
         "image": "/Images/Mario.jpeg",
         "alt": "Portrait of Mario Tedesco",
-        "bio1": "He's a proud Neapolitan (Italian) licensed lawyer, with more than thirty years of legal experience focused on Italian citizenship Iure Sanguinis.",
-        "bio2": "He speaks English, Italian, and Spanish and he personally handles these matters representing clients in courts across Italy."
+        "bioItems": [
+          "Italian Licensed Lawyer",
+          "30+ Years of Experience",
+          "Italian Court Litigation",
+          "Trilingual: EN / IT / ES"
+        ]
       },
       {
         "name": "Gian Ignacio Rondi",
-        "role": "Criminal and Labor Law Specialist",
+        "role": "Criminal Defense & Labor Law",
         "country": "ARGENTINA",
         "image": "/Images/Gian.jpeg",
         "alt": "Portrait of Gian Ignacio Rondi",
-        "bio1": "Attorney with 7 years of experience.",
-        "bio2": "He has spent over 3 years working within the Judicial Branch of the Province of Córdoba and the Public Prosecutor's Office in criminal investigation. He specializes in labor law, workplace accidents, occupational diseases, and criminal defense."
+        "bioItems": [
+          "7 Years of Experience",
+          "Former Judicial & Prosecutor's Office Staff",
+          "Criminal Investigation Specialist",
+          "Workplace Accidents & Occupational Diseases"
+        ]
       },
       {
         "name": "Federico Teliczan",
-        "role": "Civil, Business, and Family Law Specialist.",
+        "role": "Civil, Business & Family Law",
         "country": "ARGENTINA",
         "image": "/Images/Fede.jpeg",
         "alt": "Portrait of Federico Teliczan",
-        "bio1": "Federico Teliczan is an attorney practicing law in the provinces of Córdoba and La Pampa.",
-        "bio2": "His practice focuses on Civil, Commercial, Family, and Estate Law. He is a Founding Partner of the T&P Law Firm and a Partner at Martínez Paz & Asociados. His practice encompasses the judicial and extrajudicial representation of individuals and corporations, drafting legal pleadings and lawsuits, structuring contracts and agreements, and providing comprehensive legal counsel in civil, commercial, and family matters."
+        "bioItems": [
+          "Estate & Commercial Law",
+          "Licensed in Córdoba & La Pampa",
+          "Corporate & Individual Representation",
+          "Contract Structuring & Litigation"
+        ]
       }
     ]
   },
@@ -180,9 +192,9 @@
     "title": "Trusted across borders",
     "subtitle": "A selection of voices behind our practice. Families, professionals and businesses that placed their international transitions in our hands.",
     "items": [
-      { "id": "t1", "quote": "They guided our family through a citizenship reconstruction that two other firms had told us was impossible. Calm, strategic and human throughout.", "author": "M. Rinaldi", "role": "Italian citizenship · Family case" },
-      { "id": "t2", "quote": "Clear, sharp and incredibly responsive. They turned an obstacle-filled visa process into a structured plan with results.", "author": "J. Hernández", "role": "U.S. B1/B2 visa" },
-      { "id": "t3", "quote": "Their command of Argentine law combined with international experience made all the difference for our cross-border operation.", "author": "K. Müller", "role": "Corporate relocation" }
+      { "id": "mariano-g", "quote": "Every single detail was accounted for. Everything happened exactly as they said it would. The support was superlative. An incredibly positive experience.", "author": "Mariano G", "role": "Visa B2 and 2+ Family Members" },
+      { "id": "carlos-r", "quote": "One of the best decisions we made. She was always available, answering every question quickly, and handling any unexpected hurdles with calm and efficiency. Her deep expertise and mastery of the subject matter give you peace of mind from day one. I highly recommend her to anyone looking to secure their Italian citizenship.", "author": "Carlos R.", "role": "Italian Citizenship by trial +6 family members." },
+      { "id": "agustina-t", "quote": "This wouldn’t have been possible without them. She already knew my case because they’ve been working with my family and worked in a highly organized way, they stuck to the timeline they gave me and in less than two months I had my Italian passport in hand.", "author": "Agustina T.", "role": "Italian Citizenship by residency/ relocation" }
     ]
   },
   "finalCta": {
@@ -211,7 +223,7 @@
         "eyebrow": "01 · International Mobility",
         "title": "International Mobility to Argentina",
         "description": "Securing your legal status in Argentina should not feel like a bureaucratic maze. We guide clients from the RaDEX platform and document legalizations through filings, strategy and daily follow-up, so they can focus on their new life, investment or career.",
-        "badges": ["Digital Nomad", "Residency, Citizenship", "DNU 366/2025", "RaDEX", "Renure"],
+        "badges": ["Digital Nomad", "Residency", "Citizenship", "DNU 366/2025", "RaDEX", "Renure"],
         "primaryCta": "Book your strategy session",
         "secondaryCta": "All services"
       },
@@ -675,7 +687,26 @@
     "channelsTitle": "Direct channels",
     "scheduleTitle": "Schedule a consultation",
     "scheduleText": "Use the channel you prefer  WhatsApp for a quick exchange, email for detailed materials, or the booking hook below for a short consult.",
-    "whatsapp": "Start WhatsApp chat"
+    "whatsapp": "Start WhatsApp chat",
+    "formTitle": "Contact form",
+    "formIntro": "Fill out the form with your details and a short summary of the matter. We’ll reply by email.",
+    "formName": "Full name",
+    "formNamePlaceholder": "Your full name",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "you@email.com",
+    "formPhone": "Phone",
+    "formPhonePlaceholder": "+54 9 ...",
+    "formSubject": "Subject",
+    "formSubjectPlaceholder": "Tell us what it is about",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Share the details of your inquiry",
+    "formSubmit": "Send inquiry",
+    "formSubmitting": "Sending...",
+    "formSuccessTitle": "Message sent",
+    "formSuccessText": "Thanks. We received your inquiry and will reply by email within one business day.",
+    "formErrorTitle": "We couldn’t send the message",
+    "formErrorText": "Please try again or reach out via WhatsApp.",
+    "formEmailSubject": "New inquiry from Galli's & Co."
   },
   "footer": {
     "eyebrow": "Galli's signature",
@@ -684,8 +715,8 @@
     "quickLinks": "Quick links",
     "contactTitle": "Strategic contact",
     "address": "Cordoba, Argentina · Remote international advisory",
-    "phone": "+54 9 351 207 3555",
-    "email": "contacto@gallisco.com",
+    "phone": "+54 9 11 7372 1580",
+    "email": "contact@galliandco.com",
     "rights": "© {year} Galli's & Co. All rights reserved."
   }
 }

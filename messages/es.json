@@ -88,30 +88,42 @@
     "ofCounsel": [
       {
         "name": "Mario Tedesco",
-        "role": "Especialista en Derecho de Inmigración Italiano",
+        "role": "Ciudadanía Italiana Jure Sanguinis",
         "country": "ITALIA",
         "image": "/Images/Mario.jpeg",
         "alt": "Retrato de Mario Tedesco",
-        "bio1": "Abogado matriculado y orgulloso napolitano (italiano), cuenta con más de treinta años de experiencia legal enfocada en la ciudadanía italiana Iure Sanguinis.",
-        "bio2": "Habla inglés, italiano y español, y maneja personalmente estos asuntos representando a sus clientes ante los tribunales de toda Italia."
+        "bioItems": [
+          "Abogado matriculado en Italia",
+          "30+ años de experiencia",
+          "Litigios en tribunales italianos",
+          "Trilingüe: EN / IT / ES"
+        ]
       },
       {
         "name": "Gian Ignacio Rondi",
-        "role": "Especialista en Derecho Penal y Laboral",
+        "role": "Defensa Penal y Derecho Laboral",
         "country": "ARGENTINA",
         "image": "/Images/Gian.jpeg",
         "alt": "Retrato de Gian Ignacio Rondi",
-        "bio1": "Abogado con 7 años de experiencia.",
-        "bio2": "Se ha desempeñado por más de 3 años dentro del Poder Judicial de la Provincia de Córdoba y el Ministerio Público Fiscal en el área de investigación penal. Se especializa en derecho laboral, accidentes de trabajo, enfermedades profesionales y defensa penal."
+        "bioItems": [
+          "7 años de experiencia",
+          "Exintegrante del Poder Judicial y del Ministerio Público Fiscal",
+          "Especialista en investigación penal",
+          "Accidentes laborales y enfermedades profesionales"
+        ]
       },
       {
         "name": "Federico Teliczan",
-        "role": "Especialista en Derecho Civil y Comercial/Familia/Sucesiones",
+        "role": "Derecho Civil, Comercial y de Familia",
         "country": "ARGENTINA",
         "image": "/Images/Fede.jpeg",
         "alt": "Retrato de Federico Teliczan",
-        "bio1": "Federico Teliczan es abogado, con ejercicio de la profesión en las provincias de Córdoba y La Pampa.",
-        "bio2": "Su práctica se concentra en Derecho Civil, Comercial, de Familia y Sucesiones. Es Socio Fundador del Estudio Jurídico T&P y Socio del Estudio Jurídico Martínez Paz & Asociados. Su actividad abarca la representación judicial y extrajudicial de personas físicas y jurídicas, la redacción de escritos y demandas, la confección de contratos y acuerdos, y el asesoramiento integral en materia civil, comercial y de familia."
+        "bioItems": [
+          "Derecho sucesorio y comercial",
+          "Matrícula en Córdoba y La Pampa",
+          "Representación corporativa e individual",
+          "Estructuración contractual y litigios"
+        ]
       }
     ]
   },
@@ -179,9 +191,9 @@
     "title": "Confianza a través de fronteras",
     "subtitle": "Una selección de voces detrás de nuestra práctica. Familias, profesionales y empresas que confiaron sus transiciones internacionales en nuestras manos.",
     "items": [
-      { "id": "t1", "quote": "Guiaron a nuestra familia en una reconstrucción de ciudadanía que dos firmas habían declarado imposible. Calma, estrategia y mucha humanidad.", "author": "M. Rinaldi", "role": "Ciudadanía italiana · Caso familiar" },
-      { "id": "t2", "quote": "Claras, precisas y muy responsivas. Convirtieron un proceso de visa lleno de obstáculos en un plan con resultados.", "author": "J. Hernández", "role": "Visa B1/B2 EE. UU." },
-      { "id": "t3", "quote": "Su dominio del derecho argentino combinado con experiencia internacional fue clave en nuestra operación transfronteriza.", "author": "K. Müller", "role": "Relocation corporativo" }
+      { "id": "mariano-g", "quote": "Every single detail was accounted for. Everything happened exactly as they said it would. The support was superlative. An incredibly positive experience.", "author": "Mariano G", "role": "Visa B2 and 2+ Family Members" },
+      { "id": "carlos-r", "quote": "One of the best decisions we made. She was always available, answering every question quickly, and handling any unexpected hurdles with calm and efficiency. Her deep expertise and mastery of the subject matter give you peace of mind from day one. I highly recommend her to anyone looking to secure their Italian citizenship.", "author": "Carlos R.", "role": "Italian Citizenship by trial +6 family members." },
+      { "id": "agustina-t", "quote": "This wouldn’t have been possible without them. She already knew my case because they’ve been working with my family and worked in a highly organized way, they stuck to the timeline they gave me and in less than two months I had my Italian passport in hand.", "author": "Agustina T.", "role": "Italian Citizenship by residency/ relocation" }
     ]
   },
   "finalCta": {
@@ -675,7 +687,26 @@
     "channelsTitle": "Canales directos",
     "scheduleTitle": "Agendar una consulta",
     "scheduleText": "Usá el canal que prefieras  WhatsApp para un intercambio rápido, email para materiales detallados o el hook de reserva de abajo para una consulta breve.",
-    "whatsapp": "Abrir chat de WhatsApp"
+    "whatsapp": "Abrir chat de WhatsApp",
+    "formTitle": "Formulario de contacto",
+    "formIntro": "Completá el formulario con tus datos y un breve resumen del caso. Te respondemos por email.",
+    "formName": "Nombre completo",
+    "formNamePlaceholder": "Tu nombre y apellido",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "tu@email.com",
+    "formPhone": "Teléfono",
+    "formPhonePlaceholder": "+54 9 ...",
+    "formSubject": "Asunto",
+    "formSubjectPlaceholder": "Contanos de qué se trata",
+    "formMessage": "Mensaje",
+    "formMessagePlaceholder": "Contanos los detalles de tu consulta",
+    "formSubmit": "Enviar consulta",
+    "formSubmitting": "Enviando...",
+    "formSuccessTitle": "Mensaje enviado",
+    "formSuccessText": "Gracias. Recibimos tu consulta y te respondemos por email en un día hábil.",
+    "formErrorTitle": "No pudimos enviar el mensaje",
+    "formErrorText": "Probá nuevamente o escribinos por WhatsApp.",
+    "formEmailSubject": "Nueva consulta desde Galli's & Co."
   },
   "footer": {
     "eyebrow": "Galli's signature",
@@ -684,8 +715,8 @@
     "quickLinks": "Accesos rápidos",
     "contactTitle": "Contacto estratégico",
     "address": "Córdoba, Argentina · Atención internacional remota",
-    "phone": "+54 9 351 207 3555",
-    "email": "contacto@gallisco.com",
+    "phone": "+54 9 11 7372 1580",
+    "email": "contact@galliandco.com",
     "rights": "© {year} Galli's & Co. Todos los derechos reservados."
   }
 }

@@ -38,8 +38,8 @@ const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
   ],
   contact: [
     { label: "Consulta gratis de 15 min", description: "Hook temporal para agendar una intro call.", href: "/contact#free-consultation" },
-    { label: "WhatsApp", description: "Intercambio rápido por chat.", href: "https://wa.me/5493512073555" },
-    { label: "Email", description: "contacto@gallisco.com", href: "mailto:contacto@gallisco.com" },
+    { label: "WhatsApp", description: "Intercambio rápido por chat.", href: "https://wa.me/5491173721580" },
+    { label: "Email", description: "contact@galliandco.com", href: "mailto:contact@galliandco.com" },
   ],
 };
 
@@ -58,8 +58,8 @@ const dropdownItemsByKeyEn: Record<NavKey, NavDropdownItem[]> = {
   ],
   contact: [
     { label: "15 min free consultation", description: "Temporary hook to book an intro call.", href: "/contact#free-consultation" },
-    { label: "WhatsApp", description: "Quick exchange by chat.", href: "https://wa.me/5493512073555" },
-    { label: "Email", description: "contacto@gallisco.com", href: "mailto:contacto@gallisco.com" },
+    { label: "WhatsApp", description: "Quick exchange by chat.", href: "https://wa.me/5491173721580" },
+    { label: "Email", description: "contact@galliandco.com", href: "mailto:contact@galliandco.com" },
   ],
 };
 
