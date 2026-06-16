@@ -42,8 +42,8 @@ const SERVICE_SLUGS: Record<ServiceId, string> = {
 // [Editorial photo per service — warm/navy palette, ~1200x800]
 const SERVICE_IMAGES: Record<ServiceId, { src: string; alt: string }> = {
   international: {
-    src: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1300&q=80",
-    alt: "Passport, map and travel essentials laid out for an international move",
+    src: "/Images/InternationalMobilityToArg.png",
+    alt: "Family in Buenos Aires with the Argentine flag",
   },
   usa: {
     src: "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1300&q=80",

@@ -16,8 +16,8 @@ export function InternationalMobilityService() {
     <ServiceLayout
       namespace="services.internationalMobility"
       heroImage={{
-        src: "/Images/InternationalMobilityImage1.jpg",
-        alt: "Patagonia landscape representing relocation to Argentina",
+        src: "/Images/InternationalMobilityToArg.png",
+        alt: "Family in Buenos Aires with the Argentine flag",
       }}
       featureImage={{
         src: "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=1900&q=80",
