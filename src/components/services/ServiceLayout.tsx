@@ -252,6 +252,7 @@ export function ServiceLayout({ namespace, heroImage, featureImage, sectionIcons
               const hasScrollableItems =
                 namespace !== "services.argentineLegalRepresentation" &&
                 namespace !== "services.europeanPathways" &&
+                section.id !== "digitalNomad" &&
                 section.items.length > 3;
               return (
                 <Reveal key={section.id} delay={0.05}>

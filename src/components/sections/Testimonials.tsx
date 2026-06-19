@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useInView } from "framer-motion";
-import { ArrowRight, Quote, Star, X } from "lucide-react";
+import { Quote, Star, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 type Item = { id: string; quote: string; author: string; role: string };
@@ -12,6 +12,7 @@ const AVATARS: Record<string, string> = {
   "mariano-g": "/Images/Mariano.jpg",
   "carlos-r": "/Images/Carlos.png",
   "agustina-t": "/Images/Agustina.jpg",
+  "abril-f": "/Images/Abril.png",
 };
 
 export function Testimonials() {
@@ -19,14 +20,9 @@ export function Testimonials() {
   const items = t.raw("items") as Item[];
   const ref = useRef<HTMLElement | null>(null);
   const inView = useInView(ref, { amount: 0.18, once: true });
-  const [offset, setOffset] = useState(0);
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
 
   const getAvatarSrc = (id: string) => AVATARS[id] ?? AVATARS["mariano-g"];
-
-  useEffect(() => {
-    setOffset(0);
-  }, [items.length]);
 
   useEffect(() => {
     if (!selectedItem) {
@@ -49,11 +45,8 @@ export function Testimonials() {
     };
   }, [selectedItem]);
 
-  const advance = () => {
-    setOffset((current) => (current + 1) % items.length);
-  };
-
-  const visibleItems = [...items.slice(offset), ...items.slice(0, offset)];
+  // Two identical copies feed the seamless infinite marquee.
+  const marqueeItems = [...items, ...items];
 
   return (
     <section
@@ -116,74 +109,82 @@ export function Testimonials() {
           <p className="mt-4 max-w-xl text-base leading-relaxed text-white/84">{t("subtitle")}</p>
         </motion.div>
 
-        <div className="mt-12">
-          {items.length > 3 ? (
-            <div className="flex items-center justify-end">
-              <button
-                type="button"
-                onClick={advance}
-                className="gold-cta-outline group inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white"
-                aria-label="Advance testimonials"
-              >
-                Next
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </button>
-            </div>
-          ) : null}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
+          className="mt-12"
+        >
+          <div
+            className="marquee group relative overflow-hidden"
+            aria-label={t("title")}
+          >
+            <ul
+              className="marquee__track flex w-max items-stretch gap-5 py-2"
+              style={
+                {
+                  "--marquee-duration": `${Math.max(items.length, 1) * 9}s`,
+                } as React.CSSProperties
+              }
+            >
+              {marqueeItems.map((item, idx) => {
+                const isClone = idx >= items.length;
+                return (
+                  <li
+                    key={`${item.id}-${idx}`}
+                    className="w-[clamp(280px,82vw,360px)] shrink-0"
+                    aria-hidden={isClone}
+                  >
+                    <figure
+                      role="button"
+                      tabIndex={isClone ? -1 : 0}
+                      aria-haspopup="dialog"
+                      aria-label={`Abrir detalle del testimonio de ${item.author}`}
+                      onClick={() => setSelectedItem(item)}
+                      onKeyDown={(event) => {
+                        if (event.key === "Enter" || event.key === " ") {
+                          event.preventDefault();
+                          setSelectedItem(item);
+                        }
+                      }}
+                      className="group/card relative flex h-full cursor-pointer flex-col overflow-hidden rounded-[2rem] border border-white/12 bg-white/[0.05] p-7 shadow-[0_18px_46px_-34px_rgba(0,0,0,0.35)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:border-accent/35 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-100"
+                    >
+                      <div className="flex items-center justify-between">
+                        <Quote className="h-7 w-7 text-accent-200" />
+                        <div className="flex gap-0.5">
+                          {Array.from({ length: 5 }).map((_, i) => (
+                            <Star key={i} className="h-3.5 w-3.5 fill-accent text-accent" />
+                          ))}
+                        </div>
+                      </div>
 
-          <div className="mt-5 grid gap-5 lg:grid-cols-3">
-            {visibleItems.map((item, idx) => (
-              <motion.figure
-                key={`${item.id}-${offset}-${idx}`}
-                initial={{ opacity: 0, y: 24, scale: 0.98 }}
-                animate={inView ? { opacity: 1, y: 0, scale: 1 } : {}}
-                transition={{ duration: 0.6, delay: idx * 0.08, ease: [0.22, 1, 0.36, 1] }}
-                role="button"
-                tabIndex={0}
-                aria-haspopup="dialog"
-                aria-label={`Abrir detalle del testimonio de ${item.author}`}
-                onClick={() => setSelectedItem(item)}
-                onKeyDown={(event) => {
-                  if (event.key === "Enter" || event.key === " ") {
-                    event.preventDefault();
-                    setSelectedItem(item);
-                  }
-                }}
-                className="group relative flex cursor-pointer flex-col overflow-hidden rounded-[2rem] border border-white/12 bg-white/[0.05] p-7 shadow-[0_18px_46px_-34px_rgba(0,0,0,0.35)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:border-accent/35 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-100"
-              >
-                <div className="flex items-center justify-between">
-                  <Quote className="h-7 w-7 text-accent-200" />
-                  <div className="flex gap-0.5">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} className="h-3.5 w-3.5 fill-accent text-accent" />
-                    ))}
-                  </div>
-                </div>
+                      <blockquote className="mt-5 flex-1 text-[15px] leading-relaxed text-white/92 md:text-[15.5px]">
+                        “{item.quote}”
+                      </blockquote>
 
-                <blockquote className="mt-5 flex-1 text-[15px] leading-relaxed text-white/92 md:text-[15.5px]">
-                  “{item.quote}”
-                </blockquote>
-
-                <figcaption className="mt-6 flex items-center gap-3 border-t border-white/10 pt-4">
-                  <span className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full ring-2 ring-accent/40 ring-offset-2 ring-offset-primary">
-                    <img
-                      src={getAvatarSrc(item.id)}
-                      alt={item.author}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      loading="lazy"
-                    />
-                  </span>
-                  <span>
-                    <p className="font-display text-base text-white">{item.author}</p>
-                    <p className="mt-0.5 text-[11px] uppercase tracking-wider2 text-white/72">
-                      {item.role}
-                    </p>
-                  </span>
-                </figcaption>
-              </motion.figure>
-            ))}
+                      <figcaption className="mt-6 flex items-center gap-3 border-t border-white/10 pt-4">
+                        <span className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full ring-2 ring-accent/40 ring-offset-2 ring-offset-primary">
+                          <img
+                            src={getAvatarSrc(item.id)}
+                            alt={item.author}
+                            className="h-full w-full object-cover transition-transform duration-500 group-hover/card:scale-110"
+                            loading="lazy"
+                          />
+                        </span>
+                        <span>
+                          <p className="font-display text-base text-white">{item.author}</p>
+                          <p className="mt-0.5 text-[11px] uppercase tracking-wider2 text-white/72">
+                            {item.role}
+                          </p>
+                        </span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <AnimatePresence>

@@ -37,8 +37,8 @@ const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
     { label: "Visas para EE. UU.", description: "B1/B2, DS-160 y estrategia consular.", href: "/services/us-visa-guidance" },
   ],
   contact: [
-    { label: "Consulta gratis de 15 min", description: "Hook temporal para agendar una intro call.", href: "/contact#free-consultation" },
-    { label: "WhatsApp", description: "Intercambio rápido por chat.", href: "https://wa.me/5491173721580" },
+    { label: "Consulta gratis de 15 min", description: "Agendá una intro call.", href: "/contact#free-consultation" },
+    { label: "WhatsApp", description: "Intercambio rápido por chat.", href: "https://wa.me/5491173730900" },
     { label: "Email", description: "contact@galliandco.com", href: "mailto:contact@galliandco.com" },
   ],
 };
@@ -57,8 +57,8 @@ const dropdownItemsByKeyEn: Record<NavKey, NavDropdownItem[]> = {
     { label: "U.S. Visa Guidance", description: "B1/B2, DS-160 and consular strategy.", href: "/services/us-visa-guidance" },
   ],
   contact: [
-    { label: "15 min free consultation", description: "Temporary hook to book an intro call.", href: "/contact#free-consultation" },
-    { label: "WhatsApp", description: "Quick exchange by chat.", href: "https://wa.me/5491173721580" },
+    { label: "15 min free consultation", description: "Book an intro call.", href: "/contact#free-consultation" },
+    { label: "WhatsApp", description: "Quick exchange by chat.", href: "https://wa.me/5491173730900" },
     { label: "Email", description: "contact@galliandco.com", href: "mailto:contact@galliandco.com" },
   ],
 };

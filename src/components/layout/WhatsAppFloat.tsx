@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import { usePathname } from "@/lib/navigation";
 
 const defaultMessage = "Hola, quisiera realizar una consulta general sobre sus servicios.";
-const whatsappHref = `https://wa.me/5493512073555?${new URLSearchParams({
+const whatsappHref = `https://wa.me/5491173730900?${new URLSearchParams({
   text: defaultMessage,
 }).toString()}`;
 

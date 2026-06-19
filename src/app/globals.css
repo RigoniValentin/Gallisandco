@@ -98,6 +98,51 @@ html {
   filter: drop-shadow(0 8px 48px rgba(0,0,0,0.55));
 }
 
+/* ─── Infinite testimonials marquee ──────────────────────────────────────
+   Two identical copies of the list are rendered side by side. The track is
+   translated by exactly one copy width (-50% of the track), which makes the
+   loop seamless: when the first copy scrolls fully into view the animation
+   restarts with no visible jump. */
+@keyframes testimonials-marquee {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+.marquee {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+}
+
+.marquee__track {
+  width: max-content;
+  animation: testimonials-marquee var(--marquee-duration, 60s) linear infinite;
+  will-change: transform;
+}
+
+/* Pause to let visitors read a card. */
+.marquee:hover .marquee__track,
+.marquee:focus-within .marquee__track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track {
+    animation: none;
+  }
+}
+
   /* Crescent spot-glow — arc shape (ɔ = C invertida) that follows the gold crescent */
   @keyframes crescent-breathe {
     0%, 100% { opacity: 0.45; filter: blur(9px);  }

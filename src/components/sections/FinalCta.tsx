@@ -6,7 +6,7 @@ import { ArrowUpRight, CalendarClock, MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
 
-const whatsappHref = "https://wa.me/5493512073555";
+const whatsappHref = "https://wa.me/5491173730900";
 
 export function FinalCta() {
   const t = useTranslations("finalCta");

@@ -78,7 +78,7 @@ export function Footer() {
               <span className="font-light">{t("address")}</span>
             </div>
             <a
-              href="tel:+5491173721580"
+              href="tel:+5491173730900"
               className="flex items-center gap-3 hover:text-accent-100 transition-colors"
             >
               <Phone className="h-5 w-5 text-accent-200" />

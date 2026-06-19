@@ -49,7 +49,7 @@ const socialItems = [
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/5493512073555",
+    href: "https://wa.me/5491173730900",
     Icon: MessageCircle,
     posClass: "right-[2.2rem] top-[2.8rem]",
   },

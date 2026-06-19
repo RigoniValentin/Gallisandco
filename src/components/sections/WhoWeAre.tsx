@@ -40,6 +40,48 @@ function getInitials(name: string) {
     .join("");
 }
 
+function getFlagVariant(country: string) {
+  return country.toLowerCase().includes("ital") ? "italy" : "argentina";
+}
+
+function CountryFlagBadge({ country }: { country: string }) {
+  const variant = getFlagVariant(country);
+
+  return (
+    <span
+      aria-label={`Flag of ${country}`}
+      role="img"
+      className="relative inline-flex h-8 w-14 overflow-hidden rounded-full border border-white/70 bg-white/90 shadow-[0_12px_28px_-18px_rgba(35,51,73,0.42)] ring-1 ring-accent/20 backdrop-blur"
+    >
+      {variant === "italy" ? (
+        <span aria-hidden className="absolute inset-0 grid grid-cols-3 overflow-hidden rounded-full">
+          <span className="bg-[#009246]" />
+          <span className="bg-white" />
+          <span className="bg-[#ce2b37]" />
+        </span>
+      ) : (
+        <span aria-hidden className="absolute inset-0 grid grid-rows-3 overflow-hidden rounded-full">
+          <span className="bg-[#74acdf]" />
+          <span className="bg-white" />
+          <span className="bg-[#74acdf]" />
+          <span className="absolute inset-0 flex items-center justify-center">
+            <span className="h-4 w-4 rounded-full bg-[radial-gradient(circle,rgba(255,244,204,0.98)_0%,rgba(247,201,72,0.96)_45%,rgba(228,162,31,0.88)_72%,rgba(228,162,31,0.1)_100%)] shadow-[0_0_0_1px_rgba(228,162,31,0.35),0_0_10px_rgba(228,162,31,0.18)]" />
+          </span>
+        </span>
+      )}
+
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.36),transparent_28%,rgba(255,255,255,0.04)_58%,transparent_82%)]"
+      />
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0 rounded-full ring-1 ring-inset ring-white/30"
+      />
+    </span>
+  );
+}
+
 function SisterImageCard({
   sister,
   index,
@@ -158,9 +200,7 @@ function OfCounselCard({ member, index }: { member: OfCounsel; index: number }) 
           </span>
         </div>
         <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-3">
-          <span className="rounded-pill border border-accent/35 bg-[linear-gradient(135deg,rgba(242,211,154,0.95),rgba(222,178,95,0.85))] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider2 text-primary shadow-[0_10px_24px_-14px_rgba(210,166,121,0.65)] backdrop-blur">
-            {member.country}
-          </span>
+          <CountryFlagBadge country={member.country} />
           <span className="rounded-pill border border-accent/20 bg-white/90 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider2 text-[#0b1830] backdrop-blur-md">
             {initials}
           </span>
@@ -315,7 +355,7 @@ export function WhoWeAre() {
   const closingCopy =
     locale === "es"
       ? "Juntas combinamos estrategia de movilidad internacional con profundo conocimiento del derecho argentino para brindar acompa\u00f1amiento integral y orientado a soluciones a personas, familias y empresas en transici\u00f3n."
-      : "Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution-oriented support for individuals, families, and businesses navigating legal and international transitions.";
+      : "Together, we combine international mobility strategy with deep Argentine legal knowledge to provide comprehensive, solution oriented support for individuals, families, and businesses navigating legal and international transitions.";
 
   return (
     <section

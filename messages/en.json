@@ -194,7 +194,8 @@
     "items": [
       { "id": "mariano-g", "quote": "Every single detail was accounted for. Everything happened exactly as they said it would. The support was superlative. An incredibly positive experience.", "author": "Mariano G", "role": "Visa B2 and 2+ Family Members" },
       { "id": "carlos-r", "quote": "One of the best decisions we made. She was always available, answering every question quickly, and handling any unexpected hurdles with calm and efficiency. Her deep expertise and mastery of the subject matter give you peace of mind from day one. I highly recommend her to anyone looking to secure their Italian citizenship.", "author": "Carlos R.", "role": "Italian Citizenship by trial +6 family members." },
-      { "id": "agustina-t", "quote": "This wouldn’t have been possible without them. She already knew my case because they’ve been working with my family and worked in a highly organized way, they stuck to the timeline they gave me and in less than two months I had my Italian passport in hand.", "author": "Agustina T.", "role": "Italian Citizenship by residency/ relocation" }
+      { "id": "agustina-t", "quote": "This wouldn’t have been possible without them. She already knew my case because they’ve been working with my family and worked in a highly organized way, they stuck to the timeline they gave me and in less than two months I had my Italian passport in hand.", "author": "Agustina T.", "role": "Italian Citizenship by residency/ relocation" },
+      { "id": "abril-f", "quote": "Securing our Italian citizenship took just one month! They guided us flawlessly from our arrival on August 1st to signing on September 2nd, even resolving a document error within 24 hours. We couldn't have done it without them!", "author": "Abril", "role": "Italian Citizenship by Residency/ Relocation · +1 Family Member" }
     ]
   },
   "finalCta": {
@@ -686,8 +687,12 @@
     "intro": "Tell us about your case. We typically reply within one business day.",
     "channelsTitle": "Direct channels",
     "scheduleTitle": "Schedule a consultation",
-    "scheduleText": "Use the channel you prefer  WhatsApp for a quick exchange, email for detailed materials, or the booking hook below for a short consult.",
+    "scheduleText": "Book a consultation or start a WhatsApp chat from here. The form on the right is reserved for written inquiries.",
     "whatsapp": "Start WhatsApp chat",
+    "bookTitle": "Book your free 15-minute consultation",
+    "bookText": "Pick a day and time directly from our live calendar. You’ll receive a confirmation by email.",
+    "bookClose": "Close",
+    "bookFallback": "Can’t see the calendar? Open it in a new tab",
     "formTitle": "Contact form",
     "formIntro": "Fill out the form with your details and a short summary of the matter. We’ll reply by email.",
     "formName": "Full name",
@@ -715,7 +720,7 @@
     "quickLinks": "Quick links",
     "contactTitle": "Strategic contact",
     "address": "Cordoba, Argentina · Remote international advisory",
-    "phone": "+54 9 11 7372 1580",
+    "phone": "+54 9 11 7373 0900",
     "email": "contact@galliandco.com",
     "rights": "© {year} Galli's & Co. All rights reserved."
   }

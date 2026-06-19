@@ -1,8 +1,7 @@
 "use client";
 
 import { type FormEvent, useState } from "react";
-import { ArrowUpRight, Loader2, MessageCircle } from "lucide-react";
-import { Link } from "@/lib/navigation";
+import { ArrowUpRight, Loader2 } from "lucide-react";
 
 type ContactFormProps = {
   title: string;
@@ -11,8 +10,6 @@ type ContactFormProps = {
   namePlaceholder: string;
   emailLabel: string;
   emailPlaceholder: string;
-  phoneLabel: string;
-  phonePlaceholder: string;
   subjectLabel: string;
   subjectPlaceholder: string;
   messageLabel: string;
@@ -24,10 +21,6 @@ type ContactFormProps = {
   errorTitle: string;
   errorText: string;
   emailSubject: string;
-  consultationLabel: string;
-  whatsappLabel: string;
-  consultationHref: string;
-  whatsappHref: string;
 };
 
 type SubmissionState = "idle" | "submitting" | "success" | "error";
@@ -43,8 +36,6 @@ export function ContactForm({
   namePlaceholder,
   emailLabel,
   emailPlaceholder,
-  phoneLabel,
-  phonePlaceholder,
   subjectLabel,
   subjectPlaceholder,
   messageLabel,
@@ -56,10 +47,6 @@ export function ContactForm({
   errorTitle,
   errorText,
   emailSubject,
-  consultationLabel,
-  whatsappLabel,
-  consultationHref,
-  whatsappHref,
 }: ContactFormProps) {
   const [state, setState] = useState<SubmissionState>("idle");
   const [feedback, setFeedback] = useState<string | null>(null);
@@ -79,7 +66,6 @@ export function ContactForm({
     const payload = {
       name: String(formData.get("name") ?? ""),
       email: String(formData.get("email") ?? ""),
-      phone: String(formData.get("phone") ?? ""),
       subject: String(formData.get("subject") ?? ""),
       message: String(formData.get("message") ?? ""),
       _subject: emailSubject,
@@ -194,32 +180,18 @@ export function ContactForm({
             </label>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2">
-            <label className="block text-sm font-medium text-white/88">
-              {phoneLabel}
-              <input
-                name="phone"
-                type="tel"
-                autoComplete="tel"
-                placeholder={phonePlaceholder}
-                className={inputClass}
-                disabled={state === "submitting"}
-              />
-            </label>
-
-            <label className="block text-sm font-medium text-white/88">
-              {subjectLabel}
-              <input
-                name="subject"
-                type="text"
-                required
-                minLength={3}
-                placeholder={subjectPlaceholder}
-                className={inputClass}
-                disabled={state === "submitting"}
-              />
-            </label>
-          </div>
+          <label className="block text-sm font-medium text-white/88">
+            {subjectLabel}
+            <input
+              name="subject"
+              type="text"
+              required
+              minLength={3}
+              placeholder={subjectPlaceholder}
+              className={inputClass}
+              disabled={state === "submitting"}
+            />
+          </label>
 
           <label className="block text-sm font-medium text-white/88">
             {messageLabel}
@@ -247,25 +219,6 @@ export function ContactForm({
             )}
           </button>
         </form>
-
-        <div className="mt-auto flex flex-col gap-3 pt-6 sm:flex-row sm:flex-wrap">
-          <Link
-            href={consultationHref}
-            className="gold-cta-outline group inline-flex w-fit items-center gap-2 px-6 py-3 text-sm font-semibold text-white"
-          >
-            {consultationLabel}
-            <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </Link>
-          <a
-            href={whatsappHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex w-fit items-center gap-2 rounded-pill border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-white/16"
-          >
-            <MessageCircle className="h-4 w-4 transition-transform group-hover:rotate-12" />
-            {whatsappLabel}
-          </a>
-        </div>
       </div>
     </div>
   );
