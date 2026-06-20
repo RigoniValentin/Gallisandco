@@ -26,9 +26,9 @@ export type NavKey = "home" | "about" | "services" | "contact";
 const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
   home: [],
   about: [
-    { label: "Las hermanas", description: "Biografías y presentación de las socias.", href: "#the-sisters" },
-    { label: "Of counsel", description: "Aliados legales y apoyo interdisciplinario.", href: "#of-counsel" },
-    { label: "Red interdisciplinaria", description: "Alcance global y conexiones por jurisdicción.", href: "#interdisciplinary-network" },
+    { label: "Las hermanas", description: "Biografías y presentación de las socias.", href: "/#the-sisters" },
+    { label: "Of counsel", description: "Aliados legales y apoyo interdisciplinario.", href: "/#of-counsel" },
+    { label: "Red interdisciplinaria", description: "Alcance global y conexiones por jurisdicción.", href: "/#interdisciplinary-network" },
   ],
   services: [
     { label: "Movilidad Internacional", description: "Residencia, ciudadanía y relocation en Argentina.", href: "/services/international-mobility" },
@@ -46,9 +46,9 @@ const dropdownItemsByKeyEs: Record<NavKey, NavDropdownItem[]> = {
 const dropdownItemsByKeyEn: Record<NavKey, NavDropdownItem[]> = {
   home: [],
   about: [
-    { label: "The sisters", description: "Biographies and the founding partners.", href: "#the-sisters" },
-    { label: "Of counsel", description: "Legal allies and interdisciplinary support.", href: "#of-counsel" },
-    { label: "Interdisciplinary network", description: "Global reach and jurisdictional connections.", href: "#interdisciplinary-network" },
+    { label: "The sisters", description: "Biographies and the founding partners.", href: "/#the-sisters" },
+    { label: "Of counsel", description: "Legal allies and interdisciplinary support.", href: "/#of-counsel" },
+    { label: "Interdisciplinary network", description: "Global reach and jurisdictional connections.", href: "/#interdisciplinary-network" },
   ],
   services: [
     { label: "International Mobility", description: "Argentine residency, citizenship and relocation.", href: "/services/international-mobility" },
