@@ -37,7 +37,7 @@ const navHrefs: Record<NavKey, string> = {
 const socialItems = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/gallisandco?igsh=cmR5cW1lMDAzNnFm",
     Icon: Instagram,
     posClass: "left-[2.2rem] top-[2.8rem]",
   },
