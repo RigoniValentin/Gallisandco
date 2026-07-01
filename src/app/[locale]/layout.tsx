@@ -7,6 +7,7 @@ function hasLocale(locales: readonly string[], locale: string | undefined): loca
   return typeof locale === "string" && (locales as string[]).includes(locale);
 }
 import { Playfair_Display, Inter } from "next/font/google";
+import Script from "next/script";
 import { routing } from "../../../i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -71,6 +72,18 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${display.variable} ${sans.variable}`}>
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18270220424"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18270220424');
+          `}
+        </Script>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar overDark />
           <main>{children}</main>
